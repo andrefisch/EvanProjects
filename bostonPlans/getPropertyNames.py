@@ -31,7 +31,7 @@ wb = openpyxl.Workbook()
 sheet = wb.create_sheet("Properties")
 # Open the finished playing sound
 pygame.init()
-pygame.mixer.music.load('note.mp3')
+pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
 baseUrl = 'http://www.bostonplans.org/projects/development-projects/'
 saving = True

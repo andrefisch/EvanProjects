@@ -367,7 +367,7 @@ def combine_contacts(fileName1, sheetName1, fileName2, sheetName2):
     sheet2 = wb2[sheetName2]
 
     pygame.init()
-    pygame.mixer.music.load('note.mp3')
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
     # if 'sheet' appears randomly we can delete it
     # rm = out.get_sheet_by_name('Sheet')
@@ -419,7 +419,7 @@ def remove_duplicate_contacts(fileName, sheetName, first, last):
     sheet = wb[sheetName]
 
     pygame.init()
-    pygame.mixer.music.load('note.mp3')
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
     # if 'sheet' appears randomly we can delete it
     rm = out.get_sheet_by_name('Sheet')
@@ -574,7 +574,7 @@ def fix_country_names(fileName, sheetName):
     sheet = wb[sheetName]
 
     pygame.init()
-    pygame.mixer.music.load('note.mp3')
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
     compare = ""
     current = ""

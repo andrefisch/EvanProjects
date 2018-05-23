@@ -150,7 +150,7 @@ def format_all_numbers(*args):
     sheet = wb.worksheets[0]
 
     pygame.init()
-    pygame.mixer.music.load('../note.mp3')
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
     first = startRow
     last = sheet.max_row

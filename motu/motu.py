@@ -309,7 +309,7 @@ def combine_contacts(fileName, sheetName, first, last):
     sheet = wb[sheetName]
 
     pygame.init()
-    pygame.mixer.music.load('note.mp3')
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
     # if 'sheet' appears randomly we can delete it
     rm = out.get_sheet_by_name('Sheet')

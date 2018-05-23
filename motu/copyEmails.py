@@ -12,7 +12,7 @@ wb = openpyxl.Workbook()
 sheet = wb.create_sheet("Emails")
 # Open the finished playing sound
 pygame.init()
-pygame.mixer.music.load('note.mp3')
+ygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
 print(wb.get_sheet_names())
 

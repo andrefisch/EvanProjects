@@ -64,7 +64,7 @@ def edit_distance(word1, word2):
 #}}}
 
 pygame.init()
-pygame.mixer.music.load('note.mp3')
+pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
 # Scans both notebooks for duplicates and creates a copy of the second notebook with all of the duplicates removed
 # bigNotebook = str

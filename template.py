@@ -38,7 +38,7 @@ def template():
 
     # LMK when the script is done
     pygame.init()
-    pygame.mixer.music.load('../note.mp3')
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
     time.sleep(3)
     pygame.mixer.music.stop()

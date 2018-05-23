@@ -133,7 +133,7 @@ def format_all_numbers(fileName, sheetName, *cols):
     sheet = wb[sheetName]
 
     pygame.init()
-    pygame.mixer.music.load('../note.mp3')
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
     first = 2
     last = sheet.max_row

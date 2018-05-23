@@ -71,7 +71,7 @@ wb = openpyxl.load_workbook("netpas.xlsx")
 sheet = wb['Netpas']
 
 pygame.init()
-pygame.mixer.music.load('note.mp3')
+pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
 # if 'sheet' appears randomly we can delete it
 # rm = wb.get_sheet_by_name('Sheet')
