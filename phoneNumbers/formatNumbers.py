@@ -2,6 +2,7 @@ import openpyxl
 import pygame
 import re
 import string
+import sys
 import time
 
 printing = True
@@ -133,32 +134,44 @@ def formatting_phone_number(number):
 
 # Format all numbers in a column
 # format_all_numbers(fileName, sheetName, col)
+# Call using the command line
+# format_all_numbess(filename, startRow, *cols
 #{{{
-def format_all_numbers(fileName, sheetName, *cols):
+# def format_all_numbers(fileName, sheetName, *cols):
+def format_all_numbers(*args):
+    args = args[0]
+    fileName = args[1]
+    startRow = int(args[2])
+    cols = args[3:]
     if printing:
         print("Opening...")
-    wb = openpyxl.load_workbook(fileName + ".xlsx")
-    sheet = wb[sheetName]
+    wb = openpyxl.load_workbook(args[1])
+    # sheet = wb[sheetName]
+    sheet = wb.worksheets[0]
 
     pygame.init()
-    pygame.mixer.music.load('note.mp3')
+    pygame.mixer.music.load('../note.mp3')
 
-    first = 2
+    first = startRow
     last = sheet.max_row
 
     for col in cols:
         for row in range (first, last + 1):
-            number = str(sheet[col + str(row)].value)
+            number = str(sheet[str(col) + str(row)].value)
             formatted = formatting_phone_number(number)
             if saving:
                 sheet[col + str(row)].value = formatted
 
     if printing:
-        print("Processing " + str(last - first) + " rows...")
+        print("Processing " + str((last + 1) - first) + " rows...")
 
+    index = fileName[::-1].find('/')
     if printing and saving:
-        print("Saving...")
-        wb.save("betterNumbers.xlsx")
+        fileName = fileName[:-index] + "formatted" + fileName[-index:]
+        print("Saving " + fileName)
+        wb.save(fileName)
+
+    print(args)
 
     pygame.mixer.music.play()
     time.sleep(3)
@@ -229,4 +242,4 @@ print(formatting_phone_number(num22))
 '''
 #}}}
 
-format_all_numbers("numbers", "contacts", 'M', 'U')
+format_all_numbers(sys.argv)

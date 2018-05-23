@@ -70,19 +70,18 @@ def determine_names(listy):
     return dicty
 #}}}
 
-
 # formatting_phone_number(number)
 #{{{
 def formatting_name(name):
     original = name
-    names = {"first_name": "", "middle_name": "", "appellation": ""}
+    names = {"first_name": "", "middle_name": "", "last_name": "", "appellation": ""}
 
     # remove unnecessary suffixes
     regexSuffix = ',? (Jr\.? ?|Sr\.? ?|Ph\.? ?D\.? ?|P\.?Ehj)'
     name = re.sub(regexSuffix, "", name, re.IGNORECASE)
 
     # extract appellation 
-    regexAppellation = '^(Mr\.?|Mrs\.?|Ms\.?|Rev\.?|Hon\.?|Dr\.?|Capt\.?|Dcn\.?|Amb\.?|Lt\.?|MIDN\.?|Miss\.?|)(.*)'
+    regexAppellation = '^(Mr\.?|Mrs\.?|Ms\.?|Rev\.?|Hon\.?|Dr\.?|Capt\.?|Dcn\.?|Amb\.?|Lt\.?|MIDN\.?|Miss\.?|Fr\.?) (.*)'
     # number = re.sub(regexAppellation, "", number)
     # regex0 = '^0+(.*)'
     matchAppellation = re.search(regexAppellation, name, re.IGNORECASE)
@@ -134,7 +133,7 @@ def format_all_numbers(fileName, sheetName, *cols):
     sheet = wb[sheetName]
 
     pygame.init()
-    pygame.mixer.music.load('note.mp3')
+    pygame.mixer.music.load('../note.mp3')
 
     first = 2
     last = sheet.max_row
