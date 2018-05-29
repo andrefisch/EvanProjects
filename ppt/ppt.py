@@ -69,13 +69,13 @@ def slides_to_excel():
             # img = Image.open('3image.jpg')
             # img = Image(slide[1])
             img = openpyxl.drawing.image.Image(slide[1])
-            img.anchor(outsheet.cell(TEXT + str(slide[0])))
+            img.anchor(outsheet[TEXT + str(slide[0])])
             outsheet.add_image(img)
+            # os.remove(slide[1])
         elif len(slide) == 3:
             outsheet[TEXT   + str(slide[0])].value = slide[1]
             outsheet[SOURCE + str(slide[0])].value = slide[2]
 
-    os.remove("*.jpg")
 
     # Save the file
     out.save("newFile.xlsx")
