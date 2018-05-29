@@ -1,0 +1,48 @@
+Business Cards
+COMPANY                                  -> COMPANY
+DEPARTMENT                               -> 
+NAME                                     -> FIRST MIDDLE LAST
+ROLE                                     -> POSITION
+ADDRESS FIELD 1                          -> HOME ADDRESS OR WORK ADDRESS?
+ADDRESS FIELD 2                          -> 
+CITY                                     -> CITY
+STATE                                    -> STATE
+ZIP                                      -> ZIP
+REGION                                   -> COUNTRY
+VISITING ADDRESS (MOSTLY BLANK)
+MAILING ADDRESS (MOSTLY BLANK)
+MOBILE NUMBER 1                          -> MOBILE PHONE
+MOBILE NUMBER 2 (MOSTLY BLANK)
+MOBILE NUMBER 3 (MOSTLY BLANK)
+DIRECT PHONE NUMBER                      -> HOME PHONE? 
+COMPANY PHONE NUMBER                     -> BUSINESS PHONE
+DID (MOSTLY BLANK)
+DUTY NO (MOSTLY BLANK)
+OPER/ACCT (MOSTLY BLANK) 
+24 HOUR PHONE NUMBER (MOSTLY BLANK)
+AFTER OFFICE HOUR PHONE (MOSTLY BLANK)
+FAX NUMBER                               -> DOES ANYONE FAX ANYMORE?
+HOME FAX (MOSTLY BLANK)
+CUSTOMER FEEDBACK HOTLINE (MOSTLY BLANK)
+TELEX (MOSTLY BLANK)
+TELEFAX (MOSTLY BLANK)
+CABLE (MOSTLY BLANK)
+COMTEXT (MOSTLY BLANK)
+HOME PHONE NUMBER                        -> HOME PHONE
+PRIVATE PHONE NUMBER (MOSTLY BLANK)
+TEL MOBILE (MOSTLY BLANK)
+DDI (MOSTLY BLANK)
+VAT (MOSTLY BLANK)
+BLACKBERRY (MOSTLY BLANK)
+PRIVATE EMAIL (MOSTLY BLANK)
+EMAIL1                                   -> EMAIL1
+EMAIL2                                   -> EMAIL2
+EMAIL3 (MOSTLY BLANK)                    -> EMAIL3
+EMAIL4 (MOSTLY BLANK)
+MESSENGER                                -> 
+VAT (MOSTLY BLANK)
+WEBSITE1                                 -> WEBSITE
+WEBSITE2                                 -> CAN COMBINE WITH WEBSITE1
+NOTE                                     -> NOTES
+SOURCE                                   -> NEW FIELD
+LAST UPDATED                             -> NEW FIELD

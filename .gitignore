@@ -2,6 +2,12 @@
 # Ignore these files #
 ######################
 *.xlsx
+*.xslx#
 *.ipynb
 *.pdf
 *residentList.txt
+*.jpg
+*.pptx
+*.ppt
+*.csv
+*emails.txt

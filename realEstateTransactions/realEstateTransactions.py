@@ -13,6 +13,8 @@ with open(sys.argv[1]) as f:
         string = line
 '''
 
+# Transaction object. probably not necessary at this point
+#{{{
 class Transaction(object):
     buyer   = ""
     seller  = ""
@@ -26,13 +28,21 @@ class Transaction(object):
         self.address = address
         self.price   = price
         self.date    = date
+#}}}
 
+# Turn a single PDF page into a list, separated by line breaks
+# parsePage(pdf, num)
+#{{{
 def parsePage(pdf, num):
     with open(pdf, 'rb') as f:
         reader = PdfFileReader(f)
         contents = reader.getPage(num).extractText().split('\n')
         return contents
+#}}}
 
+# Decrypt an encrypted PDF. shouldnt work because you need a password but for some reason it works anyway...
+# decrypt_pdf(input_path, output_path, password)
+#{{{
 def decrypt_pdf(input_path, output_path, password):
     with open(input_path, 'rb') as input_file, \
         open(output_path, 'wb') as output_file:
@@ -45,16 +55,22 @@ def decrypt_pdf(input_path, output_path, password):
             writer.addPage(reader.getPage(i))
 
         writer.write(output_file)
+#}}}
 
 # Address before semicolon is buyer, after is seller. othewise just seller
 # Returns buyer address then seller address
+#{{{
 def splitAddressSemicolon(address):
     index = address.find(';')
     if index > -1:
         return (address[:index].strip(), address[index + 1:].strip())
     else:
         return ("", address)
+#}}}
 
+# Split the address up into street, town, zipcode, and lot info
+# splitAddress(address)
+#{{{
 def splitAddress(address):
     # get rid of multiple spaces in the string
     regexSpaces = ' +'
@@ -68,7 +84,10 @@ def splitAddress(address):
         return (matchAddress.group(1).strip(), matchAddress.group(2).strip(), matchAddress.group(3).strip(), matchAddress.group(4).strip())
     else:
         return ("", "", "", "")
+#}}}
 
+# Test stuff
+#{{{
 '''
 test1 = "c/o Ares Management  LLC 245 Park Ave. 42nd Fl.,   New York, N.Y. 10067; 105 W.  1st St., Boston 02127/Parcels  1/2, ID 0601173000"
 
@@ -85,6 +104,7 @@ print(splitAddress(test1))
 print(splitAddress(test2))
 print(splitAddress(test3))
 '''
+#}}}
 
 BUYER           = "A"
 SELLER          = "B"
@@ -102,6 +122,9 @@ DATE            = "M"
 
 printing = True
 
+# Put transactions in a spreadsheet
+# recordTransactions()
+#{{{
 def recordTransactions():
     # Open the file for editing
     out = openpyxl.Workbook()
@@ -233,5 +256,6 @@ def recordTransactions():
     pygame.mixer.music.play()
     time.sleep(3)
     pygame.mixer.music.stop()
+#}}}
 
 recordTransactions()

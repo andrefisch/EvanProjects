@@ -9,15 +9,18 @@
 # for second part use name as unique identifier
 
 from datetime import datetime
+from splitNames import determine_names
 import openpyxl
 import pygame
+import re
 import string
+import sys
 import time
 
 saving = True
 printing = True
 testing = True
-low_threshold = 75
+low_threshold = 85
 high_threshold = 100
 min_word_len = 5
 
@@ -55,8 +58,13 @@ BUSINESS_POSTAL_CODE = 'AE'
 BUSINESS_COUNTRY     = 'AF'
 CATEGORIES           = 'AG'
 CONNECTED_ON         = 'AH'
+LATITUDE             = 'AI'
+LONGITUDE            = 'AJ'
 
 
+##################
+# HELPER METHODS #
+##################
 
 # Strip punctuation and lowercase a string
 # standardize_str(word)
@@ -86,16 +94,26 @@ def special_combine(word1, word2):
         return word1 + "/" + word2
 #}}}
 
+# Add to notes
+# add_to_notes(category, info)
+#{{{
+def add_to_notes(contact, category, info, oldInfo):
+    if info != "" and info != None and oldInfo != "" and oldInfo != None and info != oldInfo:
+        return str(contact.notes) + "; " + str(category) + " used to be " + str(info)
+    else:
+        return str(contact.notes)
+#}}}
+
 # Keep the non-none value
 # keep_non_none(var1, var2)
 #{{{
 def keep_non_none(var1, var2):
-    if var1 == None:
-        return var2
-    elif var2 == None:
-        return var1
+    if var1 == None or var1 == "":
+        return (var2, var1)
+    elif var2 == None or var2 == "":
+        return (var1, var2)
     else:
-        return var1
+        return (var2, var1)
 #}}}
 
 # Edit Distance Function
@@ -150,7 +168,8 @@ def edit_distance(word1, word2, low_threshold, high_threshold):
                 print ("Edit distance " + str(x[i][j]))
                 print ("Percent match: " + "%.2f" % percent_match)
     if percent_match > low_threshold and percent_match <= high_threshold:
-        print("MATCH!")
+        if printing:
+            print("MATCH!")
         return True
     else:
         return False
@@ -194,9 +213,12 @@ class Contact(object):
     business_country     = ''
     categories           = ''
     connected_on         = ''
+    latitude             = ''
+    longitude            = ''
 
     def __init__(self):
         last_name = "-"
+        notes     = ""
 
 #}}}
 
@@ -270,6 +292,10 @@ def new_contact_from_sheet(sheet, row):
         contact.business_country = sheet[BUSINESS_COUNTRY + str(row)].value
     if sheet[CONNECTED_ON + str(row)].value != None:
         contact.connected_on = sheet[CONNECTED_ON + str(row)].value
+    if sheet[LATITUDE + str(row)].value != None:
+        contact.latitude = sheet[LATITUDE + str(row)].value
+    if sheet[LONGITUDE + str(row)].value != None:
+        contact.longitude = sheet[LONGITUDE + str(row)].value
     
     return contact
 #}}}
@@ -279,85 +305,204 @@ def new_contact_from_sheet(sheet, row):
 #{{{
 def update_contact_from_sheet(sheet, row, contact):
     # update these fields by adding a slash
+    # INCLUDE CHANGE IN COMPANY AND CHANGE IN POSITION IN THE NOTES
     contact.notes       = special_combine(contact.notes,       sheet[NOTES       + str(row)].value)
     # update all 
     if sheet[FIRST_NAME + str(row)].value != None or contact.first_name != None:
-        contact.first_name = keep_non_none(contact.first_name, sheet[FIRST_NAME + str(row)].value)
+        info = keep_non_none(contact.first_name, sheet[FIRST_NAME + str(row)].value)
+        contact.first_name = info[0]
+        contact.notes = add_to_notes(contact, "First Name", info[1], info[0])
     if sheet[MIDDLE_NAME + str(row)].value != None or contact.middle_name != None:
-        contact.middle_name = keep_non_none(contact.middle_name, sheet[MIDDLE_NAME + str(row)].value)
+        info = keep_non_none(contact.middle_name, sheet[MIDDLE_NAME + str(row)].value)
+        contact.middle_name = info[0]
+        contact.notes = add_to_notes(contact, "Middle Name", info[1], info[0])
     if sheet[LAST_NAME + str(row)].value != None or contact.last_name != None:
-        contact.last_name = keep_non_none(contact.last_name, sheet[LAST_NAME + str(row)].value)
+        info = keep_non_none(contact.last_name, sheet[LAST_NAME + str(row)].value)
+        contact.last_name = info[0]
+        contact.notes = add_to_notes(contact, "Last Name", info[1], info[0])
     if sheet[SUFFIX + str(row)].value != None or contact.suffix != None:
-        contact.suffix = keep_non_none(contact.suffix, sheet[SUFFIX + str(row)].value)
+        info = keep_non_none(contact.suffix, sheet[SUFFIX + str(row)].value)
+        contact.suffix = info[0]
+        contact.notes = add_to_notes(contact, "Suffix", info[1], info[0])
     if sheet[WEB_PAGE + str(row)].value != None or contact.web_page != None:
-        contact.web_page = keep_non_none(contact.web_page, sheet[WEB_PAGE + str(row)].value)
+        info = keep_non_none(contact.web_page, sheet[WEB_PAGE + str(row)].value)
+        contact.web_page = info[0]
+        contact.notes = add_to_notes(contact, "Web Page", info[1], info[0])
     if sheet[EMAIL_ADDRESS + str(row)].value != None or contact.email_address != None:
-        contact.email_address = keep_non_none(contact.email_address, sheet[EMAIL_ADDRESS + str(row)].value)
+        info = keep_non_none(contact.email_address, sheet[EMAIL_ADDRESS + str(row)].value)
+        contact.email_address = info[0]
+        contact.notes = add_to_notes(contact, "Email Address", info[1], info[0])
     if sheet[EMAIL_ADDRESS2 + str(row)].value != None or contact.email_address2 != None:
-        contact.email_address2 = keep_non_none(contact.email_address2, sheet[EMAIL_ADDRESS2 + str(row)].value)
+        info = keep_non_none(contact.email_address2, sheet[EMAIL_ADDRESS2 + str(row)].value)
+        contact.email_address2 = info[0]
+        contact.notes = add_to_notes(contact, "Email Address2", info[1], info[0])
     if sheet[EMAIL_ADDRESS3 + str(row)].value != None or contact.email_address3 != None:
-        contact.email_address3 = keep_non_none(contact.email_address3, sheet[EMAIL_ADDRESS3 + str(row)].value)
+        info = keep_non_none(contact.email_address3, sheet[EMAIL_ADDRESS3 + str(row)].value)
+        contact.email_address3 = info[0]
+        contact.notes = add_to_notes(contact, "Email Address3", info[1], info[0])
     if sheet[HOME_PHONE + str(row)].value != None or contact.home_phone != None:
-        contact.home_phone = keep_non_none(contact.home_phone, sheet[HOME_PHONE + str(row)].value)
+        info = keep_non_none(contact.home_phone, sheet[HOME_PHONE + str(row)].value)
+        contact.home_phone = info[0]
+        contact.notes = add_to_notes(contact, "Home Phone", info[1], info[0])
     if sheet[MOBILE_PHONE + str(row)].value != None or contact.mobile_phone != None:
-        contact.mobile_phone = keep_non_none(contact.mobile_phone, sheet[MOBILE_PHONE + str(row)].value)
+        info = keep_non_none(contact.mobile_phone, sheet[MOBILE_PHONE + str(row)].value)
+        contact.mobile_phone = info[0]
+        contact.notes = add_to_notes(contact, "Mobile Phone", info[1], info[0])
     if sheet[HOME_ADDRESS + str(row)].value != None or contact.home_address != None:
-        contact.home_address = keep_non_none(contact.home_address, sheet[HOME_ADDRESS + str(row)].value)
+        info = keep_non_none(contact.home_address, sheet[HOME_ADDRESS + str(row)].value)
+        contact.home_address = info[0]
+        contact.notes = add_to_notes(contact, "Home Address", info[1], info[0])
     if sheet[HOME_STREET + str(row)].value != None or contact.home_street != None:
-        contact.home_street = keep_non_none(contact.home_street, sheet[HOME_STREET + str(row)].value)
+        info = keep_non_none(contact.home_street, sheet[HOME_STREET + str(row)].value)
+        contact.home_street = info[0]
+        contact.notes = add_to_notes(contact, "Home Street", info[1], info[0])
     if sheet[HOME_CITY + str(row)].value != None or contact.home_city != None:
-        contact.home_city = keep_non_none(contact.home_city, sheet[HOME_CITY + str(row)].value)
+        info = keep_non_none(contact.home_city, sheet[HOME_CITY + str(row)].value)
+        contact.home_city = info[0]
+        contact.notes = add_to_notes(contact, "Home City", info[1], info[0])
     if sheet[HOME_STATE + str(row)].value != None or contact.home_state != None:
-        contact.home_state = keep_non_none(contact.home_state, sheet[HOME_STATE + str(row)].value)
+        info = keep_non_none(contact.home_state, sheet[HOME_STATE + str(row)].value)
+        contact.home_state = info[0]
+        contact.notes = add_to_notes(contact, "Home State", info[1], info[0])
     if sheet[HOME_POSTAL_CODE + str(row)].value != None or contact.home_postal_code != None:
-        contact.home_postal_code = keep_non_none(contact.home_postal_code, sheet[HOME_POSTAL_CODE + str(row)].value)
+        info = keep_non_none(contact.home_postal_code, sheet[HOME_POSTAL_CODE + str(row)].value)
+        contact.home_postal_code = info[0]
+        contact.notes = add_to_notes(contact, "Home Postal Code", info[1], info[0])
     if sheet[HOME_COUNTRY + str(row)].value != None or contact.home_country != None:
-        contact.home_country = keep_non_none(contact.home_country, sheet[HOME_COUNTRY + str(row)].value)
+        info = keep_non_none(contact.home_country, sheet[HOME_COUNTRY + str(row)].value)
+        contact.home_country = info[0]
+        contact.notes = add_to_notes(contact, "Home Country", info[1], info[0])
     if sheet[CONTACT_MAIN_PHONE + str(row)].value != None or contact.contact_main_phone != None:
-        contact.contact_main_phone = keep_non_none(contact.contact_main_phone, sheet[CONTACT_MAIN_PHONE + str(row)].value)
+        info = keep_non_none(contact.contact_main_phone, sheet[CONTACT_MAIN_PHONE + str(row)].value)
+        contact.contact_main_phone = info[0]
+        contact.notes = add_to_notes(contact, "Contact Main Phone", info[1], info[0])
     if sheet[BUSINESS_PHONE + str(row)].value != None or contact.business_phone != None:
-        contact.business_phone = keep_non_none(contact.business_phone, sheet[BUSINESS_PHONE + str(row)].value)
+        info = keep_non_none(contact.business_phone, sheet[BUSINESS_PHONE + str(row)].value)
+        contact.business_phone = info[0]
+        contact.notes = add_to_notes(contact, "Business Phone", info[1], info[0])
     if sheet[BUSINESS_PHONE2 + str(row)].value != None or contact.business_phone2 != None:
-        contact.business_phone2 = keep_non_none(contact.business_phone2, sheet[BUSINESS_PHONE2 + str(row)].value)
+        info = keep_non_none(contact.business_phone2, sheet[BUSINESS_PHONE2 + str(row)].value)
+        contact.business_phone2 = info[0]
+        contact.notes = add_to_notes(contact, "Business Phone2", info[1], info[0])
     if sheet[BUSINESS_FAX + str(row)].value != None or contact.business_fax != None:
-        contact.business_fax = keep_non_none(contact.business_fax, sheet[BUSINESS_FAX + str(row)].value)
+        info = keep_non_none(contact.business_fax, sheet[BUSINESS_FAX + str(row)].value)
+        contact.business_fax = info[0]
+        contact.notes = add_to_notes(contact, "Business Fax", info[1], info[0])
     if sheet[COMPANY + str(row)].value != None or contact.company != None:
-        contact.company = keep_non_none(contact.company, sheet[COMPANY + str(row)].value)
+        info = keep_non_none(contact.company, sheet[COMPANY + str(row)].value)
+        contact.company = info[0]
+        contact.notes = add_to_notes(contact, "Company", info[1], info[0])
     if sheet[JOB_TITLE + str(row)].value != None or contact.job_title != None:
-        contact.job_title = keep_non_none(contact.job_title, sheet[JOB_TITLE + str(row)].value)
+        info = keep_non_none(contact.job_title, sheet[JOB_TITLE + str(row)].value)
+        contact.job_title = info[0]
+        contact.notes = add_to_notes(contact, "Job Title", info[1], info[0])
     if sheet[DEPARTMENT + str(row)].value != None or contact.department != None:
-        contact.department = keep_non_none(contact.department, sheet[DEPARTMENT + str(row)].value)
+        info = keep_non_none(contact.department, sheet[DEPARTMENT + str(row)].value)
+        contact.department = info[0]
+        contact.notes = add_to_notes(contact, "Department", info[1], info[0])
     if sheet[OFFICE_LOCATION + str(row)].value != None or contact.office_location != None:
-        contact.office_location = keep_non_none(contact.office_location, sheet[OFFICE_LOCATION + str(row)].value)
+        info = keep_non_none(contact.office_location, sheet[OFFICE_LOCATION + str(row)].value)
+        contact.office_location = info[0]
+        contact.notes = add_to_notes(contact, "Office Location", info[1], info[0])
     if sheet[BUSINESS_ADDRESS + str(row)].value != None or contact.business_address != None:
-        contact.business_address = keep_non_none(contact.business_address, sheet[BUSINESS_ADDRESS + str(row)].value)
+        info = keep_non_none(contact.business_address, sheet[BUSINESS_ADDRESS + str(row)].value)
+        contact.business_address = info[0]
+        contact.notes = add_to_notes(contact, "Business Address", info[1], info[0])
     if sheet[BUSINESS_STREET + str(row)].value != None or contact.business_street != None:
-        contact.business_street = keep_non_none(contact.business_street, sheet[BUSINESS_STREET + str(row)].value)
+        info = keep_non_none(contact.business_street, sheet[BUSINESS_STREET + str(row)].value)
+        contact.business_street = info[0]
+        contact.notes = add_to_notes(contact, "Business Street", info[1], info[0])
     if sheet[BUSINESS_CITY + str(row)].value != None or contact.business_city != None:
-        contact.business_city = keep_non_none(contact.business_city, sheet[BUSINESS_CITY + str(row)].value)
+        info = keep_non_none(contact.business_city, sheet[BUSINESS_CITY + str(row)].value)
+        contact.business_city = info[0]
+        contact.notes = add_to_notes(contact, "Business City", info[1], info[0])
     if sheet[BUSINESS_STATE + str(row)].value != None or contact.business_state != None:
-        contact.business_state = keep_non_none(contact.business_state, sheet[BUSINESS_STATE + str(row)].value)
+        info = keep_non_none(contact.business_state, sheet[BUSINESS_STATE + str(row)].value)
+        contact.business_state = info[0]
+        contact.notes = add_to_notes(contact, "Business State", info[1], info[0])
     if sheet[BUSINESS_POSTAL_CODE + str(row)].value != None or contact.business_postal_code != None:
-        contact.business_postal_code = keep_non_none(contact.business_postal_code, sheet[BUSINESS_POSTAL_CODE + str(row)].value)
+        info = keep_non_none(contact.business_postal_code, sheet[BUSINESS_POSTAL_CODE + str(row)].value)
+        contact.business_postal_code = info[0]
+        contact.notes = add_to_notes(contact, "Business Postal Code", info[1], info[0])
     if sheet[BUSINESS_COUNTRY + str(row)].value != None or contact.business_country != None:
-        contact.business_country = keep_non_none(contact.business_country, sheet[BUSINESS_COUNTRY + str(row)].value)
+        info = keep_non_none(contact.business_country, sheet[BUSINESS_COUNTRY + str(row)].value)
+        contact.business_country = info[0]
+        contact.notes = add_to_notes(contact, "Business Country", info[1], info[0])
     if sheet[CATEGORIES + str(row)].value != None or contact.categories != None:
-        contact.categories = keep_non_none(contact.categories, sheet[CATEGORIES + str(row)].value)
+        info = keep_non_none(contact.categories, sheet[CATEGORIES + str(row)].value)
+        contact.categories = info[0]
+        contact.notes = add_to_notes(contact, "Categories", info[1], info[0])
     if sheet[CONNECTED_ON + str(row)].value != None or contact.connected_on != None:
-        contact.connected_on = keep_non_none(contact.connected_on, sheet[CONNECTED_ON + str(row)].value)
+        info = keep_non_none(contact.connected_on, sheet[CONNECTED_ON + str(row)].value)
+        contact.connected_on = info[0]
+        contact.notes = add_to_notes(contact, "Connected On", info[1], info[0])
+    if sheet[LATITUDE + str(row)].value != None or contact.latitude != None:
+        info = keep_non_none(contact.latitude, sheet[LATITUDE + str(row)].value)
+        contact.latitude = info[0]
+        contact.notes = add_to_notes(contact, "Latitude", info[1], info[0])
+    if sheet[LONGITUDE + str(row)].value != None or contact.longitude != None:
+        info = keep_non_none(contact.longitude, sheet[LONGITUDE + str(row)].value)
+        contact.longitude = info[0]
+        contact.notes = add_to_notes(contact, "Longitude", info[1], info[0])
     return contact
 #}}}
 
-# Combine Contacts
-# combine_contacts(fileName1, sheetName1, fileName2, sheetName2)
-# Copies all contacts from first list to second
+################
+# MAIN METHODS #
+################
+# Change 'US' and 'United States of America' to 'United States'
+# standardize_USA(fileName, start, column)
 #{{{
-# all rows algorithm
-# - the first row is automatically its own entity
-# - for all other rows take combination of primary contact and current contact we are looking at and compare edit distance to it
-#   - if it is a match combine and keep looking through list until we find a bad match
-#   - if distance is way off save old contact info. store new contact and keep going
+# def standardize_USA(fileName, start, column):
+def standardize_USA(*args):
+    # turn the arguments into variable names
+    args = args[0]
+    fileName = args[1]
+    start = int(args[2])
+    cols = args[3:]
+    # Open an existing excel file
+    if printing:
+        print("Opening...")
+    wb = openpyxl.load_workbook(fileName)
+    sheet = wb.worksheets[0]
 
+    #################
+    # DO STUFF HERE #
+    #################
+    for col in cols:
+        for row in range (start, sheet.max_row + 1):
+            country = str(sheet[col+ str(row)].value)
+            regexUSA = '(U\.?S\.?A?\.?|United ?States ?(of ?America)?)'
+            matchUSA = re.search(regexUSA, country, re.IGNORECASE)
+            if matchUSA:
+                sheet[col+ str(row)].value = "United States"
+            regexUK = '(U\.?K\.?)'
+            matchUK = re.search(regexUK, country, re.IGNORECASE)
+            if matchUK:
+                sheet[col+ str(row)].value = "United Kingdom"
+
+
+    if printing:
+        print("Saving...")
+
+    wb.save("betterFile.xlsx")
+
+    # LMK when the script is done
+    pygame.init()
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
+    pygame.mixer.music.play()
+    time.sleep(3)
+    pygame.mixer.music.stop()
+
+    if printing:
+        print()
+        print("Done!")
+#}}}
+
+# Combine LinkedIn and Google Contacts
+# Copies all contacts from first list to second
+# combine_contacts(fileName1, sheetName1, fileName2, sheetName2)
+#{{{
 def combine_contacts(fileName1, sheetName1, fileName2, sheetName2):
     if printing:
         print("Opening...")
@@ -365,9 +510,6 @@ def combine_contacts(fileName1, sheetName1, fileName2, sheetName2):
     sheet1 = wb1[sheetName1]
     wb2 = openpyxl.load_workbook(fileName2 + ".xlsx")
     sheet2 = wb2[sheetName2]
-
-    pygame.init()
-    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
     # if 'sheet' appears randomly we can delete it
     # rm = out.get_sheet_by_name('Sheet')
@@ -400,6 +542,77 @@ def combine_contacts(fileName1, sheetName1, fileName2, sheetName2):
         print()
         print("Done!")
 
+    pygame.init()
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
+    pygame.mixer.music.play()
+    time.sleep(3)
+    pygame.mixer.music.stop()
+#}}}
+
+# Combine combined list with a CMAShipping List
+# Copies all contacts from sheet 1 to sheet 2
+# combine_with_CMA(fileName1, sheetName1, fileName2, sheetName2)
+#{{{
+'''
+- loop through list 1 putting in list 2
+  - FORMULA: row + (start + 1) - first
+'''
+def combine_with_CMA(fileName1, sheetName1, fileName2, sheetName2):
+    if printing:
+        print("Opening...")
+    wb1 = openpyxl.load_workbook(fileName1 + ".xlsx")
+    sheet = wb1[sheetName1]
+    wb2 = openpyxl.load_workbook(fileName2 + ".xlsx")
+    outsheet = wb2[sheetName2]
+
+    first = 3
+    last = sheet.max_row
+    start = outsheet.max_row
+
+    for row in range (first, last + 1):
+        index = row + (start + 1) - first
+        if printing:
+            print(str(row) + " " + sheet['A' + str(row)].value)
+        names = determine_names(sheet['A' + str(row)].value)
+
+        # split name here
+        outsheet[FIRST_NAME           + str(index)].value = names['first_name']
+        outsheet[MIDDLE_NAME          + str(index)].value = names['middle_name']
+        outsheet[LAST_NAME            + str(index)].value = names['last_name']
+
+        # position and company
+        outsheet[COMPANY              + str(index)].value = sheet['C' + str(row)].value
+        outsheet[JOB_TITLE            + str(index)].value = sheet['B' + str(row)].value
+
+        # put address stuff here
+        outsheet[BUSINESS_STREET      + str(index)].value = sheet['D' + str(row)].value
+        outsheet[BUSINESS_CITY        + str(index)].value = sheet['G' + str(row)].value
+        outsheet[BUSINESS_STATE       + str(index)].value = sheet['H' + str(row)].value
+        outsheet[BUSINESS_POSTAL_CODE + str(index)].value = sheet['I' + str(row)].value
+        outsheet[BUSINESS_COUNTRY     + str(index)].value = sheet['J' + str(row)].value
+        
+        # contact info
+        outsheet[BUSINESS_PHONE       + str(index)].value = sheet['K' + str(row)].value
+        outsheet[EMAIL_ADDRESS        + str(index)].value = sheet['L' + str(row)].value
+
+        # location info
+        outsheet[LATITUDE             + str(index)].value = sheet['M' + str(row)].value
+        outsheet[LONGITUDE            + str(index)].value = sheet['N' + str(row)].value
+
+        # put CMA SHIPPING
+        outsheet[CATEGORIES           + str(index)].value = 'CMA Shipping conference'
+        # put March 22, 2018
+        outsheet[CONNECTED_ON         + str(index)].value = '03/22/2018'
+
+
+    wb2.save("combined.xlsx")
+
+    if printing:
+        print()
+        print("Done!")
+
+    pygame.init()
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
     time.sleep(3)
     pygame.mixer.music.stop()
@@ -408,22 +621,39 @@ def combine_contacts(fileName1, sheetName1, fileName2, sheetName2):
 # Remove Duplicate Contacts
 # remove_duplicate_contacts(fileName, sheetName, first, last)
 #{{{
-def remove_duplicate_contacts(fileName, sheetName, first, last):
+# all rows algorithm
+# - the first row is automatically its own entity
+# - for all other rows take combination of primary contact and current contact we are looking at and compare edit distance to it
+#   - if it is a match combine and keep looking through list until we find a bad match
+#   - if distance is way off save old contact info. store new contact and keep going
+# def remove_duplicate_contacts(fileName, first, match_threshold, *cols):
+def remove_duplicate_contacts(*args):
+    # turn the arguments into variable names
+    args = args[0]
+    fileName = args[1]
+    first = int(args[2])
+    low_threshold = int(args[3])
+    cols = args[4:]
     if printing:
         print("Opening...")
     # Open the file for editing
     out = openpyxl.Workbook()
     # Open the worksheet we want to edit
     outsheet = out.create_sheet("contacts")
-    wb = openpyxl.load_workbook(fileName + ".xlsx")
-    sheet = wb[sheetName]
-
-    pygame.init()
-    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
+    wb = openpyxl.load_workbook(fileName)
+    sheet = wb.worksheets[0]
 
     # if 'sheet' appears randomly we can delete it
     rm = out.get_sheet_by_name('Sheet')
     out.remove_sheet(rm)
+
+    # Create a new file to store duplicate contacts
+    dupe = openpyxl.Workbook()
+    # Open the worksheet we want to edit
+    dupesheet = dupe.create_sheet("contacts")
+    # if 'sheet' appears randomly we can delete it
+    rm = dupe.get_sheet_by_name('Sheet')
+    dupe.remove_sheet(rm)
 
     # - create an object for a new primary contact and account name pair
     #   - store previous object in a new sheet
@@ -432,15 +662,9 @@ def remove_duplicate_contacts(fileName, sheetName, first, last):
     #     - if it is a match combine and keep going, otherwise repeat
     compare = ""
     current = ""
-    first_name = ""
-    middle_name = ""
-    last_name = ""
-    email = ""
-    first_name_col = FIRST_NAME
-    middle_name_col = MIDDLE_NAME
-    last_name_col = LAST_NAME
-    email_col = EMAIL_ADDRESS
+    last = sheet.max_row
     count = 1
+    dupes = 2
     contact = Contact()
 
     # Create Headers
@@ -468,7 +692,7 @@ def remove_duplicate_contacts(fileName, sheetName, first, last):
         outsheet[BUSINESS_PHONE       + '1'].value = "Business_phone"
         outsheet[BUSINESS_PHONE2      + '1'].value = "Business_phone2"
         outsheet[BUSINESS_FAX         + '1'].value = "Business_fax"
-        outsheet[COMPANY              + '1'].value = "Contact"
+        outsheet[COMPANY              + '1'].value = "Company"
         outsheet[JOB_TITLE            + '1'].value = "Job_title"
         outsheet[DEPARTMENT           + '1'].value = "Department"
         outsheet[OFFICE_LOCATION      + '1'].value = "Office_location"
@@ -479,6 +703,46 @@ def remove_duplicate_contacts(fileName, sheetName, first, last):
         outsheet[BUSINESS_POSTAL_CODE + '1'].value = "Business_postal_code"
         outsheet[BUSINESS_COUNTRY     + '1'].value = "Business_country"
         outsheet[CATEGORIES           + '1'].value = "Categories"
+        outsheet[CONNECTED_ON         + '1'].value = "Connected On"
+        outsheet[LATITUDE             + '1'].value = "Latitude"
+        outsheet[LONGITUDE            + '1'].value = "Longitude"
+
+        dupesheet[FIRST_NAME           + '1'].value = "First_name"
+        dupesheet[MIDDLE_NAME          + '1'].value = "Middle_name"
+        dupesheet[LAST_NAME            + '1'].value = "Last_name"
+        dupesheet[TITLE                + '1'].value = "Title"
+        dupesheet[SUFFIX               + '1'].value = "Suffix"
+        dupesheet[WEB_PAGE             + '1'].value = "Web_page"
+        dupesheet[NOTES                + '1'].value = "Notes"
+        dupesheet[EMAIL_ADDRESS        + '1'].value = "Email_address"
+        dupesheet[EMAIL_ADDRESS2       + '1'].value = "Email_address2"
+        dupesheet[EMAIL_ADDRESS3       + '1'].value = "Email_address3"
+        dupesheet[HOME_PHONE           + '1'].value = "Home_phone"
+        dupesheet[MOBILE_PHONE         + '1'].value = "Mobile_phone"
+        dupesheet[HOME_ADDRESS         + '1'].value = "Home_address"
+        dupesheet[HOME_STREET          + '1'].value = "Home_street"
+        dupesheet[HOME_CITY            + '1'].value = "Home_city"
+        dupesheet[HOME_STATE           + '1'].value = "Home_state"
+        dupesheet[HOME_POSTAL_CODE     + '1'].value = "Home_postal_code"
+        dupesheet[HOME_COUNTRY         + '1'].value = "Home_country"
+        dupesheet[CONTACT_MAIN_PHONE   + '1'].value = "Contact_main_phone"
+        dupesheet[BUSINESS_PHONE       + '1'].value = "Business_phone"
+        dupesheet[BUSINESS_PHONE2      + '1'].value = "Business_phone2"
+        dupesheet[BUSINESS_FAX         + '1'].value = "Business_fax"
+        dupesheet[COMPANY              + '1'].value = "Company"
+        dupesheet[JOB_TITLE            + '1'].value = "Job_title"
+        dupesheet[DEPARTMENT           + '1'].value = "Department"
+        dupesheet[OFFICE_LOCATION      + '1'].value = "Office_location"
+        dupesheet[BUSINESS_ADDRESS     + '1'].value = "Business_address"
+        dupesheet[BUSINESS_STREET      + '1'].value = "Business_street"
+        dupesheet[BUSINESS_CITY        + '1'].value = "Business_city"
+        dupesheet[BUSINESS_STATE       + '1'].value = "Business_state"
+        dupesheet[BUSINESS_POSTAL_CODE + '1'].value = "Business_postal_code"
+        dupesheet[BUSINESS_COUNTRY     + '1'].value = "Business_country"
+        dupesheet[CATEGORIES           + '1'].value = "Categories"
+        dupesheet[CONNECTED_ON         + '1'].value = "Connected On"
+        dupesheet[LATITUDE             + '1'].value = "Latitude"
+        dupesheet[LONGITUDE            + '1'].value = "Longitude"
     #}}}
 
     for row in range (first, last + 1):
@@ -488,24 +752,160 @@ def remove_duplicate_contacts(fileName, sheetName, first, last):
         if first_name != "":
             standardize_str(first_name)
         '''
-        email     = standardize_str(sheet[email_col     + str(row)].value)
-        last_name = standardize_str(sheet[last_name_col + str(row)].value)
+        compareCriteria = ""
+        for col in cols:
+            compareCriteria = compareCriteria + standardize_str(sheet[col + str(row)].value) + " "
         if row == first:
             # compare = first_name + " " + last_name
-            compare = email + " " + last_name
+            compare = compareCriteria
             contact = new_contact_from_sheet(sheet, row)
             count = count + 1
         else:
             # current = first_name + " " + last_name
-            current = email + " " + last_name
+            current = compareCriteria
             match = edit_distance(compare, current, low_threshold, high_threshold)
+            matchingSuffixes = standardize_str(sheet[SUFFIX + str(row)].value) == standardize_str(sheet[SUFFIX + str(row - 1)].value)
             # combine information and move on
-            if match:
-                # combine information
+            if match and matchingSuffixes:
                 contact = update_contact_from_sheet(sheet, row, contact)
+                '''
+                - if there is a duplicate
+                - store previous item in list in duplicate list
+                - store the duplicate in next spot in duplicate list
+                '''
+                # combine information
+                # keep original
+                dupes = dupes + 1
+
+                dupeContact = new_contact_from_sheet(sheet, row - 1)
+
+                #{{{
+                dupesheet[FIRST_NAME           + str(dupes)].value = dupeContact.first_name 
+                dupesheet[MIDDLE_NAME          + str(dupes)].value = dupeContact.middle_name
+                dupesheet[LAST_NAME            + str(dupes)].value = dupeContact.last_name
+                dupesheet[TITLE                + str(dupes)].value = dupeContact.title
+                dupesheet[SUFFIX               + str(dupes)].value = dupeContact.suffix
+                dupesheet[WEB_PAGE             + str(dupes)].value = dupeContact.web_page
+                dupesheet[NOTES                + str(dupes)].value = dupeContact.notes
+                dupesheet[EMAIL_ADDRESS        + str(dupes)].value = dupeContact.email_address
+                dupesheet[EMAIL_ADDRESS2       + str(dupes)].value = dupeContact.email_address2
+                dupesheet[EMAIL_ADDRESS3       + str(dupes)].value = dupeContact.email_address3
+                dupesheet[HOME_PHONE           + str(dupes)].value = dupeContact.home_phone
+                dupesheet[MOBILE_PHONE         + str(dupes)].value = dupeContact.mobile_phone
+                dupesheet[HOME_ADDRESS         + str(dupes)].value = dupeContact.home_address
+                dupesheet[HOME_STREET          + str(dupes)].value = dupeContact.home_street
+                dupesheet[HOME_CITY            + str(dupes)].value = dupeContact.home_city
+                dupesheet[HOME_STATE           + str(dupes)].value = dupeContact.home_state
+                dupesheet[HOME_POSTAL_CODE     + str(dupes)].value = dupeContact.home_postal_code
+                dupesheet[HOME_COUNTRY         + str(dupes)].value = dupeContact.home_country
+                dupesheet[CONTACT_MAIN_PHONE   + str(dupes)].value = dupeContact.contact_main_phone
+                dupesheet[BUSINESS_PHONE       + str(dupes)].value = dupeContact.business_phone
+                dupesheet[BUSINESS_PHONE2      + str(dupes)].value = dupeContact.business_phone2
+                dupesheet[BUSINESS_FAX         + str(dupes)].value = dupeContact.business_fax
+                dupesheet[COMPANY              + str(dupes)].value = dupeContact.company
+                dupesheet[JOB_TITLE            + str(dupes)].value = dupeContact.job_title
+                dupesheet[DEPARTMENT           + str(dupes)].value = dupeContact.department
+                dupesheet[OFFICE_LOCATION      + str(dupes)].value = dupeContact.office_location
+                dupesheet[BUSINESS_ADDRESS     + str(dupes)].value = dupeContact.business_address
+                dupesheet[BUSINESS_STREET      + str(dupes)].value = dupeContact.business_street
+                dupesheet[BUSINESS_CITY        + str(dupes)].value = dupeContact.business_city
+                dupesheet[BUSINESS_STATE       + str(dupes)].value = dupeContact.business_state
+                dupesheet[BUSINESS_POSTAL_CODE + str(dupes)].value = dupeContact.business_postal_code
+                dupesheet[BUSINESS_COUNTRY     + str(dupes)].value = dupeContact.business_country
+                dupesheet[CATEGORIES           + str(dupes)].value = dupeContact.categories
+                dupesheet[CONNECTED_ON         + str(dupes)].value = dupeContact.connected_on
+                dupesheet['AI' + str(dupes)].value = row - 1
+                #}}}
+
+                # keep duplicate
+                dupes = dupes + 1
+
+                dupeContact = new_contact_from_sheet(sheet, row)
+                #{{{
+
+                dupesheet[FIRST_NAME           + str(dupes)].value = dupeContact.first_name 
+                dupesheet[MIDDLE_NAME          + str(dupes)].value = dupeContact.middle_name
+                dupesheet[LAST_NAME            + str(dupes)].value = dupeContact.last_name
+                dupesheet[TITLE                + str(dupes)].value = dupeContact.title
+                dupesheet[SUFFIX               + str(dupes)].value = dupeContact.suffix
+                dupesheet[WEB_PAGE             + str(dupes)].value = dupeContact.web_page
+                dupesheet[NOTES                + str(dupes)].value = dupeContact.notes
+                dupesheet[EMAIL_ADDRESS        + str(dupes)].value = dupeContact.email_address
+                dupesheet[EMAIL_ADDRESS2       + str(dupes)].value = dupeContact.email_address2
+                dupesheet[EMAIL_ADDRESS3       + str(dupes)].value = dupeContact.email_address3
+                dupesheet[HOME_PHONE           + str(dupes)].value = dupeContact.home_phone
+                dupesheet[MOBILE_PHONE         + str(dupes)].value = dupeContact.mobile_phone
+                dupesheet[HOME_ADDRESS         + str(dupes)].value = dupeContact.home_address
+                dupesheet[HOME_STREET          + str(dupes)].value = dupeContact.home_street
+                dupesheet[HOME_CITY            + str(dupes)].value = dupeContact.home_city
+                dupesheet[HOME_STATE           + str(dupes)].value = dupeContact.home_state
+                dupesheet[HOME_POSTAL_CODE     + str(dupes)].value = dupeContact.home_postal_code
+                dupesheet[HOME_COUNTRY         + str(dupes)].value = dupeContact.home_country
+                dupesheet[CONTACT_MAIN_PHONE   + str(dupes)].value = dupeContact.contact_main_phone
+                dupesheet[BUSINESS_PHONE       + str(dupes)].value = dupeContact.business_phone
+                dupesheet[BUSINESS_PHONE2      + str(dupes)].value = dupeContact.business_phone2
+                dupesheet[BUSINESS_FAX         + str(dupes)].value = dupeContact.business_fax
+                dupesheet[COMPANY              + str(dupes)].value = dupeContact.company
+                dupesheet[JOB_TITLE            + str(dupes)].value = dupeContact.job_title
+                dupesheet[DEPARTMENT           + str(dupes)].value = dupeContact.department
+                dupesheet[OFFICE_LOCATION      + str(dupes)].value = dupeContact.office_location
+                dupesheet[BUSINESS_ADDRESS     + str(dupes)].value = dupeContact.business_address
+                dupesheet[BUSINESS_STREET      + str(dupes)].value = dupeContact.business_street
+                dupesheet[BUSINESS_CITY        + str(dupes)].value = dupeContact.business_city
+                dupesheet[BUSINESS_STATE       + str(dupes)].value = dupeContact.business_state
+                dupesheet[BUSINESS_POSTAL_CODE + str(dupes)].value = dupeContact.business_postal_code
+                dupesheet[BUSINESS_COUNTRY     + str(dupes)].value = dupeContact.business_country
+                dupesheet[CATEGORIES           + str(dupes)].value = dupeContact.categories
+                dupesheet[CONNECTED_ON         + str(dupes)].value = dupeContact.connected_on
+                dupesheet['AI' + str(dupes)].value = row
+                #}}}
+
+                dupes = dupes + 1
+
+                # save the combined contact
+                #{{{
+                dupesheet[FIRST_NAME           + str(dupes)].value = contact.first_name 
+                dupesheet[MIDDLE_NAME          + str(dupes)].value = contact.middle_name
+                dupesheet[LAST_NAME            + str(dupes)].value = contact.last_name
+                dupesheet[TITLE                + str(dupes)].value = contact.title
+                dupesheet[SUFFIX               + str(dupes)].value = contact.suffix
+                dupesheet[WEB_PAGE             + str(dupes)].value = contact.web_page
+                dupesheet[NOTES                + str(dupes)].value = contact.notes
+                dupesheet[EMAIL_ADDRESS        + str(dupes)].value = contact.email_address
+                dupesheet[EMAIL_ADDRESS2       + str(dupes)].value = contact.email_address2
+                dupesheet[EMAIL_ADDRESS3       + str(dupes)].value = contact.email_address3
+                dupesheet[HOME_PHONE           + str(dupes)].value = contact.home_phone
+                dupesheet[MOBILE_PHONE         + str(dupes)].value = contact.mobile_phone
+                dupesheet[HOME_ADDRESS         + str(dupes)].value = contact.home_address
+                dupesheet[HOME_STREET          + str(dupes)].value = contact.home_street
+                dupesheet[HOME_CITY            + str(dupes)].value = contact.home_city
+                dupesheet[HOME_STATE           + str(dupes)].value = contact.home_state
+                dupesheet[HOME_POSTAL_CODE     + str(dupes)].value = contact.home_postal_code
+                dupesheet[HOME_COUNTRY         + str(dupes)].value = contact.home_country
+                dupesheet[CONTACT_MAIN_PHONE   + str(dupes)].value = contact.contact_main_phone
+                dupesheet[BUSINESS_PHONE       + str(dupes)].value = contact.business_phone
+                dupesheet[BUSINESS_PHONE2      + str(dupes)].value = contact.business_phone2
+                dupesheet[BUSINESS_FAX         + str(dupes)].value = contact.business_fax
+                dupesheet[COMPANY              + str(dupes)].value = contact.company
+                dupesheet[JOB_TITLE            + str(dupes)].value = contact.job_title
+                dupesheet[DEPARTMENT           + str(dupes)].value = contact.department
+                dupesheet[OFFICE_LOCATION      + str(dupes)].value = contact.office_location
+                dupesheet[BUSINESS_ADDRESS     + str(dupes)].value = contact.business_address
+                dupesheet[BUSINESS_STREET      + str(dupes)].value = contact.business_street
+                dupesheet[BUSINESS_CITY        + str(dupes)].value = contact.business_city
+                dupesheet[BUSINESS_STATE       + str(dupes)].value = contact.business_state
+                dupesheet[BUSINESS_POSTAL_CODE + str(dupes)].value = contact.business_postal_code
+                dupesheet[BUSINESS_COUNTRY     + str(dupes)].value = contact.business_country
+                dupesheet[CATEGORIES           + str(dupes)].value = contact.categories
+                dupesheet[CONNECTED_ON         + str(dupes)].value = contact.connected_on
+                #}}}
+
+                # create a blank space
+                dupes = dupes + 1
             # store the information and create a new contact
             else:
                 # store information
+                #{{{
                 outsheet[FIRST_NAME           + str(count)].value = contact.first_name 
                 outsheet[MIDDLE_NAME          + str(count)].value = contact.middle_name
                 outsheet[LAST_NAME            + str(count)].value = contact.last_name
@@ -540,28 +940,33 @@ def remove_duplicate_contacts(fileName, sheetName, first, last):
                 outsheet[BUSINESS_COUNTRY     + str(count)].value = contact.business_country
                 outsheet[CATEGORIES           + str(count)].value = contact.categories
                 outsheet[CONNECTED_ON         + str(count)].value = contact.connected_on
+                outsheet[LATITUDE             + str(count)].value = contact.latitude
+                outsheet[LONGITUDE            + str(count)].value = contact.longitude
+                #}}}
                 # reset compare value
                 # compare = first_name + " " + last_name
-                compare = email + " " + last_name
+                compare = compareCriteria
                 # create a new contact
                 contact = new_contact_from_sheet(sheet, row)
                 count = count + 1
-
 
     if printing:
         print()
         print("Out of " + str(1 + last - first) + " companies " + str(count) + " were unique contacts")
         print("Saving...")
 
-    out.save("newCombined.xlsx")
+    out.save("purged" + str(cols) + ".xlsx")
+    dupe.save("duplicates" + str(cols) + ".xlsx")
+
+    pygame.init()
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
+    pygame.mixer.music.play()
+    time.sleep(3)
+    pygame.mixer.music.stop()
 
     if printing:
         print()
         print("Done!")
-
-    pygame.mixer.music.play()
-    time.sleep(3)
-    pygame.mixer.music.stop()
 #}}}
 
 # Fix Country Names
@@ -595,7 +1000,8 @@ def fix_country_names(fileName, sheetName):
             match = edit_distance(compare, current, low_threshold, high_threshold)
             # combine information and move on
             if match:
-                print("Now changing row " + str(row))
+                if printing:
+                    print("Now changing row " + str(row))
                 sheet[BUSINESS_COUNTRY + str(row)].value = compare
             else:
                 # reset compare value
@@ -613,4 +1019,7 @@ def fix_country_names(fileName, sheetName):
 
 # combine_contacts(2, 100)
 # combine_contacts("gmail", "contacts", 'linkedin', 'contacts')
-remove_duplicate_contacts("combined", "contacts", 2, 6903)
+# remove_duplicate_contacts("combined", "contacts", 2, 6903)
+# combine_with_CMA("CMAShipping", "Attendees", "gli", "contacts")
+# standardize_USA(sys.argv)
+remove_duplicate_contacts(sys.argv)

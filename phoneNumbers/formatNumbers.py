@@ -93,10 +93,13 @@ def formatting_phone_number(number):
     # regexEurope = '\D*(\+?\d{2,3})\D*'
     matchUSA    = re.search(regexUSA,    number)
     matchUSAno1 = re.search(regexUSAno1, number)
+    # if the phone number is a USA number with a 1 in front
     if matchUSA:
         number = "+1 (" + matchUSA.group(2) + ") " + matchUSA.group(3) + "-" + matchUSA.group(4)
     elif matchUSAno1:
+    # if the phone number is a USA number without a 1 in front
         number = "+1 " + matchUSAno1.group(1) + " " + matchUSAno1.group(2) + "-" + matchUSAno1.group(3)
+    # if the number is a european number
     elif len(number) > 0 and number[0] != '+':
         regexParens = '[\(\)]'
         number = re.sub(regexParens, "", number)
@@ -139,6 +142,7 @@ def formatting_phone_number(number):
 #{{{
 # def format_all_numbers(fileName, sheetName, *cols):
 def format_all_numbers(*args):
+    # turn the arguments into variable names
     args = args[0]
     fileName = args[1]
     startRow = int(args[2])
@@ -149,15 +153,12 @@ def format_all_numbers(*args):
     # sheet = wb[sheetName]
     sheet = wb.worksheets[0]
 
-    pygame.init()
-    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
-
+    # look through all columns and change the phone numbers
     first = startRow
     last = sheet.max_row
-
     for col in cols:
         for row in range (first, last + 1):
-            number = str(sheet[str(col) + str(row)].value)
+            number = str(sheet[col + str(row)].value)
             formatted = formatting_phone_number(number)
             if saving:
                 sheet[col + str(row)].value = formatted
@@ -165,14 +166,17 @@ def format_all_numbers(*args):
     if printing:
         print("Processing " + str((last + 1) - first) + " rows...")
 
+    # add the word 'formatted' and save the new file where the original is
+    newName = 'formatted'
     index = fileName[::-1].find('/')
     if printing and saving:
-        fileName = fileName[:-index] + "formatted" + fileName[-index:]
+        fileName = fileName[:-index] + newName + fileName[-index:]
         print("Saving " + fileName)
         wb.save(fileName)
 
-    print(args)
-
+    # note for when the script is over
+    pygame.init()
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
     time.sleep(3)
     pygame.mixer.music.stop()
