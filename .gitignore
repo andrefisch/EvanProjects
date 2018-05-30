@@ -2,7 +2,7 @@
 # Ignore these files #
 ######################
 *.xlsx
-*.xslx#
+*.~lock*
 *.ipynb
 *.pdf
 *residentList.txt

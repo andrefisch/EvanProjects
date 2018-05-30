@@ -86,4 +86,73 @@ def reorganize():
     time.sleep(5)
     pygame.mixer.music.stop()
 
-reorganize()
+# Split the banks in column C into separate rows
+def splitDeals():
+    # Open an existing excel file
+    wb = openpyxl.load_workbook('data' + ".xlsx")
+    sheet = wb.worksheets[0]
+    # Create a new excel file
+    out = openpyxl.Workbook()
+    # Open the worksheet we want to edit
+    outsheet = out.create_sheet("data")
+
+    # if 'sheet' appears randomly we can delete it
+    rm = out.get_sheet_by_name('Sheet')
+    out.remove_sheet(rm)
+
+    start = 2
+    end = sheet.max_row + 1
+
+    #################
+    # DO STUFF HERE #
+    #################
+    ID                    = "A"
+    COMPANY               = "B"
+    FINANCIAL_INSTITUTION = "C"
+    DEAL_TYPE             = "D"
+    DEAL_SUB_TYPE         = "E"
+    ORIGINAL_DEAL_TYPE    = "F"
+    AMOUNT_MM_USD         = "G"
+    COMMENTS              = "H"
+    DATE                  = "I"
+
+    outsheet[ID                    + '1'].value = "Transaction Id"
+    outsheet[COMPANY               + '1'].value = "Company"
+    outsheet[FINANCIAL_INSTITUTION + '1'].value = "Financial Institution"
+    outsheet[DEAL_TYPE             + '1'].value = "Deal Type"
+    outsheet[DEAL_SUB_TYPE         + '1'].value = "Deal Sub Type"
+    outsheet[ORIGINAL_DEAL_TYPE    + '1'].value = "Original Deal Type"
+    outsheet[AMOUNT_MM_USD         + '1'].value = "Amount MM USD"
+    outsheet[COMMENTS              + '1'].value = "Comments"
+    outsheet[DATE                  + '1'].value = "Date"
+
+    # Only care about column C    
+    count = 2
+    for row in range(start, end):
+        if sheet[FINANCIAL_INSTITUTION + str(row)].value:
+            banks = sheet[FINANCIAL_INSTITUTION + str(row)].value.replace(',', '\n').split('\n')
+        else:
+            banks = ["Undisclosed"]
+        for bank in banks:
+            outsheet[ID                    + str(count)].value = sheet[ID                 + str(row)].value 
+            outsheet[COMPANY               + str(count)].value = sheet[COMPANY            + str(row)].value 
+            outsheet[FINANCIAL_INSTITUTION + str(count)].value = bank.strip()
+            outsheet[DEAL_TYPE             + str(count)].value = sheet[DEAL_TYPE          + str(row)].value 
+            outsheet[DEAL_SUB_TYPE         + str(count)].value = sheet[DEAL_SUB_TYPE      + str(row)].value 
+            outsheet[ORIGINAL_DEAL_TYPE    + str(count)].value = sheet[ORIGINAL_DEAL_TYPE + str(row)].value 
+            outsheet[AMOUNT_MM_USD         + str(count)].value = sheet[AMOUNT_MM_USD      + str(row)].value 
+            outsheet[COMMENTS              + str(count)].value = sheet[COMMENTS           + str(row)].value 
+            outsheet[DATE                  + str(count)].value = sheet[DATE               + str(row)].value 
+            count = count + 1
+
+    out.save("organized.xlsx")
+
+    # LMK when the script is done
+    pygame.init()
+    pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
+    pygame.mixer.music.play()
+    time.sleep(5)
+    pygame.mixer.music.stop()
+
+splitDeals()
+# reorganize()
