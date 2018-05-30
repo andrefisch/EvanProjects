@@ -491,7 +491,7 @@ def standardize_USA(*args):
     pygame.init()
     pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
-    time.sleep(3)
+    time.sleep(5)
     pygame.mixer.music.stop()
 
     if printing:
@@ -545,7 +545,7 @@ def combine_contacts(fileName1, sheetName1, fileName2, sheetName2):
     pygame.init()
     pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
-    time.sleep(3)
+    time.sleep(5)
     pygame.mixer.music.stop()
 #}}}
 
@@ -614,7 +614,7 @@ def combine_with_CMA(fileName1, sheetName1, fileName2, sheetName2):
     pygame.init()
     pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
-    time.sleep(3)
+    time.sleep(5)
     pygame.mixer.music.stop()
 #}}}
 
@@ -961,7 +961,7 @@ def remove_duplicate_contacts(*args):
     pygame.init()
     pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
-    time.sleep(3)
+    time.sleep(5)
     pygame.mixer.music.stop()
 
     if printing:
@@ -1013,7 +1013,7 @@ def fix_country_names(fileName, sheetName):
     wb.save("newCombined.xlsx")
 
     pygame.mixer.music.play()
-    time.sleep(3)
+    time.sleep(5)
     pygame.mixer.music.stop()
 #}}}
 

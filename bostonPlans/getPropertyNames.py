@@ -164,7 +164,7 @@ for i in range(start, end):
             
 wb.save("properties.xlsx")
 pygame.mixer.music.play()
-time.sleep(3)
+time.sleep(5)
 pygame.mixer.music.stop()
 
 

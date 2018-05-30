@@ -63,11 +63,6 @@ def slides_to_excel():
     for i in range(0, len(pptxs)):
         slide = pptxs[i]
         if len(slide) == 2:
-            # img = openpyxl.drawing.image.Image(slide[1])
-            # THIS LINE WORKS, PROBLEM IS ABOVE
-            print(slide[1])
-            # img = Image.open('3image.jpg')
-            # img = Image(slide[1])
             img = openpyxl.drawing.image.Image(slide[1])
             img.anchor(outsheet[TEXT + str(slide[0])])
             outsheet.add_image(img)
@@ -84,7 +79,7 @@ def slides_to_excel():
     pygame.init()
     pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
-    time.sleep(3)
+    time.sleep(5)
     pygame.mixer.music.stop()
 
 # extract_info_from_slides()

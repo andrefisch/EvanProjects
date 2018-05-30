@@ -170,7 +170,8 @@ def format_all_numbers(*args):
     newName = 'formatted'
     index = fileName[::-1].find('/')
     if printing and saving:
-        fileName = fileName[:-index] + newName + fileName[-index:]
+        end = fileName[-index - 1:]
+        fileName = fileName[:-index - 1] + newName + end[0].capitalize() + end[1:]
         print("Saving " + fileName)
         wb.save(fileName)
 
@@ -178,7 +179,7 @@ def format_all_numbers(*args):
     pygame.init()
     pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
-    time.sleep(3)
+    time.sleep(5)
     pygame.mixer.music.stop()
 #}}}
 

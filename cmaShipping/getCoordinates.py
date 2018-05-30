@@ -85,7 +85,7 @@ def getCoordinates(fileName, sheetName):
                 coords = getLatLng(address)
                 # take a quick nap every 25 queries sent to prevent overload
                 if requests_sent > 0 and requests_sent % 25 == 0:
-                    time.sleep(3)
+                    time.sleep(5)
                 # if we are given valid coordinates
                 if coords != None and coords != []:
                     success = success + 1
@@ -126,7 +126,7 @@ def getCoordinates(fileName, sheetName):
     pygame.init()
     pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
-    time.sleep(3)
+    time.sleep(5)
     pygame.mixer.music.stop()
 
 getCoordinates("betterFile", "Attendees")

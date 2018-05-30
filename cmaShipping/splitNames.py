@@ -153,7 +153,7 @@ def format_all_numbers(fileName, sheetName, *cols):
         wb.save("betterNumbers.xlsx")
 
     pygame.mixer.music.play()
-    time.sleep(3)
+    time.sleep(5)
     pygame.mixer.music.stop()
 #}}}
 

@@ -1,8 +1,27 @@
 import openpyxl
+import os
 import pygame
+import sys
 import time
 
 def template():
+    # Get all files of a specific type in this directory
+    files = [x for x in os.listdir() if x.endswith(".xlsx")]
+    for eachfile in files:
+        print("----------------------")
+        print(eachfile)
+        print("----------------------")
+
+    # Uses sys.argv to pass in arguments
+    args = sys.argv[1:]
+    firstArg = args[1]
+    numberArg = int(args[2])
+    otherArgs = args[3:]
+
+    # Open a file with sys.argv
+    with open(sys.argv[1]) as f:
+        print(f)
+
     # Create a new excel file
     out = openpyxl.Workbook()
     # Open the worksheet we want to edit
@@ -40,5 +59,10 @@ def template():
     pygame.init()
     pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
-    time.sleep(3)
+    time.sleep(5)
     pygame.mixer.music.stop()
+
+def testing():
+    return sys.argv
+
+print(testing())

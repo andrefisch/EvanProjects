@@ -11,3 +11,4 @@
 *.ppt
 *.csv
 *emails.txt
+*__pycache__/

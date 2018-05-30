@@ -107,5 +107,5 @@ for key, value in sorted(table.items(), key=lambda e: e[1][1]):
 
 wb.save("emails.xlsx")
 pygame.mixer.music.play()
-time.sleep(3)
+time.sleep(5)
 pygame.mixer.music.stop()
