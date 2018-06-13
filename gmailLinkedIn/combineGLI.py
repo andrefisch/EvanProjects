@@ -24,6 +24,7 @@ low_threshold = 85
 high_threshold = 100
 min_word_len = 5
 
+'''
 FIRST_NAME           = 'A'
 MIDDLE_NAME          = 'B'
 LAST_NAME            = 'C'
@@ -60,6 +61,103 @@ CATEGORIES           = 'AG'
 CONNECTED_ON         = 'AH'
 LATITUDE             = 'AI'
 LONGITUDE            = 'AJ'
+'''
+
+NAME                          = "A"
+GIVEN_NAME                    = "B"
+ADDITIONAL_NAME               = "C"
+FAMILY_NAME                   = "D"
+YOMI_NAME                     = "E"
+GIVEN_NAME_YOMI               = "F"
+ADDITIONAL_NAME_YOMI          = "G"
+FAMILY_NAME_YOMI              = "H"
+NAME_PREFIX                   = "I"
+NAME_SUFFIX                   = "J"
+INITIALS                      = "K"
+NICKNAME                      = "L"
+SHORT_NAME                    = "M"
+MAIDEN_NAME                   = "N"
+BIRTHDAY                      = "O"
+GENDER                        = "P"
+LOCATION                      = "Q"
+BILLING_INFORMATION           = "R"
+DIRECTORY_SERVER              = "S"
+MILEAGE                       = "T"
+OCCUPATION                    = "U"
+HOBBY                         = "V"
+SENSITIVITY                   = "W"
+PRIORITY                      = "X"
+SUBJECT                       = "Y"
+NOTES                         = "Z"
+GROUP_MEMBERSHIP              = "AA"
+EMAIL1_TYPE                   = "AB"
+EMAIL1_VALUE                  = "AC"
+EMAIL2_TYPE                   = "AD"
+EMAIL2_VALUE                  = "AE"
+EMAIL3_TYPE                   = "AF"
+EMAIL3_VALUE                  = "AG"
+EMAIL4_TYPE                   = "AH"
+EMAIL4_VALUE                  = "AI"
+EMAIL5_TYPE                   = "AJ"
+EMAIL5_VALUE                  = "AK"
+IM1_TYPE                      = "AL"
+IM1_SERVICE                   = "AM"
+IM1_VALUE                     = "AN"
+PHONE1_TYPE                   = "AO"
+PHONE1_VALUE                  = "AP"
+PHONE2_TYPE                   = "AQ"
+PHONE2_VALUE                  = "AR"
+PHONE3_TYPE                   = "AS"
+PHONE3_VALUE                  = "AT"
+PHONE4_TYPE                   = "AU"
+PHONE4_VALUE                  = "AV"
+PHONE5_TYPE                   = "AW"
+PHONE5_VALUE                  = "AX"
+ADDRESS1_TYPE                 = "AY"
+ADDRESS1_FORMATED             = "AZ"
+ADDRESS1_STREET               = "BA"
+ADDRESS1_CITY                 = "BB"
+ADDRESS1_POBOX                = "BC"
+ADDRESS1_REGION               = "BD"
+ADDRESS1_POSTAL_CODE          = "BE"
+ADDRESS1_COUNTRY              = "BF"
+ADDRESS1_EXTENDED_ADDRESS     = "BG"
+ADDRESS2_TYPE                 = "BH"
+ADDRESS2_FORMATED             = "BI"
+ADDRESS2_STREET               = "BJ"
+ADDRESS2_CITY                 = "BK"
+ADDRESS2_POBOX                = "BL"
+ADDRESS2_REGION               = "BM"
+ADDRESS2_POSTAL_CODE          = "BN"
+ADDRESS2_COUNTRY              = "BO"
+ADDRESS2_EXTENDED_ADDRESS     = "BP"
+ADDRESS3_TYPE                 = "BQ"
+ADDRESS3_FORMATED             = "BR"
+ADDRESS3_STREET               = "BS"
+ADDRESS3_CITY                 = "BT"
+ADDRESS3_POBOX                = "BU"
+ADDRESS3_REGION               = "BV"
+ADDRESS3_POSTAL_CODE          = "BW"
+ADDRESS3_COUNTRY              = "BX"
+ADDRESS3_EXTENDED_ADDRESS     = "BY"
+ORGANIZATION1_TYPE            = "BZ"
+ORGANIZATION1_NAME            = "CA"
+ORGANIZATION1_YOMI_NAME       = "CB"
+ORGANIZATION1_TITLE           = "CC"
+ORGANIZATION1_DEPARTMENT      = "CD"
+ORGANIZATION1_SYMBOL          = "CE"
+ORGANIZATION1_LOCATION        = "CF"
+ORGANIZATION1_JOB_DESCRIPTION = "CG"
+RELATION1_TYPE                = "CH"
+RELATION1_VALUE               = "CI"
+EXTERNAL_ID1_TYPE             = "CJ"
+EXTERNAl_ID1_VALUE            = "CK"
+WEBSITE1_TYPE                 = "CL"
+WEBSITE1_VALUE                = "CM"
+CALENDAR_LINK1_TYPE           = "CN"
+CALENDAR_LINK1_VALUE          = "CO"
+JOT1_TYPE                     = "CP"
+JOT1_VALUE                    = "CQ"
 
 
 ##################
@@ -179,45 +277,104 @@ def edit_distance(word1, word2, low_threshold, high_threshold):
 # Contact
 #{{{
 class Contact(object):
-    first_name           = ''
-    middle_name          = ''
-    last_name            = ''
-    title                = ''
-    suffix               = ''
-    web_page             = ''
-    notes                = ''
-    email_address        = ''
-    email_address2       = ''
-    email_address3       = ''
-    home_phone           = ''
-    mobile_phone         = ''
-    home_address         = ''
-    home_street          = ''
-    home_city            = ''
-    home_state           = ''
-    home_postal_code     = ''
-    home_country         = ''
-    contact_main_phone   = ''
-    business_phone       = ''
-    business_phone2      = ''
-    business_fax         = ''
-    company              = ''
-    job_title            = ''
-    department           = ''
-    office_location      = ''
-    business_address     = ''
-    business_street      = ''
-    business_city        = ''
-    business_state       = ''
-    business_postal_code = ''
-    business_country     = ''
-    categories           = ''
-    connected_on         = ''
-    latitude             = ''
-    longitude            = ''
+    name                          = ''
+    given_name                    = ''
+    additional_name               = ''
+    family_name                   = ''
+    yomi_name                     = ''
+    given_name_yomi               = ''
+    additional_name_yomi          = ''
+    family_name_yomi              = ''
+    name_prefix                   = ''
+    name_suffix                   = ''
+    initials                      = ''
+    nickname                      = ''
+    short_name                    = ''
+    maiden_name                   = ''
+    birthday                      = ''
+    gender                        = ''
+    location                      = ''
+    billing_information           = ''
+    directory_server              = ''
+    mileage                       = ''
+    occupation                    = ''
+    hobby                         = ''
+    sensitivity                   = ''
+    priority                      = ''
+    subject                       = ''
+    notes                         = ''
+    group_membership              = ''
+    email1_type                   = ''
+    email1_value                  = ''
+    email2_type                   = ''
+    email2_value                  = ''
+    email3_type                   = ''
+    email3_value                  = ''
+    email4_type                   = ''
+    email4_value                  = ''
+    email5_type                   = ''
+    email5_value                  = ''
+    im1_type                      = ''
+    im1_service                   = ''
+    im1_value                     = ''
+    phone1_type                   = ''
+    phone1_value                  = ''
+    phone2_type                   = ''
+    phone2_value                  = ''
+    phone3_type                   = ''
+    phone3_value                  = ''
+    phone4_type                   = ''
+    phone4_value                  = ''
+    phone5_type                   = ''
+    phone5_value                  = ''
+    address1_type                 = ''
+    address1_formated             = ''
+    address1_street               = ''
+    address1_city                 = ''
+    address1_pobox                = ''
+    address1_region               = ''
+    address1_postal_code          = ''
+    address1_country              = ''
+    address1_extended_address     = ''
+    address2_type                 = ''
+    address2_formated             = ''
+    address2_street               = ''
+    address2_city                 = ''
+    address2_pobox                = ''
+    address2_region               = ''
+    address2_postal_code          = ''
+    address2_country              = ''
+    address2_extended_address     = ''
+    address3_type                 = ''
+    address3_formated             = ''
+    address3_street               = ''
+    address3_city                 = ''
+    address3_pobox                = ''
+    address3_region               = ''
+    address3_postal_code          = ''
+    address3_country              = ''
+    address3_extended_address     = ''
+    organization1_type            = ''
+    organization1_name            = ''
+    organization1_yomi_name       = ''
+    organization1_title           = ''
+    organization1_department      = ''
+    organization1_symbol          = ''
+    organization1_location        = ''
+    organization1_job_description = ''
+    relation1_type                = ''
+    relation1_value               = ''
+    external_id1_type             = ''
+    external_id1_value            = ''
+    website1_type                 = ''
+    website1_value                = ''
+    calendar_link1_type           = ''
+    calendar_link1_value          = ''
+    jot1_type                     = ''
+    jot1_value                    = ''
 
     def __init__(self):
-        last_name = "-"
+        name      = "-"
         notes     = ""
 
 #}}}
@@ -228,75 +385,197 @@ class Contact(object):
 def new_contact_from_sheet(sheet, row):
     contact = Contact()
 
-    if sheet[FIRST_NAME + str(row)].value != None:
-        contact.first_name = sheet[FIRST_NAME + str(row)].value
-    if sheet[MIDDLE_NAME + str(row)].value != None:
-        contact.middle_name = sheet[MIDDLE_NAME + str(row)].value
-    if sheet[LAST_NAME + str(row)].value != None:
-        contact.last_name = sheet[LAST_NAME + str(row)].value
-    if sheet[SUFFIX + str(row)].value != None:
-        contact.suffix = sheet[SUFFIX + str(row)].value
-    if sheet[WEB_PAGE + str(row)].value != None:
-        contact.web_page = sheet[WEB_PAGE + str(row)].value
+    if sheet[NAME + str(row)].value != None:
+        contact.name = sheet[NAME + str(row)].value
+    if sheet[GIVEN_NAME + str(row)].value != None:
+        contact.given_name = sheet[GIVEN_NAME + str(row)].value
+    if sheet[ADDITIONAL_NAME + str(row)].value != None:
+        contact.additional_name = sheet[ADDITIONAL_NAME + str(row)].value
+    if sheet[FAMILY_NAME + str(row)].value != None:
+        contact.family_name = sheet[FAMILY_NAME + str(row)].value
+    if sheet[YOMI_NAME + str(row)].value != None:
+        contact.yomi_name = sheet[YOMI_NAME + str(row)].value
+    if sheet[GIVEN_NAME_YOMI + str(row)].value != None:
+        contact.given_name_yomi = sheet[GIVEN_NAME_YOMI + str(row)].value
+    if sheet[ADDITIONAL_NAME_YOMI + str(row)].value != None:
+        contact.additional_name_yomi = sheet[ADDITIONAL_NAME_YOMI + str(row)].value
+    if sheet[FAMILY_NAME_YOMI + str(row)].value != None:
+        contact.family_name_yomi = sheet[FAMILY_NAME_YOMI + str(row)].value
+    if sheet[NAME_PREFIX + str(row)].value != None:
+        contact.name_prefix = sheet[NAME_PREFIX + str(row)].value
+    if sheet[NAME_SUFFIX + str(row)].value != None:
+        contact.name_suffix = sheet[NAME_SUFFIX + str(row)].value
+    if sheet[INITIALS + str(row)].value != None:
+        contact.initials = sheet[INITIALS + str(row)].value
+    if sheet[NICKNAME + str(row)].value != None:
+        contact.nickname = sheet[NICKNAME + str(row)].value
+    if sheet[SHORT_NAME + str(row)].value != None:
+        contact.short_name = sheet[SHORT_NAME + str(row)].value
+    if sheet[MAIDEN_NAME + str(row)].value != None:
+        contact.maiden_name = sheet[MAIDEN_NAME + str(row)].value
+    if sheet[BIRTHDAY + str(row)].value != None:
+        contact.birthday = sheet[BIRTHDAY + str(row)].value
+    if sheet[GENDER + str(row)].value != None:
+        contact.gender = sheet[GENDER + str(row)].value
+    if sheet[LOCATION + str(row)].value != None:
+        contact.location = sheet[LOCATION + str(row)].value
+    if sheet[BILLING_INFORMATION + str(row)].value != None:
+        contact.billing_information = sheet[BILLING_INFORMATION + str(row)].value
+    if sheet[DIRECTORY_SERVER + str(row)].value != None:
+        contact.directory_server = sheet[DIRECTORY_SERVER + str(row)].value
+    if sheet[MILEAGE + str(row)].value != None:
+        contact.mileage = sheet[MILEAGE + str(row)].value
+    if sheet[OCCUPATION + str(row)].value != None:
+        contact.occupation = sheet[OCCUPATION + str(row)].value
+    if sheet[HOBBY + str(row)].value != None:
+        contact.hobby = sheet[HOBBY + str(row)].value
+    if sheet[SENSITIVITY + str(row)].value != None:
+        contact.sensitivity = sheet[SENSITIVITY + str(row)].value
+    if sheet[PRIORITY + str(row)].value != None:
+        contact.priority = sheet[PRIORITY + str(row)].value
+    if sheet[SUBJECT + str(row)].value != None:
+        contact.subject = sheet[SUBJECT + str(row)].value
     if sheet[NOTES + str(row)].value != None:
         contact.notes = sheet[NOTES + str(row)].value
-    if sheet[EMAIL_ADDRESS + str(row)].value != None:
-        contact.email_address = sheet[EMAIL_ADDRESS + str(row)].value
-    if sheet[EMAIL_ADDRESS2 + str(row)].value != None:
-        contact.email_address2 = sheet[EMAIL_ADDRESS2 + str(row)].value
-    if sheet[EMAIL_ADDRESS3 + str(row)].value != None:
-        contact.email_address3 = sheet[EMAIL_ADDRESS3 + str(row)].value
-    if sheet[HOME_PHONE + str(row)].value != None:
-        contact.home_phone = sheet[HOME_PHONE + str(row)].value
-    if sheet[MOBILE_PHONE + str(row)].value != None:
-        contact.mobile_phone = sheet[MOBILE_PHONE + str(row)].value
-    if sheet[HOME_ADDRESS + str(row)].value != None:
-        contact.home_address = sheet[HOME_ADDRESS + str(row)].value
-    if sheet[HOME_STREET + str(row)].value != None:
-        contact.home_street = sheet[HOME_STREET + str(row)].value
-    if sheet[HOME_CITY + str(row)].value != None:
-        contact.home_city = sheet[HOME_CITY + str(row)].value
-    if sheet[HOME_STATE + str(row)].value != None:
-        contact.home_state = sheet[HOME_STATE + str(row)].value
-    if sheet[HOME_POSTAL_CODE + str(row)].value != None:
-        contact.home_postal_code = sheet[HOME_POSTAL_CODE + str(row)].value
-    if sheet[HOME_COUNTRY + str(row)].value != None:
-        contact.home_country = sheet[HOME_COUNTRY + str(row)].value
-    if sheet[CONTACT_MAIN_PHONE + str(row)].value != None:
-        contact.contact_main_phone = sheet[CONTACT_MAIN_PHONE + str(row)].value
-    if sheet[BUSINESS_PHONE + str(row)].value != None:
-        contact.business_phone = sheet[BUSINESS_PHONE + str(row)].value
-    if sheet[BUSINESS_PHONE2 + str(row)].value != None:
-        contact.business_phone2 = sheet[BUSINESS_PHONE2 + str(row)].value
-    if sheet[BUSINESS_FAX + str(row)].value != None:
-        contact.business_fax = sheet[BUSINESS_FAX + str(row)].value
-    if sheet[COMPANY + str(row)].value != None:
-        contact.company = sheet[COMPANY + str(row)].value
-    if sheet[JOB_TITLE + str(row)].value != None:
-        contact.job_title = sheet[JOB_TITLE + str(row)].value
-    if sheet[DEPARTMENT + str(row)].value != None:
-        contact.department = sheet[DEPARTMENT + str(row)].value
-    if sheet[OFFICE_LOCATION + str(row)].value != None:
-        contact.office_location = sheet[OFFICE_LOCATION + str(row)].value
-    if sheet[BUSINESS_ADDRESS + str(row)].value != None:
-        contact.business_address = sheet[BUSINESS_ADDRESS + str(row)].value
-    if sheet[BUSINESS_STREET + str(row)].value != None:
-        contact.business_street = sheet[BUSINESS_STREET + str(row)].value
-    if sheet[BUSINESS_CITY + str(row)].value != None:
-        contact.business_city = sheet[BUSINESS_CITY + str(row)].value
-    if sheet[BUSINESS_STATE + str(row)].value != None:
-        contact.business_state = sheet[BUSINESS_STATE + str(row)].value
-    if sheet[BUSINESS_POSTAL_CODE + str(row)].value != None:
-        contact.business_postal_code = sheet[BUSINESS_POSTAL_CODE + str(row)].value
-    if sheet[BUSINESS_COUNTRY + str(row)].value != None:
-        contact.business_country = sheet[BUSINESS_COUNTRY + str(row)].value
-    if sheet[CONNECTED_ON + str(row)].value != None:
-        contact.connected_on = sheet[CONNECTED_ON + str(row)].value
-    if sheet[LATITUDE + str(row)].value != None:
-        contact.latitude = sheet[LATITUDE + str(row)].value
-    if sheet[LONGITUDE + str(row)].value != None:
-        contact.longitude = sheet[LONGITUDE + str(row)].value
-    
+    if sheet[GROUP_MEMBERSHIP + str(row)].value != None:
+        contact.group_membership = sheet[GROUP_MEMBERSHIP + str(row)].value
+    if sheet[EMAIL1_TYPE + str(row)].value != None:
+        contact.email1_type = sheet[EMAIL1_TYPE + str(row)].value
+    if sheet[EMAIL1_VALUE + str(row)].value != None:
+        contact.email1_value = sheet[EMAIL1_VALUE + str(row)].value
+    if sheet[EMAIL2_TYPE + str(row)].value != None:
+        contact.email2_type = sheet[EMAIL2_TYPE + str(row)].value
+    if sheet[EMAIL2_VALUE + str(row)].value != None:
+        contact.email2_value = sheet[EMAIL2_VALUE + str(row)].value
+    if sheet[EMAIL3_TYPE + str(row)].value != None:
+        contact.email3_type = sheet[EMAIL3_TYPE + str(row)].value
+    if sheet[EMAIL3_VALUE + str(row)].value != None:
+        contact.email3_value = sheet[EMAIL3_VALUE + str(row)].value
+    if sheet[EMAIL4_TYPE + str(row)].value != None:
+        contact.email4_type = sheet[EMAIL4_TYPE + str(row)].value
+    if sheet[EMAIL4_VALUE + str(row)].value != None:
+        contact.email4_value = sheet[EMAIL4_VALUE + str(row)].value
+    if sheet[EMAIL5_TYPE + str(row)].value != None:
+        contact.email5_type = sheet[EMAIL5_TYPE + str(row)].value
+    if sheet[EMAIL5_VALUE + str(row)].value != None:
+        contact.email5_value = sheet[EMAIL5_VALUE + str(row)].value
+    if sheet[IM1_TYPE + str(row)].value != None:
+        contact.im1_type = sheet[IM1_TYPE + str(row)].value
+    if sheet[IM1_SERVICE + str(row)].value != None:
+        contact.im1_service = sheet[IM1_SERVICE + str(row)].value
+    if sheet[IM1_VALUE + str(row)].value != None:
+        contact.im1_value = sheet[IM1_VALUE + str(row)].value
+    if sheet[PHONE1_TYPE + str(row)].value != None:
+        contact.phone1_type = sheet[PHONE1_TYPE + str(row)].value
+    if sheet[PHONE1_VALUE + str(row)].value != None:
+        contact.phone1_value = sheet[PHONE1_VALUE + str(row)].value
+    if sheet[PHONE2_TYPE + str(row)].value != None:
+        contact.phone2_type = sheet[PHONE2_TYPE + str(row)].value
+    if sheet[PHONE2_VALUE + str(row)].value != None:
+        contact.phone2_value = sheet[PHONE2_VALUE + str(row)].value
+    if sheet[PHONE3_TYPE + str(row)].value != None:
+        contact.phone3_type = sheet[PHONE3_TYPE + str(row)].value
+    if sheet[PHONE3_VALUE + str(row)].value != None:
+        contact.phone3_value = sheet[PHONE3_VALUE + str(row)].value
+    if sheet[PHONE4_TYPE + str(row)].value != None:
+        contact.phone4_type = sheet[PHONE4_TYPE + str(row)].value
+    if sheet[PHONE4_VALUE + str(row)].value != None:
+        contact.phone4_value = sheet[PHONE4_VALUE + str(row)].value
+    if sheet[PHONE5_TYPE + str(row)].value != None:
+        contact.phone5_type = sheet[PHONE5_TYPE + str(row)].value
+    if sheet[PHONE5_VALUE + str(row)].value != None:
+        contact.phone5_value = sheet[PHONE5_VALUE + str(row)].value
+    if sheet[ADDRESS1_TYPE + str(row)].value != None:
+        contact.address1_type = sheet[ADDRESS1_TYPE + str(row)].value
+    if sheet[ADDRESS1_FORMATED + str(row)].value != None:
+        contact.address1_formated = sheet[ADDRESS1_FORMATED + str(row)].value
+    if sheet[ADDRESS1_STREET + str(row)].value != None:
+        contact.address1_street = sheet[ADDRESS1_STREET + str(row)].value
+    if sheet[ADDRESS1_CITY + str(row)].value != None:
+        contact.address1_city = sheet[ADDRESS1_CITY + str(row)].value
+    if sheet[ADDRESS1_POBOX + str(row)].value != None:
+        contact.address1_pobox = sheet[ADDRESS1_POBOX + str(row)].value
+    if sheet[ADDRESS1_REGION + str(row)].value != None:
+        contact.address1_region = sheet[ADDRESS1_REGION + str(row)].value
+    if sheet[ADDRESS1_POSTAL_CODE + str(row)].value != None:
+        contact.address1_postal_code = sheet[ADDRESS1_POSTAL_CODE + str(row)].value
+    if sheet[ADDRESS1_COUNTRY + str(row)].value != None:
+        contact.address1_country = sheet[ADDRESS1_COUNTRY + str(row)].value
+    if sheet[ADDRESS1_EXTENDED_ADDRESS + str(row)].value != None:
+        contact.address1_extended_address = sheet[ADDRESS1_EXTENDED_ADDRESS + str(row)].value
+    if sheet[ADDRESS2_TYPE + str(row)].value != None:
+        contact.address2_type = sheet[ADDRESS2_TYPE + str(row)].value
+    if sheet[ADDRESS2_FORMATED + str(row)].value != None:
+        contact.address2_formated = sheet[ADDRESS2_FORMATED + str(row)].value
+    if sheet[ADDRESS2_STREET + str(row)].value != None:
+        contact.address2_street = sheet[ADDRESS2_STREET + str(row)].value
+    if sheet[ADDRESS2_CITY + str(row)].value != None:
+        contact.address2_city = sheet[ADDRESS2_CITY + str(row)].value
+    if sheet[ADDRESS2_POBOX + str(row)].value != None:
+        contact.address2_pobox = sheet[ADDRESS2_POBOX + str(row)].value
+    if sheet[ADDRESS2_REGION + str(row)].value != None:
+        contact.address2_region = sheet[ADDRESS2_REGION + str(row)].value
+    if sheet[ADDRESS2_POSTAL_CODE + str(row)].value != None:
+        contact.address2_postal_code = sheet[ADDRESS2_POSTAL_CODE + str(row)].value
+    if sheet[ADDRESS2_COUNTRY + str(row)].value != None:
+        contact.address2_country = sheet[ADDRESS2_COUNTRY + str(row)].value
+    if sheet[ADDRESS2_EXTENDED_ADDRESS + str(row)].value != None:
+        contact.address2_extended_address = sheet[ADDRESS2_EXTENDED_ADDRESS + str(row)].value
+    if sheet[ADDRESS3_TYPE + str(row)].value != None:
+        contact.address3_type = sheet[ADDRESS3_TYPE + str(row)].value
+    if sheet[ADDRESS3_FORMATED + str(row)].value != None:
+        contact.address3_formated = sheet[ADDRESS3_FORMATED + str(row)].value
+    if sheet[ADDRESS3_STREET + str(row)].value != None:
+        contact.address3_street = sheet[ADDRESS3_STREET + str(row)].value
+    if sheet[ADDRESS3_CITY + str(row)].value != None:
+        contact.address3_city = sheet[ADDRESS3_CITY + str(row)].value
+    if sheet[ADDRESS3_POBOX + str(row)].value != None:
+        contact.address3_pobox = sheet[ADDRESS3_POBOX + str(row)].value
+    if sheet[ADDRESS3_REGION + str(row)].value != None:
+        contact.address3_region = sheet[ADDRESS3_REGION + str(row)].value
+    if sheet[ADDRESS3_POSTAL_CODE + str(row)].value != None:
+        contact.address3_postal_code = sheet[ADDRESS3_POSTAL_CODE + str(row)].value
+    if sheet[ADDRESS3_COUNTRY + str(row)].value != None:
+        contact.address3_country = sheet[ADDRESS3_COUNTRY + str(row)].value
+    if sheet[ADDRESS3_EXTENDED_ADDRESS + str(row)].value != None:
+        contact.address3_extended_address = sheet[ADDRESS3_EXTENDED_ADDRESS + str(row)].value
+    if sheet[ORGANIZATION1_TYPE + str(row)].value != None:
+        contact.organization1_type = sheet[ORGANIZATION1_TYPE + str(row)].value
+    if sheet[ORGANIZATION1_NAME + str(row)].value != None:
+        contact.organization1_name = sheet[ORGANIZATION1_NAME + str(row)].value
+    if sheet[ORGANIZATION1_YOMI_NAME + str(row)].value != None:
+        contact.organization1_yomi_name = sheet[ORGANIZATION1_YOMI_NAME + str(row)].value
+    if sheet[ORGANIZATION1_TITLE + str(row)].value != None:
+        contact.organization1_title = sheet[ORGANIZATION1_TITLE + str(row)].value
+    if sheet[ORGANIZATION1_DEPARTMENT + str(row)].value != None:
+        contact.organization1_department = sheet[ORGANIZATION1_DEPARTMENT + str(row)].value
+    if sheet[ORGANIZATION1_SYMBOL + str(row)].value != None:
+        contact.organization1_symbol = sheet[ORGANIZATION1_SYMBOL + str(row)].value
+    if sheet[ORGANIZATION1_LOCATION + str(row)].value != None:
+        contact.organization1_location = sheet[ORGANIZATION1_LOCATION + str(row)].value
+    if sheet[ORGANIZATION1_JOB_DESCRIPTION + str(row)].value != None:
+        contact.organization1_job_description = sheet[ORGANIZATION1_JOB_DESCRIPTION + str(row)].value
+    if sheet[RELATION1_TYPE + str(row)].value != None:
+        contact.relation1_type = sheet[RELATION1_TYPE + str(row)].value
+    if sheet[RELATION1_VALUE + str(row)].value != None:
+        contact.relation1_value = sheet[RELATION1_VALUE + str(row)].value
+    if sheet[EXTERNAL_ID1_TYPE + str(row)].value != None:
+        contact.external_id1_type = sheet[EXTERNAL_ID1_TYPE + str(row)].value
+    if sheet[EXTERNAl_ID1_VALUE + str(row)].value != None:
+        contact.external_id1_value = sheet[EXTERNAl_ID1_VALUE + str(row)].value
+    if sheet[WEBSITE1_TYPE + str(row)].value != None:
+        contact.website1_type = sheet[WEBSITE1_TYPE + str(row)].value
+    if sheet[WEBSITE1_VALUE + str(row)].value != None:
+        contact.website1_value = sheet[WEBSITE1_VALUE + str(row)].value
+    if sheet[CALENDAR_LINK1_TYPE + str(row)].value != None:
+        contact.calendar_link1_type = sheet[CALENDAR_LINK1_TYPE + str(row)].value
+    if sheet[CALENDAR_LINK1_VALUE + str(row)].value != None:
+        contact.calendar_link1_value = sheet[CALENDAR_LINK1_VALUE + str(row)].value
+    if sheet[JOT1_TYPE + str(row)].value != None:
+        contact.jot1_type = sheet[JOT1_TYPE + str(row)].value
+    if sheet[JOT1_VALUE + str(row)].value != None:
+        contact.jot1_value = sheet[JOT1_VALUE + str(row)].value
+
     return contact
 #}}}
 
@@ -308,142 +587,383 @@ def update_contact_from_sheet(sheet, row, contact):
     # INCLUDE CHANGE IN COMPANY AND CHANGE IN POSITION IN THE NOTES
     contact.notes       = special_combine(contact.notes,       sheet[NOTES       + str(row)].value)
     # update all 
-    if sheet[FIRST_NAME + str(row)].value != None or contact.first_name != None:
-        info = keep_non_none(contact.first_name, sheet[FIRST_NAME + str(row)].value)
-        contact.first_name = info[0]
-        contact.notes = add_to_notes(contact, "First Name", info[1], info[0])
-    if sheet[MIDDLE_NAME + str(row)].value != None or contact.middle_name != None:
-        info = keep_non_none(contact.middle_name, sheet[MIDDLE_NAME + str(row)].value)
-        contact.middle_name = info[0]
-        contact.notes = add_to_notes(contact, "Middle Name", info[1], info[0])
-    if sheet[LAST_NAME + str(row)].value != None or contact.last_name != None:
-        info = keep_non_none(contact.last_name, sheet[LAST_NAME + str(row)].value)
-        contact.last_name = info[0]
-        contact.notes = add_to_notes(contact, "Last Name", info[1], info[0])
-    if sheet[SUFFIX + str(row)].value != None or contact.suffix != None:
-        info = keep_non_none(contact.suffix, sheet[SUFFIX + str(row)].value)
-        contact.suffix = info[0]
-        contact.notes = add_to_notes(contact, "Suffix", info[1], info[0])
-    if sheet[WEB_PAGE + str(row)].value != None or contact.web_page != None:
-        info = keep_non_none(contact.web_page, sheet[WEB_PAGE + str(row)].value)
-        contact.web_page = info[0]
-        contact.notes = add_to_notes(contact, "Web Page", info[1], info[0])
-    if sheet[EMAIL_ADDRESS + str(row)].value != None or contact.email_address != None:
-        info = keep_non_none(contact.email_address, sheet[EMAIL_ADDRESS + str(row)].value)
-        contact.email_address = info[0]
-        contact.notes = add_to_notes(contact, "Email Address", info[1], info[0])
-    if sheet[EMAIL_ADDRESS2 + str(row)].value != None or contact.email_address2 != None:
-        info = keep_non_none(contact.email_address2, sheet[EMAIL_ADDRESS2 + str(row)].value)
-        contact.email_address2 = info[0]
-        contact.notes = add_to_notes(contact, "Email Address2", info[1], info[0])
-    if sheet[EMAIL_ADDRESS3 + str(row)].value != None or contact.email_address3 != None:
-        info = keep_non_none(contact.email_address3, sheet[EMAIL_ADDRESS3 + str(row)].value)
-        contact.email_address3 = info[0]
-        contact.notes = add_to_notes(contact, "Email Address3", info[1], info[0])
-    if sheet[HOME_PHONE + str(row)].value != None or contact.home_phone != None:
-        info = keep_non_none(contact.home_phone, sheet[HOME_PHONE + str(row)].value)
-        contact.home_phone = info[0]
-        contact.notes = add_to_notes(contact, "Home Phone", info[1], info[0])
-    if sheet[MOBILE_PHONE + str(row)].value != None or contact.mobile_phone != None:
-        info = keep_non_none(contact.mobile_phone, sheet[MOBILE_PHONE + str(row)].value)
-        contact.mobile_phone = info[0]
-        contact.notes = add_to_notes(contact, "Mobile Phone", info[1], info[0])
-    if sheet[HOME_ADDRESS + str(row)].value != None or contact.home_address != None:
-        info = keep_non_none(contact.home_address, sheet[HOME_ADDRESS + str(row)].value)
-        contact.home_address = info[0]
-        contact.notes = add_to_notes(contact, "Home Address", info[1], info[0])
-    if sheet[HOME_STREET + str(row)].value != None or contact.home_street != None:
-        info = keep_non_none(contact.home_street, sheet[HOME_STREET + str(row)].value)
-        contact.home_street = info[0]
-        contact.notes = add_to_notes(contact, "Home Street", info[1], info[0])
-    if sheet[HOME_CITY + str(row)].value != None or contact.home_city != None:
-        info = keep_non_none(contact.home_city, sheet[HOME_CITY + str(row)].value)
-        contact.home_city = info[0]
-        contact.notes = add_to_notes(contact, "Home City", info[1], info[0])
-    if sheet[HOME_STATE + str(row)].value != None or contact.home_state != None:
-        info = keep_non_none(contact.home_state, sheet[HOME_STATE + str(row)].value)
-        contact.home_state = info[0]
-        contact.notes = add_to_notes(contact, "Home State", info[1], info[0])
-    if sheet[HOME_POSTAL_CODE + str(row)].value != None or contact.home_postal_code != None:
-        info = keep_non_none(contact.home_postal_code, sheet[HOME_POSTAL_CODE + str(row)].value)
-        contact.home_postal_code = info[0]
-        contact.notes = add_to_notes(contact, "Home Postal Code", info[1], info[0])
-    if sheet[HOME_COUNTRY + str(row)].value != None or contact.home_country != None:
-        info = keep_non_none(contact.home_country, sheet[HOME_COUNTRY + str(row)].value)
-        contact.home_country = info[0]
-        contact.notes = add_to_notes(contact, "Home Country", info[1], info[0])
-    if sheet[CONTACT_MAIN_PHONE + str(row)].value != None or contact.contact_main_phone != None:
-        info = keep_non_none(contact.contact_main_phone, sheet[CONTACT_MAIN_PHONE + str(row)].value)
-        contact.contact_main_phone = info[0]
-        contact.notes = add_to_notes(contact, "Contact Main Phone", info[1], info[0])
-    if sheet[BUSINESS_PHONE + str(row)].value != None or contact.business_phone != None:
-        info = keep_non_none(contact.business_phone, sheet[BUSINESS_PHONE + str(row)].value)
-        contact.business_phone = info[0]
-        contact.notes = add_to_notes(contact, "Business Phone", info[1], info[0])
-    if sheet[BUSINESS_PHONE2 + str(row)].value != None or contact.business_phone2 != None:
-        info = keep_non_none(contact.business_phone2, sheet[BUSINESS_PHONE2 + str(row)].value)
-        contact.business_phone2 = info[0]
-        contact.notes = add_to_notes(contact, "Business Phone2", info[1], info[0])
-    if sheet[BUSINESS_FAX + str(row)].value != None or contact.business_fax != None:
-        info = keep_non_none(contact.business_fax, sheet[BUSINESS_FAX + str(row)].value)
-        contact.business_fax = info[0]
-        contact.notes = add_to_notes(contact, "Business Fax", info[1], info[0])
-    if sheet[COMPANY + str(row)].value != None or contact.company != None:
-        info = keep_non_none(contact.company, sheet[COMPANY + str(row)].value)
-        contact.company = info[0]
-        contact.notes = add_to_notes(contact, "Company", info[1], info[0])
-    if sheet[JOB_TITLE + str(row)].value != None or contact.job_title != None:
-        info = keep_non_none(contact.job_title, sheet[JOB_TITLE + str(row)].value)
-        contact.job_title = info[0]
-        contact.notes = add_to_notes(contact, "Job Title", info[1], info[0])
-    if sheet[DEPARTMENT + str(row)].value != None or contact.department != None:
-        info = keep_non_none(contact.department, sheet[DEPARTMENT + str(row)].value)
-        contact.department = info[0]
-        contact.notes = add_to_notes(contact, "Department", info[1], info[0])
-    if sheet[OFFICE_LOCATION + str(row)].value != None or contact.office_location != None:
-        info = keep_non_none(contact.office_location, sheet[OFFICE_LOCATION + str(row)].value)
-        contact.office_location = info[0]
-        contact.notes = add_to_notes(contact, "Office Location", info[1], info[0])
-    if sheet[BUSINESS_ADDRESS + str(row)].value != None or contact.business_address != None:
-        info = keep_non_none(contact.business_address, sheet[BUSINESS_ADDRESS + str(row)].value)
-        contact.business_address = info[0]
-        contact.notes = add_to_notes(contact, "Business Address", info[1], info[0])
-    if sheet[BUSINESS_STREET + str(row)].value != None or contact.business_street != None:
-        info = keep_non_none(contact.business_street, sheet[BUSINESS_STREET + str(row)].value)
-        contact.business_street = info[0]
-        contact.notes = add_to_notes(contact, "Business Street", info[1], info[0])
-    if sheet[BUSINESS_CITY + str(row)].value != None or contact.business_city != None:
-        info = keep_non_none(contact.business_city, sheet[BUSINESS_CITY + str(row)].value)
-        contact.business_city = info[0]
-        contact.notes = add_to_notes(contact, "Business City", info[1], info[0])
-    if sheet[BUSINESS_STATE + str(row)].value != None or contact.business_state != None:
-        info = keep_non_none(contact.business_state, sheet[BUSINESS_STATE + str(row)].value)
-        contact.business_state = info[0]
-        contact.notes = add_to_notes(contact, "Business State", info[1], info[0])
-    if sheet[BUSINESS_POSTAL_CODE + str(row)].value != None or contact.business_postal_code != None:
-        info = keep_non_none(contact.business_postal_code, sheet[BUSINESS_POSTAL_CODE + str(row)].value)
-        contact.business_postal_code = info[0]
-        contact.notes = add_to_notes(contact, "Business Postal Code", info[1], info[0])
-    if sheet[BUSINESS_COUNTRY + str(row)].value != None or contact.business_country != None:
-        info = keep_non_none(contact.business_country, sheet[BUSINESS_COUNTRY + str(row)].value)
-        contact.business_country = info[0]
-        contact.notes = add_to_notes(contact, "Business Country", info[1], info[0])
-    if sheet[CATEGORIES + str(row)].value != None or contact.categories != None:
-        info = keep_non_none(contact.categories, sheet[CATEGORIES + str(row)].value)
-        contact.categories = info[0]
-        contact.notes = add_to_notes(contact, "Categories", info[1], info[0])
-    if sheet[CONNECTED_ON + str(row)].value != None or contact.connected_on != None:
-        info = keep_non_none(contact.connected_on, sheet[CONNECTED_ON + str(row)].value)
-        contact.connected_on = info[0]
-        contact.notes = add_to_notes(contact, "Connected On", info[1], info[0])
-    if sheet[LATITUDE + str(row)].value != None or contact.latitude != None:
-        info = keep_non_none(contact.latitude, sheet[LATITUDE + str(row)].value)
-        contact.latitude = info[0]
-        contact.notes = add_to_notes(contact, "Latitude", info[1], info[0])
-    if sheet[LONGITUDE + str(row)].value != None or contact.longitude != None:
-        info = keep_non_none(contact.longitude, sheet[LONGITUDE + str(row)].value)
-        contact.longitude = info[0]
-        contact.notes = add_to_notes(contact, "Longitude", info[1], info[0])
+    if sheet[NAME + str(row)].value != None or contact.name != None:
+        info = keep_non_none(contact.name, sheet[NAME + str(row)].value)
+        contact.name = info[0]
+        contact.notes = add_to_notes(contact, "Name", info[1], info[0])
+    if sheet[GIVEN_NAME + str(row)].value != None or contact.given_name != None:
+        info = keep_non_none(contact.given_name, sheet[GIVEN_NAME + str(row)].value)
+        contact.NAME = info[0]
+        contact.notes = add_to_notes(contact, "Given Name", info[1], info[0])
+    if sheet[ADDITIONAL_NAME + str(row)].value != None or contact.ADDITIONAL_NAME != None:
+        info = keep_non_none(contact.given_name, sheet[GIVEN_NAME + str(row)].value)
+        contact.NAME = info[0]
+        contact.notes = add_to_notes(contact, "Additional Name", info[1], info[0])
+    if sheet[FAMILY_NAME + str(row)].value != None or contact.family_name != None:
+        info = keep_non_none(contact.family_name, sheet[FAMILY_NAME + str(row)].value)
+        contact.GIVEN_NAME = info[0]
+        contact.notes = add_to_notes(contact, "Family Name", info[1], info[0])
+    if sheet[YOMI_NAME + str(row)].value != None or contact.YOMI_NAME != None:
+        info = keep_non_none(contact.family_name, sheet[FAMILY_NAME + str(row)].value)
+        contact.GIVEN_NAME = info[0]
+        contact.notes = add_to_notes(contact, "Yomi Name", info[1], info[0])
+    if sheet[GIVEN_NAME_YOMI + str(row)].value != None or contact.GIVEN_NAME_YOMI  != None:
+        info = keep_non_none(contact.given_name_yomi, sheet[GIVEN_NAME_YOMI + str(row)].value)
+        contact.GIVEN_NAME_YOMI = info[0]
+        contact.notes = add_to_notes(contact, "GIVEN_NAME_YOMI", info[1], info[0])
+    if sheet[ADDITIONAL_NAME_YOMI + str(row)].value != None or contact.ADDITIONAL_NAME_YOMI  != None:
+        info = keep_non_none(contact.additional_name_yomi, sheet[ADDITIONAL_NAME_YOMI + str(row)].value)
+        contact.ADDITIONAL_NAME_YOMI = info[0]
+        contact.notes = add_to_notes(contact, "ADDITIONAL_NAME_YOMI", info[1], info[0])
+    if sheet[FAMILY_NAME_YOMI + str(row)].value != None or contact.FAMILY_NAME_YOMI  != None:
+        info = keep_non_none(contact.family_name_yomi, sheet[FAMILY_NAME_YOMI + str(row)].value)
+        contact.FAMILY_NAME_YOMI = info[0]
+        contact.notes = add_to_notes(contact, "FAMILY_NAME_YOMI", info[1], info[0])
+    if sheet[NAME_PREFIX + str(row)].value != None or contact.NAME_PREFIX  != None:
+        info = keep_non_none(contact.name_prefix, sheet[NAME_PREFIX + str(row)].value)
+        contact.NAME_PREFIX = info[0]
+        contact.notes = add_to_notes(contact, "NAME_PREFIX", info[1], info[0])
+    if sheet[NAME_SUFFIX + str(row)].value != None or contact.NAME_SUFFIX  != None:
+        info = keep_non_none(contact.name_suffix, sheet[NAME_SUFFIX + str(row)].value)
+        contact.NAME_SUFFIX = info[0]
+        contact.notes = add_to_notes(contact, "NAME_SUFFIX", info[1], info[0])
+    if sheet[INITIALS + str(row)].value != None or contact.INITIALS  != None:
+        info = keep_non_none(contact.initials, sheet[INITIALS + str(row)].value)
+        contact.INITIALS = info[0]
+        contact.notes = add_to_notes(contact, "INITIALS", info[1], info[0])
+    if sheet[NICKNAME + str(row)].value != None or contact.NICKNAME  != None:
+        info = keep_non_none(contact.nickname, sheet[NICKNAME + str(row)].value)
+        contact.NICKNAME = info[0]
+        contact.notes = add_to_notes(contact, "NICKNAME", info[1], info[0])
+    if sheet[SHORT_NAME + str(row)].value != None or contact.SHORT_NAME  != None:
+        info = keep_non_none(contact.short_name, sheet[SHORT_NAME + str(row)].value)
+        contact.SHORT_NAME = info[0]
+        contact.notes = add_to_notes(contact, "SHORT_NAME", info[1], info[0])
+    if sheet[MAIDEN_NAME + str(row)].value != None or contact.MAIDEN_NAME  != None:
+        info = keep_non_none(contact.maiden_name, sheet[MAIDEN_NAME + str(row)].value)
+        contact.MAIDEN_NAME = info[0]
+        contact.notes = add_to_notes(contact, "MAIDEN_NAME", info[1], info[0])
+    if sheet[BIRTHDAY + str(row)].value != None or contact.BIRTHDAY  != None:
+        info = keep_non_none(contact.birthday, sheet[BIRTHDAY + str(row)].value)
+        contact.BIRTHDAY = info[0]
+        contact.notes = add_to_notes(contact, "BIRTHDAY", info[1], info[0])
+    if sheet[GENDER + str(row)].value != None or contact.GENDER  != None:
+        info = keep_non_none(contact.gender, sheet[GENDER + str(row)].value)
+        contact.GENDER = info[0]
+        contact.notes = add_to_notes(contact, "GENDER", info[1], info[0])
+    if sheet[LOCATION + str(row)].value != None or contact.LOCATION  != None:
+        info = keep_non_none(contact.location, sheet[LOCATION + str(row)].value)
+        contact.LOCATION = info[0]
+        contact.notes = add_to_notes(contact, "LOCATION", info[1], info[0])
+    if sheet[BILLING_INFORMATION + str(row)].value != None or contact.BILLING_INFORMATION  != None:
+        info = keep_non_none(contact.billing_information, sheet[BILLING_INFORMATION + str(row)].value)
+        contact.BILLING_INFORMATION = info[0]
+        contact.notes = add_to_notes(contact, "BILLING_INFORMATION", info[1], info[0])
+    if sheet[DIRECTORY_SERVER + str(row)].value != None or contact.DIRECTORY_SERVER  != None:
+        info = keep_non_none(contact.directory_server, sheet[DIRECTORY_SERVER + str(row)].value)
+        contact.DIRECTORY_SERVER = info[0]
+        contact.notes = add_to_notes(contact, "DIRECTORY_SERVER", info[1], info[0])
+    if sheet[MILEAGE + str(row)].value != None or contact.MILEAGE  != None:
+        info = keep_non_none(contact.mileage, sheet[MILEAGE + str(row)].value)
+        contact.MILEAGE = info[0]
+        contact.notes = add_to_notes(contact, "MILEAGE", info[1], info[0])
+    if sheet[OCCUPATION + str(row)].value != None or contact.OCCUPATION  != None:
+        info = keep_non_none(contact.occupation, sheet[OCCUPATION + str(row)].value)
+        contact.OCCUPATION = info[0]
+        contact.notes = add_to_notes(contact, "OCCUPATION", info[1], info[0])
+    if sheet[HOBBY + str(row)].value != None or contact.HOBBY  != None:
+        info = keep_non_none(contact.hobby, sheet[HOBBY + str(row)].value)
+        contact.HOBBY = info[0]
+        contact.notes = add_to_notes(contact, "HOBBY", info[1], info[0])
+    if sheet[SENSITIVITY + str(row)].value != None or contact.SENSITIVITY  != None:
+        info = keep_non_none(contact.sensitivity, sheet[SENSITIVITY + str(row)].value)
+        contact.SENSITIVITY = info[0]
+        contact.notes = add_to_notes(contact, "SENSITIVITY", info[1], info[0])
+    if sheet[PRIORITY + str(row)].value != None or contact.PRIORITY  != None:
+        info = keep_non_none(contact.priority, sheet[PRIORITY + str(row)].value)
+        contact.PRIORITY = info[0]
+        contact.notes = add_to_notes(contact, "PRIORITY", info[1], info[0])
+    if sheet[SUBJECT + str(row)].value != None or contact.SUBJECT  != None:
+        info = keep_non_none(contact.subject, sheet[SUBJECT + str(row)].value)
+        contact.SUBJECT = info[0]
+        contact.notes = add_to_notes(contact, "SUBJECT", info[1], info[0])
+    if sheet[GROUP_MEMBERSHIP + str(row)].value != None or contact.GROUP_MEMBERSHIP  != None:
+        info = keep_non_none(contact.group_membership, sheet[GROUP_MEMBERSHIP + str(row)].value)
+        contact.GROUP_MEMBERSHIP = info[0]
+        contact.notes = add_to_notes(contact, "GROUP_MEMBERSHIP", info[1], info[0])
+    if sheet[EMAIL1_TYPE + str(row)].value != None or contact.EMAIL1_TYPE  != None:
+        info = keep_non_none(contact.email1_type, sheet[EMAIL1_TYPE + str(row)].value)
+        contact.EMAIL1_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "EMAIL1_TYPE", info[1], info[0])
+    if sheet[EMAIL1_VALUE + str(row)].value != None or contact.EMAIL1_VALUE  != None:
+        info = keep_non_none(contact.email1_value, sheet[EMAIL1_VALUE + str(row)].value)
+        contact.EMAIL1_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "EMAIL1_VALUE", info[1], info[0])
+    if sheet[EMAIL2_TYPE + str(row)].value != None or contact.EMAIL2_TYPE  != None:
+        info = keep_non_none(contact.email2_type, sheet[EMAIL2_TYPE + str(row)].value)
+        contact.EMAIL2_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "EMAIL2_TYPE", info[1], info[0])
+    if sheet[EMAIL2_VALUE + str(row)].value != None or contact.EMAIL2_VALUE  != None:
+        info = keep_non_none(contact.email2_value, sheet[EMAIL2_VALUE + str(row)].value)
+        contact.EMAIL2_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "EMAIL2_VALUE", info[1], info[0])
+    if sheet[EMAIL3_TYPE + str(row)].value != None or contact.EMAIL3_TYPE  != None:
+        info = keep_non_none(contact.email3_type, sheet[EMAIL3_TYPE + str(row)].value)
+        contact.EMAIL3_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "EMAIL3_TYPE", info[1], info[0])
+    if sheet[EMAIL3_VALUE + str(row)].value != None or contact.EMAIL3_VALUE  != None:
+        info = keep_non_none(contact.email3_value, sheet[EMAIL3_VALUE + str(row)].value)
+        contact.EMAIL3_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "EMAIL3_VALUE", info[1], info[0])
+    if sheet[EMAIL4_TYPE + str(row)].value != None or contact.EMAIL4_TYPE  != None:
+        info = keep_non_none(contact.email4_type, sheet[EMAIL4_TYPE + str(row)].value)
+        contact.EMAIL4_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "EMAIL4_TYPE", info[1], info[0])
+    if sheet[EMAIL4_VALUE + str(row)].value != None or contact.EMAIL4_VALUE  != None:
+        info = keep_non_none(contact.email4_value, sheet[EMAIL4_VALUE + str(row)].value)
+        contact.EMAIL4_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "EMAIL4_VALUE", info[1], info[0])
+    if sheet[EMAIL5_TYPE + str(row)].value != None or contact.EMAIL5_TYPE  != None:
+        info = keep_non_none(contact.email5_type, sheet[EMAIL5_TYPE + str(row)].value)
+        contact.EMAIL5_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "EMAIL5_TYPE", info[1], info[0])
+    if sheet[EMAIL5_VALUE + str(row)].value != None or contact.EMAIL5_VALUE  != None:
+        info = keep_non_none(contact.email5_value, sheet[EMAIL5_VALUE + str(row)].value)
+        contact.EMAIL5_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "EMAIL5_VALUE", info[1], info[0])
+    if sheet[IM1_TYPE + str(row)].value != None or contact.IM1_TYPE  != None:
+        info = keep_non_none(contact.im1_type, sheet[IM1_TYPE + str(row)].value)
+        contact.IM1_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "IM1_TYPE", info[1], info[0])
+    if sheet[IM1_SERVICE + str(row)].value != None or contact.IM1_SERVICE  != None:
+        info = keep_non_none(contact.im1_service, sheet[IM1_SERVICE + str(row)].value)
+        contact.IM1_SERVICE = info[0]
+        contact.notes = add_to_notes(contact, "IM1_SERVICE", info[1], info[0])
+    if sheet[IM1_VALUE + str(row)].value != None or contact.IM1_VALUE  != None:
+        info = keep_non_none(contact.im1_value, sheet[IM1_VALUE + str(row)].value)
+        contact.IM1_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "IM1_VALUE", info[1], info[0])
+    if sheet[PHONE1_TYPE + str(row)].value != None or contact.PHONE1_TYPE  != None:
+        info = keep_non_none(contact.phone1_type, sheet[PHONE1_TYPE + str(row)].value)
+        contact.PHONE1_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "PHONE1_TYPE", info[1], info[0])
+    if sheet[PHONE1_VALUE + str(row)].value != None or contact.PHONE1_VALUE  != None:
+        info = keep_non_none(contact.phone1_value, sheet[PHONE1_VALUE + str(row)].value)
+        contact.PHONE1_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "PHONE1_VALUE", info[1], info[0])
+    if sheet[PHONE2_TYPE + str(row)].value != None or contact.PHONE2_TYPE  != None:
+        info = keep_non_none(contact.phone2_type, sheet[PHONE2_TYPE + str(row)].value)
+        contact.PHONE2_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "PHONE2_TYPE", info[1], info[0])
+    if sheet[PHONE2_VALUE + str(row)].value != None or contact.PHONE2_VALUE  != None:
+        info = keep_non_none(contact.phone2_value, sheet[PHONE2_VALUE + str(row)].value)
+        contact.PHONE2_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "PHONE2_VALUE", info[1], info[0])
+    if sheet[PHONE3_TYPE + str(row)].value != None or contact.PHONE3_TYPE  != None:
+        info = keep_non_none(contact.phone3_type, sheet[PHONE3_TYPE + str(row)].value)
+        contact.PHONE3_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "PHONE3_TYPE", info[1], info[0])
+    if sheet[PHONE3_VALUE + str(row)].value != None or contact.PHONE3_VALUE  != None:
+        info = keep_non_none(contact.phone3_value, sheet[PHONE3_VALUE + str(row)].value)
+        contact.PHONE3_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "PHONE3_VALUE", info[1], info[0])
+    if sheet[PHONE4_TYPE + str(row)].value != None or contact.PHONE4_TYPE  != None:
+        info = keep_non_none(contact.phone4_type, sheet[PHONE4_TYPE + str(row)].value)
+        contact.PHONE4_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "PHONE4_TYPE", info[1], info[0])
+    if sheet[PHONE4_VALUE + str(row)].value != None or contact.PHONE4_VALUE  != None:
+        info = keep_non_none(contact.phone4_value, sheet[PHONE4_VALUE + str(row)].value)
+        contact.PHONE4_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "PHONE4_VALUE", info[1], info[0])
+    if sheet[PHONE5_TYPE + str(row)].value != None or contact.PHONE5_TYPE  != None:
+        info = keep_non_none(contact.phone5_type, sheet[PHONE5_TYPE + str(row)].value)
+        contact.PHONE5_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "PHONE5_TYPE", info[1], info[0])
+    if sheet[PHONE5_VALUE + str(row)].value != None or contact.PHONE5_VALUE  != None:
+        info = keep_non_none(contact.phone5_value, sheet[PHONE5_VALUE + str(row)].value)
+        contact.PHONE5_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "PHONE5_VALUE", info[1], info[0])
+    if sheet[ADDRESS1_TYPE + str(row)].value != None or contact.ADDRESS1_TYPE  != None:
+        info = keep_non_none(contact.address1_type, sheet[ADDRESS1_TYPE + str(row)].value)
+        contact.ADDRESS1_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS1_TYPE", info[1], info[0])
+    if sheet[ADDRESS1_FORMATED + str(row)].value != None or contact.ADDRESS1_FORMATED  != None:
+        info = keep_non_none(contact.address1_formated, sheet[ADDRESS1_FORMATED + str(row)].value)
+        contact.ADDRESS1_FORMATED = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS1_FORMATED", info[1], info[0])
+    if sheet[ADDRESS1_STREET + str(row)].value != None or contact.ADDRESS1_STREET  != None:
+        info = keep_non_none(contact.address1_street, sheet[ADDRESS1_STREET + str(row)].value)
+        contact.ADDRESS1_STREET = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS1_STREET", info[1], info[0])
+    if sheet[ADDRESS1_CITY + str(row)].value != None or contact.ADDRESS1_CITY  != None:
+        info = keep_non_none(contact.address1_city, sheet[ADDRESS1_CITY + str(row)].value)
+        contact.ADDRESS1_CITY = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS1_CITY", info[1], info[0])
+    if sheet[ADDRESS1_POBOX + str(row)].value != None or contact.ADDRESS1_POBOX  != None:
+        info = keep_non_none(contact.address1_pobox, sheet[ADDRESS1_POBOX + str(row)].value)
+        contact.ADDRESS1_POBOX = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS1_POBOX", info[1], info[0])
+    if sheet[ADDRESS1_REGION + str(row)].value != None or contact.ADDRESS1_REGION  != None:
+        info = keep_non_none(contact.address1_region, sheet[ADDRESS1_REGION + str(row)].value)
+        contact.ADDRESS1_REGION = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS1_REGION", info[1], info[0])
+    if sheet[ADDRESS1_POSTAL_CODE + str(row)].value != None or contact.ADDRESS1_POSTAL_CODE  != None:
+        info = keep_non_none(contact.address1_postal_code, sheet[ADDRESS1_POSTAL_CODE + str(row)].value)
+        contact.ADDRESS1_POSTAL_CODE = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS1_POSTAL_CODE", info[1], info[0])
+    if sheet[ADDRESS1_COUNTRY + str(row)].value != None or contact.ADDRESS1_COUNTRY  != None:
+        info = keep_non_none(contact.address1_country, sheet[ADDRESS1_COUNTRY + str(row)].value)
+        contact.ADDRESS1_COUNTRY = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS1_COUNTRY", info[1], info[0])
+    if sheet[ADDRESS1_EXTENDED_ADDRESS + str(row)].value != None or contact.ADDRESS1_EXTENDED_ADDRESS  != None:
+        info = keep_non_none(contact.address1_extended_address, sheet[address1_extended_address + str(row)].value)
+        contact.address1_extended_address = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS1_EXTENDED_ADDRESS", info[1], info[0])
+    if sheet[ADDRESS2_TYPE + str(row)].value != None or contact.ADDRESS2_TYPE  != None:
+        info = keep_non_none(contact.address2_type, sheet[ADDRESS2_TYPE + str(row)].value)
+        contact.address2_type = info[0]
+        contact.notes = add_to_notes(contact, "Address2 Type", info[1], info[0])
+    if sheet[ADDRESS2_FORMATED + str(row)].value != None or contact.ADDRESS2_FORMATED  != None:
+        info = keep_non_none(contact.address2_formated, sheet[ADDRESS2_FORMATED + str(row)].value)
+        contact.ADDRESS2_FORMATED = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS2_FORMATED", info[1], info[0])
+    if sheet[ADDRESS2_STREET + str(row)].value != None or contact.ADDRESS2_STREET  != None:
+        info = keep_non_none(contact.address2_street, sheet[ADDRESS2_STREET + str(row)].value)
+        contact.ADDRESS2_STREET = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS2_STREET", info[1], info[0])
+    if sheet[ADDRESS2_CITY + str(row)].value != None or contact.ADDRESS2_CITY  != None:
+        info = keep_non_none(contact.address2_city, sheet[ADDRESS2_CITY + str(row)].value)
+        contact.ADDRESS2_CITY = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS2_CITY", info[1], info[0])
+    if sheet[ADDRESS2_POBOX + str(row)].value != None or contact.ADDRESS2_POBOX  != None:
+        info = keep_non_none(contact.address2_pobox, sheet[ADDRESS2_POBOX + str(row)].value)
+        contact.ADDRESS2_POBOX = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS2_POBOX", info[1], info[0])
+    if sheet[ADDRESS2_REGION + str(row)].value != None or contact.ADDRESS2_REGION  != None:
+        info = keep_non_none(contact.address2_region, sheet[ADDRESS2_REGION + str(row)].value)
+        contact.ADDRESS2_REGION = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS2_REGION", info[1], info[0])
+    if sheet[ADDRESS2_POSTAL_CODE + str(row)].value != None or contact.ADDRESS2_POSTAL_CODE  != None:
+        info = keep_non_none(contact.address2_postal_code, sheet[ADDRESS2_POSTAL_CODE + str(row)].value)
+        contact.ADDRESS2_POSTAL_CODE = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS2_POSTAL_CODE", info[1], info[0])
+    if sheet[ADDRESS2_COUNTRY + str(row)].value != None or contact.ADDRESS2_COUNTRY  != None:
+        info = keep_non_none(contact.address2_country, sheet[ADDRESS2_COUNTRY + str(row)].value)
+        contact.ADDRESS2_COUNTRY = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS2_COUNTRY", info[1], info[0])
+    if sheet[ADDRESS2_EXTENDED_ADDRESS + str(row)].value != None or contact.ADDRESS2_EXTENDED_ADDRESS  != None:
+        info = keep_non_none(contact.address2_extended_address , sheet[ADDRESS2_EXTENDED_ADDRESS + str(row)].value)
+        contact.ADDRESS2_EXTENDED_ADDRESS = info[0]
+        contact.notes = add_to_notes(contact, "Address 2 Extended Address", info[1], info[0])
+    if sheet[ADDRESS3_TYPE + str(row)].value != None or contact.ADDRESS3_TYPE  != None:
+        info = keep_non_none(contact.address3_type, sheet[ADDRESS3_TYPE + str(row)].value)
+        contact.ADDRESS3_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS3_TYPE", info[1], info[0])
+    if sheet[ADDRESS3_FORMATED + str(row)].value != None or contact.ADDRESS3_FORMATED  != None:
+        info = keep_non_none(contact.address3_formated, sheet[ADDRESS3_FORMATED + str(row)].value)
+        contact.ADDRESS3_FORMATED = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS3_FORMATED", info[1], info[0])
+    if sheet[ADDRESS3_STREET + str(row)].value != None or contact.ADDRESS3_STREET  != None:
+        info = keep_non_none(contact.address3_street, sheet[ADDRESS3_STREET + str(row)].value)
+        contact.ADDRESS3_STREET = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS3_STREET", info[1], info[0])
+    if sheet[ADDRESS3_CITY + str(row)].value != None or contact.ADDRESS3_CITY  != None:
+        info = keep_non_none(contact.address3_city, sheet[ADDRESS3_CITY + str(row)].value)
+        contact.ADDRESS3_CITY = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS3_CITY", info[1], info[0])
+    if sheet[ADDRESS3_POBOX + str(row)].value != None or contact.ADDRESS3_POBOX  != None:
+        info = keep_non_none(contact.address3_pobox, sheet[ADDRESS3_POBOX + str(row)].value)
+        contact.ADDRESS3_POBOX = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS3_POBOX", info[1], info[0])
+    if sheet[ADDRESS3_REGION + str(row)].value != None or contact.ADDRESS3_REGION  != None:
+        info = keep_non_none(contact.address3_region, sheet[ADDRESS3_REGION + str(row)].value)
+        contact.ADDRESS3_REGION = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS3_REGION", info[1], info[0])
+    if sheet[ADDRESS3_POSTAL_CODE + str(row)].value != None or contact.ADDRESS3_POSTAL_CODE  != None:
+        info = keep_non_none(contact.address3_postal_code, sheet[ADDRESS3_POSTAL_CODE + str(row)].value)
+        contact.ADDRESS3_POSTAL_CODE = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS3_POSTAL_CODE", info[1], info[0])
+    if sheet[ADDRESS3_COUNTRY + str(row)].value != None or contact.ADDRESS3_COUNTRY  != None:
+        info = keep_non_none(contact.address3_country, sheet[ADDRESS3_COUNTRY + str(row)].value)
+        contact.ADDRESS3_COUNTRY = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS3_COUNTRY", info[1], info[0])
+    if sheet[ADDRESS3_EXTENDED_ADDRESS + str(row)].value != None or contact.ADDRESS3_EXTENDED_ADDRESS  != None:
+        info = keep_non_none(contact.address3_extended_address, sheet[ADDRESS3_EXTENDED_ADDRESS + str(row)].value)
+        contact.ADDRESS3_EXTENDED_ADDRESS = info[0]
+        contact.notes = add_to_notes(contact, "ADDRESS3_EXTENDED_ADDRESS", info[1], info[0])
+    if sheet[ORGANIZATION1_TYPE + str(row)].value != None or contact.ORGANIZATION1_TYPE  != None:
+        info = keep_non_none(contact.organization1_type, sheet[ORGANIZATION1_TYPE + str(row)].value)
+        contact.ORGANIZATION1_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "ORGANIZATION1_TYPE", info[1], info[0])
+    if sheet[ORGANIZATION1_NAME + str(row)].value != None or contact.ORGANIZATION1_NAME  != None:
+        info = keep_non_none(contact.organization1_name, sheet[ORGANIZATION1_NAME + str(row)].value)
+        contact.ORGANIZATION1_NAME = info[0]
+        contact.notes = add_to_notes(contact, "ORGANIZATION1_NAME", info[1], info[0])
+    if sheet[ORGANIZATION1_YOMI_NAME + str(row)].value != None or contact.ORGANIZATION1_YOMI_NAME  != None:
+        info = keep_non_none(contact.organization1_yomi_name, sheet[ORGANIZATION1_YOMI_NAME + str(row)].value)
+        contact.ORGANIZATION1_YOMI_NAME = info[0]
+        contact.notes = add_to_notes(contact, "ORGANIZATION1_YOMI_NAME", info[1], info[0])
+    if sheet[ORGANIZATION1_TITLE + str(row)].value != None or contact.ORGANIZATION1_TITLE  != None:
+        info = keep_non_none(contact.organization1_title, sheet[ORGANIZATION1_TITLE + str(row)].value)
+        contact.ORGANIZATION1_TITLE = info[0]
+        contact.notes = add_to_notes(contact, "ORGANIZATION1_TITLE", info[1], info[0])
+    if sheet[ORGANIZATION1_DEPARTMENT + str(row)].value != None or contact.ORGANIZATION1_DEPARTMENT  != None:
+        info = keep_non_none(contact.organization1_department, sheet[ORGANIZATION1_DEPARTMENT + str(row)].value)
+        contact.ORGANIZATION1_DEPARTMENT = info[0]
+        contact.notes = add_to_notes(contact, "ORGANIZATION1_DEPARTMENT", info[1], info[0])
+    if sheet[ORGANIZATION1_SYMBOL + str(row)].value != None or contact.ORGANIZATION1_SYMBOL  != None:
+        info = keep_non_none(contact.organization1_symbol, sheet[ORGANIZATION1_SYMBOL + str(row)].value)
+        contact.ORGANIZATION1_SYMBOL = info[0]
+        contact.notes = add_to_notes(contact, "ORGANIZATION1_SYMBOL", info[1], info[0])
+    if sheet[ORGANIZATION1_LOCATION + str(row)].value != None or contact.ORGANIZATION1_LOCATION  != None:
+        info = keep_non_none(contact.organization1_location, sheet[ORGANIZATION1_LOCATION + str(row)].value)
+        contact.ORGANIZATION1_LOCATION = info[0]
+        contact.notes = add_to_notes(contact, "ORGANIZATION1_LOCATION", info[1], info[0])
+    if sheet[ORGANIZATION1_JOB_DESCRIPTION + str(row)].value != None or contact.ORGANIZATION1_JOB_DESCRIPTION  != None:
+        info = keep_non_none(contact.organization1_job_description, sheet[ORGANIZATION1_JOB_DESCRIPTION + str(row)].value)
+        contact.ORGANIZATION1_JOB_DESCRIPTION = info[0]
+        contact.notes = add_to_notes(contact, "ORGANIZATION1_JOB_DESCRIPTION", info[1], info[0])
+    if sheet[RELATION1_TYPE + str(row)].value != None or contact.RELATION1_TYPE  != None:
+        info = keep_non_none(contact.relation1_type, sheet[RELATION1_TYPE + str(row)].value)
+        contact.RELATION1_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "RELATION1_TYPE", info[1], info[0])
+    if sheet[RELATION1_VALUE + str(row)].value != None or contact.RELATION1_VALUE  != None:
+        info = keep_non_none(contact.relation1_value, sheet[RELATION1_VALUE + str(row)].value)
+        contact.RELATION1_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "RELATION1_VALUE", info[1], info[0])
+    if sheet[EXTERNAL_ID1_TYPE + str(row)].value != None or contact.EXTERNAL_ID1_TYPE  != None:
+        info = keep_non_none(contact.external_id1_type, sheet[EXTERNAL_ID1_TYPE + str(row)].value)
+        contact.EXTERNAL_ID1_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "EXTERNAL_ID1_TYPE", info[1], info[0])
+    if sheet[EXTERNAl_ID1_VALUE + str(row)].value != None or contact.EXTERNAl_ID1_VALUE  != None:
+        info = keep_non_none(contact.external_id1_value, sheet[EXTERNAl_ID1_VALUE + str(row)].value)
+        contact.EXTERNAl_ID1_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "EXTERNAl_ID1_VALUE", info[1], info[0])
+    if sheet[WEBSITE1_TYPE + str(row)].value != None or contact.WEBSITE1_TYPE  != None:
+        info = keep_non_none(contact.website1_type, sheet[WEBSITE1_TYPE + str(row)].value)
+        contact.WEBSITE1_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "WEBSITE1_TYPE", info[1], info[0])
+    if sheet[WEBSITE1_VALUE + str(row)].value != None or contact.WEBSITE1_VALUE  != None:
+        info = keep_non_none(contact.website1_value, sheet[WEBSITE1_VALUE + str(row)].value)
+        contact.WEBSITE1_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "WEBSITE1_VALUE", info[1], info[0])
+    if sheet[CALENDAR_LINK1_TYPE + str(row)].value != None or contact.CALENDAR_LINK1_TYPE  != None:
+        info = keep_non_none(contact.calendar_link1_type, sheet[CALENDAR_LINK1_TYPE + str(row)].value)
+        contact.CALENDAR_LINK1_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "CALENDAR_LINK1_TYPE", info[1], info[0])
+    if sheet[CALENDAR_LINK1_VALUE + str(row)].value != None or contact.CALENDAR_LINK1_VALUE  != None:
+        info = keep_non_none(contact.calendar_link1_value, sheet[CALENDAR_LINK1_VALUE + str(row)].value)
+        contact.CALENDAR_LINK1_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "CALENDAR_LINK1_VALUE", info[1], info[0])
+    if sheet[JOT1_TYPE + str(row)].value != None or contact.JOT1_TYPE  != None:
+        info = keep_non_none(contact.jot1_type, sheet[JOT1_TYPE + str(row)].value)
+        contact.JOT1_TYPE = info[0]
+        contact.notes = add_to_notes(contact, "JOT1_TYPE", info[1], info[0])
+    if sheet[JOT1_VALUE + str(row)].value != None or contact.JOT1_VALUE  != None:
+        info = keep_non_none(contact.jot1_value, sheet[JOT1_VALUE + str(row)].value)
+        contact.JOT1_VALUE = info[0]
+        contact.notes = add_to_notes(contact, "JOT1_VALUE", info[1], info[0])
+
     return contact
 #}}}
 
@@ -515,26 +1035,23 @@ def combine_contacts(fileName1, sheetName1, fileName2, sheetName2):
     # rm = out.get_sheet_by_name('Sheet')
     # out.remove_sheet(rm)
 
-    sheet1[CONNECTED_ON           + '1'].value = "Connected On"
-
     first = 2
     last = sheet2.max_row
     start = sheet1.max_row
 
+    '''
     for row in range (first, start + 1):
         sheet1[CATEGORIES + str(row)].value = str(sheet1[CATEGORIES + str(row)].value) + ":" + str(sheet1['AH' + str(row)].value) + ":" + str(sheet1['AI' + str(row)].value) + ":" + str(sheet1['AJ' + str(row)].value)
-        sheet1["AH" + str(row)].value = ""
-        sheet1["AI" + str(row)].value = ""
-        sheet1["AJ" + str(row)].value = ""
+    '''
 
     for row in range (first, last + 1):
-        sheet1[FIRST_NAME             + str(row + start)].value = sheet2["A" + str(row)].value
-        sheet1[LAST_NAME              + str(row + start)].value = sheet2["B" + str(row)].value
-        sheet1[EMAIL_ADDRESS          + str(row + start)].value = sheet2["C" + str(row)].value
-        sheet1[COMPANY                + str(row + start)].value = sheet2["D" + str(row)].value
-        sheet1[JOB_TITLE              + str(row + start)].value = sheet2["E" + str(row)].value
-        sheet1[CATEGORIES             + str(row + start)].value = "LinkedIn Merge 5/14/18"
-        sheet1[CONNECTED_ON           + str(row + start)].value = sheet2["F" + str(row)].value
+        sheet1[NAME + str(row + start)].value = sheet2["A" + str(row)].value + " " + sheet2["B" + str(row)].value
+        sheet1[GIVEN_NAME + str(row + start)].value = sheet2["A" + str(row)].value
+        sheet1[FAMILY_NAME + str(row + start)].value = sheet2["B" + str(row)].value
+        sheet1[EMAIL1_VALUE + str(row + start)].value = sheet2["C" + str(row)].value
+        sheet1[ORGANIZATION1_NAME + str(row + start)].value = sheet2["D" + str(row)].value
+        sheet1[ORGANIZATION1_TITLE + str(row + start)].value = sheet2["E" + str(row)].value
+        sheet1[GROUP_MEMBERSHIP + str(row + start)].value = sheet2["F" + str(row)].value
 
     wb1.save("combined.xlsx")
 
@@ -1018,8 +1535,8 @@ def fix_country_names(fileName, sheetName):
 #}}}
 
 # combine_contacts(2, 100)
-# combine_contacts("gmail", "contacts", 'linkedin', 'contacts')
+combine_contacts("google", "contacts", 'linkedIn', 'contacts')
 # remove_duplicate_contacts("combined", "contacts", 2, 6903)
 # combine_with_CMA("CMAShipping", "Attendees", "gli", "contacts")
 # standardize_USA(sys.argv)
-remove_duplicate_contacts(sys.argv)
+# remove_duplicate_contacts(sys.argv)

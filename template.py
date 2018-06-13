@@ -14,9 +14,9 @@ def template():
 
     # Uses sys.argv to pass in arguments
     args = sys.argv[1:]
-    firstArg = args[1]
-    numberArg = int(args[2])
-    otherArgs = args[3:]
+    firstArg = args[0]
+    numberArg = int(args[1])
+    otherArgs = args[2:]
 
     # Open a file with sys.argv
     with open(sys.argv[1]) as f:

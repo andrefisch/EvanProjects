@@ -12,3 +12,5 @@
 *.csv
 *emails.txt
 *__pycache__/
+
+*keys.py
