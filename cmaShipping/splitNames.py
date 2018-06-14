@@ -70,7 +70,7 @@ def determine_names(listy):
     return dicty
 #}}}
 
-# formatting_phone_number(number)
+# formatting_phone_name(name)
 #{{{
 def formatting_name(name):
     original = name

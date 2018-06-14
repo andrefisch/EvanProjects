@@ -1,0 +1,5 @@
+# search and replace in a directory
+find /home/user/ -type f | xargs sed -i  's/cat/dog/g'
+
+# find all files of a specific extension recursively
+find . -type f -name "*py"
