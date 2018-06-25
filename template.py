@@ -4,6 +4,9 @@ import pygame
 import sys
 import time
 
+# GETS ALL COLUMNS FROM THIS ROW
+# print(sheet[1])
+
 def template():
     # Get all files of a specific type in this directory
     files = [x for x in os.listdir() if x.endswith(".xlsx")]
@@ -45,8 +48,9 @@ def template():
 
 
     # Open an existing excel file
-    wb = openpyxl.load_workbook(fileName + ".xlsx")
+    wb = openpyxl.load_workbook(fileName)
     sheet = wb[sheetName]
+    sheet = wb.worksheets[0]
 
     #################
     # DO STUFF HERE #
@@ -62,7 +66,4 @@ def template():
     time.sleep(5)
     pygame.mixer.music.stop()
 
-def testing():
-    return sys.argv
-
-print(testing())
+print(template())
