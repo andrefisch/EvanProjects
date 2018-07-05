@@ -17,8 +17,8 @@ def template():
     sheet2 = wb2.worksheets[0]
 
     # if 'sheet' appears randomly we can delete it
-    rm = out.get_sheet_by_name('Sheet')
-    out.remove_sheet(rm)
+    rm = out['Sheet']
+    out.remove(rm)
 
     #################
     # DO STUFF HERE #
@@ -26,21 +26,25 @@ def template():
     DATE   = "A"
     STARS  = "B"
     REVIEW = "C"
+    SOURCE = "D"
     outsheet[DATE   + '1'].value = "DATE"
     outsheet[STARS  + '1'].value = "STARS"
     outsheet[REVIEW + '1'].value = "REVIEW"
+    outsheet[SOURCE + '1'].value = "SOURCE"
     
     row = 2
     for i in range(2, sheet1.max_row + 1):
         outsheet[DATE   + str(row)].value = sheet1[DATE   + str(i)].value
         outsheet[STARS  + str(row)].value = sheet1[STARS  + str(i)].value
         outsheet[REVIEW + str(row)].value = sheet1[REVIEW + str(i)].value
+        outsheet[SOURCE + str(row)].value = sheet1[SOURCE + str(i)].value
         row = row + 1
 
     for i in range(2, sheet2.max_row + 1):
         outsheet[DATE   + str(row)].value = sheet2[DATE   + str(i)].value
         outsheet[STARS  + str(row)].value = sheet2[STARS  + str(i)].value
         outsheet[REVIEW + str(row)].value = sheet2[REVIEW + str(i)].value
+        outsheet[SOURCE + str(row)].value = sheet2[SOURCE + str(i)].value
         row = row + 1
 
     out.save("combined.xlsx")

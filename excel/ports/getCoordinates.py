@@ -51,8 +51,9 @@ def getCoordinates():
           # otherwise do nothing
       # otherwise nothing to do
     '''
-    first = 37481
-    last = sheet.max_row
+    first = 102705
+    last = sheet.max_row + 1
+    step = 50
     # last = 300
     success       = 0
     fail          = 0
@@ -63,42 +64,51 @@ def getCoordinates():
     threshold     = requests
     addresses     = {}
     coords        = []
-    for row in range (first, last + 1):
-        if (threshold <= requests_sent):
-            print(str(threshold) + " requests were sent")
-            break
-        coords = []
-        # report = str(row) + ": " + str(format((row - first) / (last - first) * 100.00, '.2f')) + "%: " + sheet[COUNTRY_CODE + str(row)].value + " " + sheet[PORT_CODE + str(row)].value
-        report = str(row) + ": " + str(requests_sent + 1) + ": " + str(sheet[COUNTRY_CODE + str(row)].value) + " " + str(sheet[PORT_CODE + str(row)].value)
-        address      = sheet[DESCRIPTION + str(row)].value + " port"
-        listedCoords = sheet[LATLONG     + str(row)].value
-        # If there is an address listed in the spreadsheet
-        # check to see if address is in address list
-        if address != None and listedCoords == None:
-            # if it is, fill in the coordinates
-            requests_sent = requests_sent + 1
-            report = report + "   ASKING GOOGLE: "
-            coords = getLatLng(address)
-            # saving every 25 entries gives google a break and prevents loss of data thru crashing
-            if requests_sent > 0 and requests_sent % 25 == 0:
-                print("Taking a break to save...")
-                wb.save("betterFile.xlsx")
-            # if we are given valid coordinates
-            if coords != None and coords != []:
-                success = success + 1
-                report = report + "SUCCESS: " 
-                report = report + str(coords)
-                # write them in the spreadsheet
-                sheet[LATLONG  + str(row)].value = str(coords[0]) + " " + str(coords[1])
+    # If we reach the end start over at the beginning
+    while True:
+        for row in range (first, last):
+            # If we reach the threshold break the loop
+            if (threshold <= requests_sent):
+                print(str(threshold) + " requests were sent")
+                break
+            coords = []
+            # report = str(row) + ": " + str(format((row - first) / (last - first) * 100.00, '.2f')) + "%: " + sheet[COUNTRY_CODE + str(row)].value + " " + sheet[PORT_CODE + str(row)].value
+            report = str(row) + ": " + str(requests_sent + 1) + ": " + str(sheet[COUNTRY_CODE + str(row)].value) + " " + str(sheet[PORT_CODE + str(row)].value)
+            address      = sheet[DESCRIPTION + str(row)].value + " port"
+            listedCoords = sheet[LATLONG     + str(row)].value
+            # If there is an address listed in the spreadsheet
+            # check to see if address is in address list
+            if address != None and listedCoords == None:
+                # if it is, fill in the coordinates
+                requests_sent = requests_sent + 1
+                report = report + "   ASKING GOOGLE: "
+                coords = getLatLng(address)
+                # saving every 25 entries gives google a break and prevents loss of data thru crashing
+                if requests_sent > 0 and requests_sent % step == 0:
+                    print("Taking a break to save...")
+                    wb.save("betterFile.xlsx")
+                # if we are given valid coordinates
+                if coords != None and coords != []:
+                    success = success + 1
+                    report = report + "SUCCESS: " 
+                    report = report + str(coords)
+                    # write them in the spreadsheet
+                    sheet[LATLONG  + str(row)].value = str(coords[0]) + " " + str(coords[1])
+                # otherwise nothing to do
+                else:
+                    fail = fail + 1
+                    report = report + "failed..."
             # otherwise nothing to do
             else:
-                fail = fail + 1
-                report = report + "failed..."
-        # otherwise nothing to do
-        else:
-            no_address = no_address + 1
+                no_address = no_address + 1
 
-        print(report)
+            print(report)
+
+    # If we reach the threshold break the loop
+    if (threshold <= requests_sent):
+        print(str(threshold) + " requests were sent")
+        break
+
 
     wb.save("betterFile.xlsx")
 

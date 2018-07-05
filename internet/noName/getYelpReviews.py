@@ -7,7 +7,7 @@ import string
 import time
 
 
-def scrapeYelpReviews()
+def scrapeYelpReviews():
     # Create a new excel file
     out = openpyxl.Workbook()
     # Open the worksheet we want to edit
@@ -28,11 +28,13 @@ def scrapeYelpReviews()
     DATE   = "A"
     STARS  = "B"
     REVIEW = "C"
+    SOURCE = "D"
 
 
     outsheet[DATE   + '1'].value = "Date"
     outsheet[STARS  + '1'].value = "Rating"
     outsheet[REVIEW + '1'].value = "Review"
+    outsheet[SOURCE + '1'].value = "Source"
 
     for ur in start_urls:
         for o in page_order:
@@ -56,10 +58,9 @@ def scrapeYelpReviews()
                 outsheet[DATE   + str(count)].value = date
                 outsheet[STARS  + str(count)].value = rating
                 outsheet[REVIEW + str(count)].value = review
+                outsheet[SOURCE + str(count)].value = "Yelp"
                 count = count + 1
 
-            break
-                
             # works but all data comes in in a random order
             '''
             for i in range(0, len(dates)):
@@ -84,7 +85,7 @@ def scrapeYelpReviews()
             '''
 
     # Save the file
-    out.save("newFile.xlsx")
+    out.save("yelpReviews.xlsx")
 
     # LMK when the script is done
     pygame.init()
@@ -92,3 +93,5 @@ def scrapeYelpReviews()
     pygame.mixer.music.play()
     time.sleep(5)
     pygame.mixer.music.stop()
+
+scrapeYelpReviews()

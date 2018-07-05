@@ -21,10 +21,10 @@ sheet = wb.create_sheet("Emails")
 pygame.init()
 pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
 
-print(wb.get_sheet_names())
+print(wb.sheetnames)
 
-rm = wb.get_sheet_by_name('Sheet')
-wb.remove_sheet(rm)
+rm = wb['Sheet']
+wb.remove(rm)
 
 saving = True
 printing = True
@@ -104,6 +104,8 @@ for key, value in sorted(table.items(), key=lambda e: e[1][1]):
     sheet[LAST_NAME     + str(row)] = dicty['last_name'].title().strip()
     sheet[EMAIL_ADDRESS + str(row)] = email
     sheet[DOMAIN_NAME   + str(row)] = domain
+
+print(len(emails), "emails processed")
 
 wb.save("emails.xlsx")
 pygame.mixer.music.play()

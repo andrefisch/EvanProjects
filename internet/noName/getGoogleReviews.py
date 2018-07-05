@@ -27,17 +27,18 @@ def scrapeGoogleReviews():
     DATE   = "A"
     STARS  = "B"
     REVIEW = "C"
-
+    SOURCE = "D"
 
     outsheet[DATE   + '1'].value = "Date"
     outsheet[STARS  + '1'].value = "Rating"
     outsheet[REVIEW + '1'].value = "Review"
+    outsheet[SOURCE + '1'].value = "Source"
 
     # print("Currently on page number " + str(pageNo))
     page = requests.get(url)
     tree = html.fromstring(page.text)
     text = html.tostring(tree).decode("utf-8")
-    print(text)
+    # print(text)
 
     index = text.find('<script type="application/ld+json">')
     text = text[index:]
@@ -53,6 +54,7 @@ def scrapeGoogleReviews():
         outsheet[DATE   + str(count)].value = date
         outsheet[STARS  + str(count)].value = rating
         outsheet[REVIEW + str(count)].value = review
+        outsheet[SOURCE + str(count)].value = "Google"
         count = count + 1
 
     # works but all data comes in in a random order
@@ -79,7 +81,7 @@ def scrapeGoogleReviews():
     '''
 
     # Save the file
-    out.save("newFile.xlsx")
+    out.save("googleReviews.xlsx")
 
     # LMK when the script is done
     pygame.init()

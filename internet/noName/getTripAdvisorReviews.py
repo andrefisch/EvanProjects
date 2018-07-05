@@ -7,6 +7,11 @@ import re
 import sys
 import time
 
+DATE   = "A"
+STARS  = "B"
+REVIEW = "C"
+SOURCE = "D"
+
 def scrapeTripAdvisor():
     # Create a new excel file
     out = openpyxl.Workbook()
@@ -45,13 +50,10 @@ def scrapeTripAdvisor():
         print(regexMatch.group(3))
         '''
 
-    DATE   = "A"
-    STARS  = "B"
-    REVIEW = "C"
-
     outsheet[DATE   + '1'].value = "Date"
     outsheet[STARS  + '1'].value = "Rating"
     outsheet[REVIEW + '1'].value = "Review"
+    outsheet[SOURCE + '1'].value = "Source"
 
     # probably want to start after 4607
     row = 2
@@ -74,6 +76,7 @@ def scrapeTripAdvisor():
             outsheet[DATE   + str(row)].value = date
             outsheet[STARS  + str(row)].value = int(regexMatch[i][0])
             outsheet[REVIEW + str(row)].value = regexMatch[i][2].replace('\\n', ' ').replace('amp;', '')
+            outsheet[SOURCE + str(row)].value = "TripAdvisor"
             row = row + 1
         
 
