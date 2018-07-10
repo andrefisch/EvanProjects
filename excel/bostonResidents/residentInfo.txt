@@ -1,0 +1,17 @@
+CREATE TABLE Residents (LastName varchar(255), FirstName varchar(255), mi varchar(255), title varchar(255), dob varchar(255), occupation varchar(255), gender varchar(255), street varchar(255), suffix varchar(255), streetname varchar(255), apartment varchar(255), city varchar(255), state varchar(255), zipcode varchar(255), mailaddress varchar(255), mailapt varchar(255), mailcity varchar(255), mailstate varchar(255), mailzip varchar(255), party varchar(255), vs varchar(255), ward varchar(255), precinct varchar(255), regdate varchar(255), resid varchar(255), phone varchar(255), primary key (resid));
+
+useful queries:
+most relevant columns:
+select lastname,firstname,dob,occupation,gender,street,streetname,zipcode,party from Residents where streetname = 'otis pl' and zipcode = '02108' order by party;
+
+count the occupations then sort by frequency:
+select occupation,count(*) from Residents group by occupation ORDER BY 2;
+
+how to change all fields in a column from one thing to another
+update Residents set party = "Pirate (X)" where party = "X";
+
+How to redirect output of a command (must write command into command.txt)
+mysql -vv -u root -p testDB < query.txt 2>&1 > occupations.txt
+
+OPTIONS CAN BE CHANGED IN THIS FILE
+/etc/my.cnf

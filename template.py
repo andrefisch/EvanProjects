@@ -31,8 +31,8 @@ def template():
     outsheet = out.create_sheet("transactions")
 
     # if 'sheet' appears randomly we can delete it
-    rm = out.get_sheet_by_name('Sheet')
-    out.remove_sheet(rm)
+    rm = out['Sheet']
+    out.remove(rm)
 
     #################
     # DO STUFF HERE #
@@ -66,4 +66,4 @@ def template():
     time.sleep(5)
     pygame.mixer.music.stop()
 
-print(template())
+template()

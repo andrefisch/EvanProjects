@@ -1,0 +1,4962 @@
+Issued in 2017
+
+Annual Report
+
+2016
+
+［English］
+
+The
+
+ClassNK
+
+Mission
+ClassNK is dedicated to ensuring the safety of life
+and property at sea and protecting the marine environment.
+
+To achieve this mission ClassNK will:
+
+•Independence•
+
+Deliver the highest quality classification services,
+by the highest quality personnel, while maintaining our totally independent
+third party, non-profit status.
+
+•Standard•
+
+Develop relevant rules, guidances, and procedures,
+and conduct technical research and development to positively contribute to
+the maritime industry.
+
+•Global•
+
+Maintain and develop our global operations in line
+with the needs of our clients.
+
+1
+
+Contents
+
+03	 Message from Chairman and President
+05	 2016 at a Glance
+09	 Organization Profile
+11	 Worldwide Service Network
+
+13	 ClassNK in Action
+21	 ClassNK in Research
+27	 ClassNK in International Affairs
+29	 Organization List
+
+Profile
+Founded on 15 November 1899, Nippon Kaiji Kyokai, better
+known as ClassNK or simply NK, is a ship classification society
+dedicated to safeguarding life and property at sea and to protecting the marine environment. ClassNK provides broad spectrum of
+services as an independent third party, non-profit organization,
+including survey & certification services, technical consulting services, and research & development activities. The principal work
+of the Society’s expert technical staff is to conduct surveys of new
+and existing ships and other floating structures, including hull
+
+structures, propulsion systems, electrical and electronic systems,
+safety equipment, and cargo handling gear, among numerous
+other areas, to ensure their full compliance with classification rules
+developed by the Society. ClassNK also conducts a wide range of
+statutory surveys on behalf of more than 100 flag States around
+the world, as well as audits and registers ship safety & security
+management systems, quality, environmental and occupational
+health management systems, and seafarer training institutions.
+
+Code of Ethics
+In accordance with its mission to ensure the safety of life and property
+at sea and prevent the pollution of the marine environment, ClassNK
+has a duty to conduct its activities not only with respect for life and
+in observation of the law, but in accordance with social norms and
+commonly held principles. Bearing this in mind, ClassNK hereby
+established the following Code of Ethics.
+1. The Mission of the Society
+In order to fulfill its mission of ensuring the safety of life and property
+at sea and the security of ships, and preventing the pollution of the
+marine environment, as well as to provide clients with the best possible service, ClassNK shall operate in accordance with its Rules, as
+well as relevant international conventions, statutory regulations, flag
+administration requirements and other applicable standards.
+The Society shall also make every effort to establish an organized
+system for conducting business, and shall strive not only to maintain
+that system, but to make continual improvements to that system in
+order to earn and maintain the trust of its customers and the society
+at large.
+
+4. Implementation of Classification and Statutory Surveys
+ClassNK shall conduct all surveys fairly and impartially and in strict
+accordance with the Rules of the Society and the requirements of the
+flag administration. ClassNK shall not issue classification and statutory
+certificates and or other certificates or survey records, and shall not
+endorse such certificates, without performing the required surveys
+and/or fulfilling other stipulated requirements, accordingly.
+5. Observance of Laws
+ClassNK recognizes that it has a duty to society at large and shall
+execute all of its activities with respect to justice and impartiality, and
+shall strictly observe the law and social standards.
+The management of ClassNK therefore recognize adherence to this
+Code of Ethics as part of the Society’s mission, and shall not only
+ensure that all members of the Society’s staff are made familiar with
+this Code, but shall also establish a system to ensure its effective
+application.
+Further, in the event of a serious violation of this Code or the law, the
+management of ClassNK recognizes that it has the responsibility to
+investigate the cause of the violation and to take timely and appropriate corrective action in order to prevent the reoccurrence of such
+violations in the future.
+
+ClassNK Annual Report
+
+2. Independence, Impartiality and Integrity
+ClassNK shall maintain its status as an independent organization and
+provide its services as an impartial third party.
+All personnel of the Society shall work so as to bring neither disgrace
+to the Society’s honor nor detriment to the Society’s interests. Further,
+personnel of the Society shall not take action in the name of the
+Society, nor make use of their official title, except in the pursuit of
+their official duties. All personnel of the Society shall remain free from
+any commercial, financial and other pressures which may affect their
+judgement on surveys and audits.
+
+3. Confidentiality of Information
+ClassNK shall recognize all certificates and survey records issued by
+the Society, as well as all relevant survey documents submitted by
+customers and all such information obtained by the Society as confidential information, and the contents and copies of such documents
+shall not be made available to other parties except as defined in the
+Rules of the Society, required by applicable legislation, court order,
+legal proceedings, adherence to Flag State requests, or by the Owner’s authorization.
+
+2
+
+Koichi Fujiwara
+Chairman and President
+ClassNK
+
+3
+
+Message
+
+Message from Chairman and President
+2016 at a Glance
+
+2016 ushered in some major changes worldwide, from the referendum on leaving the European Union in the United Kingdom to
+the surprising election results in the United States.
+
+Organization List
+ClassNK Annual Report
+
+For our core surveying and auditing services, a more efficient service network has been put in place and new expertise hired to
+ensure the quality of our services and best service our customers’
+needs.
+
+The Society will earnestly continue to deliver the very best technical services to its clients and continue to maintain and strengthen
+relations of trust with the industry. We look forward to receiving
+your valued support for our activities in 2017.
+
+International Affairs
+
+Following my appointment as Chairman and President of ClassNK
+last in March 2016, I reassessed our corporate governance structure and made some organizational changes in order to better
+secure the Society and ensure the continuance and development
+of our services under these more challenging market conditions.
+
+As the demand for third-party certification services has also
+grown, ClassNK is also working to expand its certification services
+for quality, environmental and occupational health and safety systems as well as for maritime education and training, greenhouse
+gas emissions and renewable energy generation technologies.
+The Society has been particularly proactive in renewable energy,
+issuing certification for various onshore large wind turbines in
+2016.
+
+Research
+
+In light of the current situation, this has placed our organization
+under more financial pressure. However, our priority remains to
+offer the best technical services to each of our clients under our
+mission of ensuring the safety of life and property at sea and
+protecting the marine environment. Taking these financial circumstances and the latest regulatory trends into consideration,
+we intend to work even harder in order to further develop our
+core classification services and make valued contributions to the
+industry.
+
+We have also made big commitments in the fields of Big Data
+and the Internet of Things, where we are working on providing
+the necessary platforms and mechanisms for data exchange in
+addition to ensuring cybersecurity so that the maritime industry
+can reap the biggest rewards from this exciting new opportunity.
+Last year our wholly owned subsidiary Ship Data Center, an
+information hub for ship data, began operations. Our machinery maintenance management software suite ClassNK CMAXS
+was also awarded for its contributions to Big Data when it was
+awarded the Big Data Award at the Lloyd’s List Award last year.
+The fully IMO GBS compliant ClassNK Archive Center began
+operations in 2016 and ClassNK e-Certificate, the world’s first
+comprehensive system to provide ship class certificates and statutory certificates issued on behalf of flag states in electronic format
+began operational trials.
+
+Action
+
+While we are seeing some recovery in the maritime industry, it
+is yet to be seen whether these are the early manifestations of
+full recovery. An income of regulatory changes over the past year
+such as the triggering of entry into force of the Ballast Water
+Management Convention and the Panama’s accession to ratification of the Hong Kong Convention on ship recycling, are all
+expected to have a significant impact on the maritime industry
+as well as the shipbuilding and shipping industries and of course,
+classification societies.
+The decision at the IMO’s Marine Environment Protection Committee (MEPC70) to further lower the cap on SOx emissions will
+be another big turning point for the industry.
+
+We also continue to make available our information services
+such as publishing rule amendments or abolitions and guidelines
+based on the latest R&D results, damage investigations, industry demands and revisions to international regulation made at
+IMO or IACS, in addition to our comprehensive range of software
+services.
+
+Service Network
+
+Amongst uncertainties surrounding the global state of affairs and
+the world economy, it is even more important that we define our
+policies and steer the organization in the right direction.
+
+Furthermore we have also reformed our research institute and
+have are continuing with activities related to research in ship classification that involve both research development and members
+of the maritime industry.
+
+Organization Profile
+
+Welcome to the ClassNK Annual Report. First I would like to
+extend my deepest appreciation to all of our clients and stakeholders who supported our activities throughout 2016.
+
+4
+
+2016 at a Glance
+
+ClassNK register reaches
+more than
+
+245.8 Million GT
+and
+
+9,231 Vessels
+At the end of December 2016, the ClassNK register reached a total of 245,808,903 gross tons.
+The size of ClassNK’s register has grown every year since 1988, reaching 100 million gross
+tons registered in 1997 and a record breaking 200 million gross tons registered in mid-2012.
+Topping the 200 million mark was an important milestone in ClassNK’s history, and marked the
+first time a classification society had achieved such a figure.
+
+17.2 Million GT
+
+9 Guidelines
+
+ClassNK registers more than 17.2 million GT
+
+Publication of 9 New Guidelines
+
+Over the course of 2016, 654 vessels totaling
+17,215,564 gross tons were newly added to the register.
+
+In 2016 ClassNK published the following guidelines. These
+guidelines are available to download via the Society’s homepage
+after logging into “My Page”.
+■ Environmental Guideline V.3.1
+■ Guidelines for Gas Fuelled Ships V.4
+
+45 Projects
+ClassNK completes 45 Joint Research Projects
+Since establishing its Joint R&D for Industry Program in 2009,
+ClassNK carries out a wide variety of joint R&D with industry
+partners each year. In 2016, ClassNK and its research partners
+completed 45 joint research projects as part of this program.
+
+■ Guideline for the Mandatory Code on Noise Levels on Board
+
+Ships V.2
+■ Guidelines for Liquefied Gas Carrier Hull Structures –
+
+Independent Spherical Tanks of Type B
+■ Guidelines on Laser-Arc Hybrid Welding V.3
+■ Guidelines for Floating Offshore Facilities for LNG/LPG
+
+Production, Storage, Offloading and Regasification V.4
+■ Guidelines for Racking Strength Assessment of Vehicles
+
+Carriers – Guidelines for Evaluation of Yielding Strength
+■ Guidelines on the Installation of Ballast Water Treatment
+
+Systems
+■ Guidelines for Ship Recycling Facilities
+
+5
+
+Message
+
+2016 at a Glance
+Organization Profile
+
+Service Network
+
+Action
+
+Research
+
+International Affairs
+
+Organization List
+
+ClassNK Annual Report
+
+6
+
+2016 at a Glance
+
+6
+
+Mar.
+
+Appointment of
+new executive team
+Following the ClassNK Council and the
+Board of Directors meeting held on 7 Mar.
+Koichi Fujiwara was appointed to Representative Director/Chairman and President
+and other executive directors were also
+appointed.
+
+1
+
+Apr.
+
+Organization reforms
+In order to streamline the decision-making
+process and criteria as well as vitalizing
+the Society, organization reforms such as
+the establishment of divisions were carried out including the reorganization of
+related departments .
+
+Mar.
+ClassNK gains USCG authorization under ACP
+The ACP was developed as an alternative
+method for US-flagged vessels to fulfill
+the regulatory requirements for construction and operation. In accordance with
+USCG requirements, US-flagged vessels
+are required to undergo onboard inspections by the USCG before a Certificate of
+Inspection (COI) can be issued. Under the
+
+ACP however, the USCG can issue a COI
+to a ClassNK-registered, US-flagged vessel
+based on reports from ClassNK without
+the need for duplicate inspections. This
+eases the financial and regulatory burden
+on shipowners whilst maintaining existing
+levels of safety.
+
+Apr.
+ShipDC operation commences operations
+The wholly owned subsidiary set up by
+ClassNK, Ship Data Center Co., Ltd.
+(ShipDC), officially commenced operations of its data center as the platform for
+maritime Big Data. After successful data
+transfer trials from ship to shore, ShipDC
+
+1
+
+began operations. Voyage data from vessels of multiple shipping companies have
+been continuously gathered and the data
+has already been practically applied for
+voyage data monitoring by cargo owners
+and hull structure stress monitoring.
+
+Jul.
+
+NKAC marked industry’s first system complying with IMO GBS
+IMO GBS requires a Ship Construction File
+(SCF) to be kept onboard during operation
+for applicable ships. As the SCF includes
+the documents recognized as being highly
+sensitive intellectual property, the requirement permits that this information can
+be kept onshore as well as on board is
+
+7
+
+permitted.
+ClassNK Archives Center (NKAC) is the
+industry’s first system complying with
+IMO GBS requirements and Industry Standards developed by cross-industry groups.
+NKAC offers safe and secure storage of
+SCF documents.
+
+Organization
+
+→ P.9
+
+Message
+
+27
+
+Jul.
+
+Oct.
+
+ClassNK begins trials for electronic certificate system
+
+Oct.
+
+Research
+
+20
+
+and in mutual cooperation with the Liberian Flag Administration (LISCR), ClassNK
+has been testing system functions such as
+the offshore transmission and receiving of
+data and website access for the verification of electronic certificates.
+
+Action
+
+“ClassNK e-Certificate” is the world’s first
+comprehensive system to provide ships’
+class certificates and statutory certificates
+issued on behalf of flag states in electronic format. In cooperation with shipping companies, under the authorization
+
+Service Network
+
+7
+
+coaming and upper deck of ultra-large
+container ships as part of the joint R&D
+project. The results revealed for the first
+time that brittle crack arrest steel plates
+with a thickness of 100mm must have a
+brittle crack arrest toughness value (Kca)
+of 8,000 N/mm3/2 or more at -10°C.
+
+Organization Profile
+
+ClassNK carried out a joint R&D project in
+collaboration with Japan Welding Engineering Society relating to brittle crack
+arrest design to enhance the structural
+reliability of large container vessels. Verification tests were carried out using ultralarge-scale test specimens simulating the
+actual construction of the hatch side
+
+2016 at a Glance
+
+Breakthrough finding for ultra-large container ships
+
+ClassNK CMAXS won The Lloyd's List Intelligence
+Big Data Award at Lloyd’s List Asia Awards 2016
+
+Organization List
+
+22
+
+room and detect changes in the condition
+of machinery more accurately. The award
+was given in recognition of effectiveness
+and popularity of the system.
+
+International Affairs
+
+“ClassNK CMAXS” suite is comprised of
+functions to assist in machinery/equipment maintenance, and to realize the
+preventive maintenance by analyzing Big
+Data collected from sensors in the engine
+
+Nov.
+
+ClassNK wins Environmental Protection Award at
+IBJ Awards 2016 for its ship recycling activities
+and issuance of statements of compliance
+(SOC) in line with Hong Kong Convention for ship recycling facilities in China,
+India, and Japan. These activities lead to
+ClassNK picking up the award.
+
+ClassNK Annual Report
+
+ClassNK has worked for ship recycling
+regulations including its provision of
+widely used software for development
+and maintenance of Inventory of Hazardous Materials “PrimeShip-GREEN/SRM”,
+
+8
+
+Organization Profile
+
+Chairman and President,
+Representative Director
+
+Senior Executive Vice President,
+Executive Director
+
+Executive Vice President,
+Executive Director
+
+Executive Vice President,
+Executive Director
+
+Executive Auditor
+
+Koichi Fujiwara
+
+Tetsuya Kinoshita
+
+Junichiro Iida
+
+Toshiyuki Shigemi
+
+Tetsushi Agata
+
+Reorganization of the Board of Directors
+
+Division Structure
+
+In March 2016 and March 2017 the senior management changes
+were made at the Board of Directors and Administrative Council
+Meeting.
+
+Based on each business activity, ClassNK allocated its departments to new divisions in order to streamline the decision-making
+process and clarify standards for making judgements.
+
+(Executive team as of March 2017)
+Chairman and President, Representative Director
+Koichi Fujiwara
+Senior Executive Vice President, Executive Director
+Tetsuya Kinoshita
+Executive Vice President, Executive Director
+Junichiro Iida
+Executive Vice President, Executive Director
+Toshiyuki Shigemi
+Tetsushi Agata was appointed to
+Executive Auditor of the Society.
+
+9
+
+Reorganization of Research and
+Development Structure
+ClassNK merged its Practical R&D Promotion Department with its
+Research Institute in order to further implement its research and
+development activities. The newly formed Research Institute will
+be at the center of the Society’s research and development projects relating to ship classification as well as part of its obligations
+as a member of the maritime industry.
+
+Corporate Governance
+ClassNK established a Corporate Governance Team in addition to
+appointing an Executive Auditor and strengthening its auditing
+structure as part of its obligations to corporate governance activities as a third-party organization.
+
+As of 1 April 2017
+Message
+
+Organization
+
+Technical Committee
+
+Board of Directors
+
+2016 at a Glance
+
+Administrative Council
+
+Auditors
+
+Administration Division
+
+British Committee
+China Committee
+
+General Affairs Department
+Human Resources Department
+
+Domestic Branches and Sub-branches
+
+Human Resources Development Center
+
+Hong Kong Committee
+
+Overseas Offices
+
+HSE Team
+Business Operations Division
+
+Indonesia Committee
+Korea Committee
+
+Business Department
+Executive Operations Department
+
+Plan Approval Division
+
+Hull Department
+Natural Resources and Energy Department
+
+Philippine Committee
+
+Machinery Department
+
+Malaysia Committee
+
+EEDI Department
+
+North American Committee
+
+Material and Equipment Department
+Survey Operations Division
+
+Survey Department
+Classification Department
+
+Taiwan Committee
+
+Emergency Technical Assistance Service Team
+Rule Development Division
+
+Hull Rules Development Department
+
+Brazil Technical Committee
+
+Machinery Rules Development Department
+
+China Technical Committee
+
+International Rules Development Department
+Innovation Development Division
+
+Renewable Energy Department
+
+Danish Technical Committee
+
+Marine and Industrial Service Department
+
+Greek Technical Committee
+
+Information Technology Department
+
+Hong Kong Technical Committee
+Indian Technical Committee
+
+Information Service Department
+Assurance Operations Division
+
+Certification Service Department
+Certification Service Planning Department
+
+Korea Technical Committee
+
+Ship Management Systems Department
+
+Singapore Technical Committee
+
+Testing Machine Department
+Planning Division
+
+Turkish Technical Committee
+
+Corporate Planning Department
+
+Organization List
+
+Middle East Technical Committee
+
+Taiwan Technical Committee
+
+International Affairs
+
+Chile Technical Committee
+
+Research
+
+Thai Committee
+
+Turkish Committee
+
+Action
+
+Latin American Committee
+
+Singapore Committee
+
+Service Network
+
+Greek Committee
+
+Indian Committee
+
+Organization Profile
+
+Chairman and President
+Senior Executive Vice President
+Executive Vice President
+
+Operational Planning Department
+Research Institute
+
+Technical Research Department
+
+Finance Department
+External Affairs Department
+Audit Department
+Corporate Governance Team
+
+ClassNK Annual Report
+
+R&D Planning Department
+
+10
+
+Worldwide Service Network
+
+133
+Exclusive Survey Offices
+ClassNK is providing a broad range of services via its extensive worldwide
+survey network, with the number of exclusive survey offices totaling 133
+locations around the world at the end of 2016. In addition to these offices,
+ClassNK also maintains six Plan Approval Centers located in the major
+shipbuilding regions of the world.
+
+11
+
+Message
+
+…Overseas Offices
+…New Exclusive Survey Offices
+…Offices in Japan
+
+Organization Profile
+
+…Offices with Plan Approval Center
+
+Service Network
+
+Plan Approval Centers
+Japan	��� ClassNK Head Office, Tokyo,
+Administration Center Plan Approval Division
+(Hull Department, Natural Resources and Energy
+Department, Machinery Department, Material
+and Equipment Department EEDI Department)
+Korea	��� Plan Approval Center, Busan
+China	��� Plan Approval Center, Shanghai
+Singapore	� Plan Approval Center, Singapore
+Turkey	��� Plan Approval Center, Istanbul
+India	��� Plan Approval Center, Mumbai
+
+2016 at a Glance
+
+New offices opened in 2016
+Jan. 	 Novorossiysk, Russia
+Jun.… Nantes, France
+Jan. 	 Charleston, USA
+Jun.… Tehran, Iran
+Mar. 	 Bahrain
+
+Action
+Research
+International Affairs
+Organization List
+ClassNK Annual Report
+
+12
+
+ClassNK is continually expanding its service network, with 133 exclusive survey offices located in major port cities and maritime hubs across the world.
+
+ClassNK
+in Action
+
+The ClassNK register saw the addition of 653 vessels totaling 17,215,564
+gross tons during the period of 2016.
+Going beyond traditional classification services, ClassNK is proactively responding to the needs of the industry through a range of technical services,
+certification services, renewable energy certification, and training.
+
+Establishment and Amendment of
+Technical Rules
+ClassNK is constantly revising its Rules and Guidance in order to
+reflect the latest results from relevant research and development
+projects, feedback from damage investigations, correspond to
+requests from industry as well as changes made to relevant international conventions, International Association of Classification
+Societies (IACS) Unified Requirements (URs), national regulations,
+etc. A total of 88 amendments were approved during 2016. This
+report will introduce some of the major amendments.
+
+Establishment and Amendments related to Gas Fueled Ships
+Responding the expectation to gas fueled ships as the measures
+to comply with regulations for ships’ emission such as GHG, NOx,
+SOx, and Particulate Matter, the International Code of Safety
+for Ships using Gases or other Low-flashpoint Fuels (IGF Code)
+was adopted during sessions of MSC95 and entered into force.
+ClassNK established Part GF of the Rules and Guidance and
+amended the relative rules and guidance in accordance with the
+
+IGF code. The Part GF stipulates requirements for fuel containment system, material and general pipe design, bunkering, fuel
+supply system, fire safety, ventilation, electrical installations, and
+so on, of ships using gases or other low-flashpoint fuels. Furthermore, requirements for approving equipment and fittings of ships
+using low-flashpoint fuels are provided as the annex to Part GF
+of the Guidance.
+
+Amendments related to Polar Code
+Diminishing ice in Arctic and Antarctic areas due to global warming has drawn attention to voyaging waters surrounding the two
+poles. Aiming the safety and the protection of the environments
+around the two poles, the International Code for Ships Operating
+in Polar Waters (Polar Code) and related amendments have been
+adopted during the sessions of both MSC94 and MEPC68.
+
+ClassNK amended its rules and guidance to stipulate requirements for ship structure, stability, water tightness, machinery,
+fire safety, communications, structure and installation for environmental protection, and The Polar Water Operational Manual
+provided for the ships.
+
+A selection of newbuildings that registered with ClassNK in 2016
+
+ADRIANA ROSE
+43,006gt BULK CARRIER built by TSUNEISHI SHIPBUILDING CO., LTD.
+for CITHAERON MARITIME S.A.
+
+13
+
+BW BORON
+11,918gt OIL/CHEMICAL CARRIER built by
+SHITANOE SHIPBUILDING CO., LTD. for Lemax Limited
+
+C.S. BRIGHT
+49,718gt CHIP CARRIER built by SANOYAS SHIPBUILDING
+CORPORATION MIZUSHIMA SHIPYARD for CARIBSTAR SHIPPING, S.A.
+
+Establishment and Amendment of Technical Rules / Class Surveys and Statutory Surveys
+Technical Services / Certification Services / Services for Renewable Energy Technologies / Educational and Training Services
+
+Message
+
+Hull-related
+The determination of minimum distance of cargo tan for the ship’s
+shell plating in consideration of the influence at the casualty,
+Design load requirements,
+Addition of approval criteria for new containment system developed in the future
+
+■	Secondary
+
+Means of Venting Arrangements for Tankers
+Materials used for Intermediate Shafts
+■	Approval of Diesel Engines
+■	Testing Environment for Chemical Composition Analysis and
+Testing Machines for Mechanical Testing
+■	High-strength
+
+Action
+Research
+
+Major amendments in addition to the above are as follows:
+Strength of Container Carriers
+■	Welding Procedure Qualification Tests
+■	Rudders, Shoe Pieces and Rudder Horns
+■	Portable Atmosphere Testing Instruments for Enclosed Spaces,
+etc.
+■	Air Quality Control System in Closed Vehicle Spaces and Closed
+Ro-ro Spaces
+■	Torsional
+
+Service Network
+
+Outfitting and fire safety related
+Installation of water-spray system on the rescue boat etc. facing
+with cargo area, and requirements for the installation of pressure
+relief valve
+Insulation to cargo pipes and atmosphere testing Instrument to
+the hold space.
+
+Organization Profile
+
+Amendments to the International Code for the Construction and
+Equipment of Ships Carrying Liquefied Gases in Bulk (IGC Code)
+was adopted during the sessions of MSC93 in 2014 as the total
+revision since its adoption in 1983.
+In line with the amended IGC Code, ClassNK amended Part N of
+its Rules and Guidance. The major amendments were:
+
+2016 at a Glance
+
+Amendments related to the IGC Code revision
+
+International Affairs
+
+More specific details about all of the amendments made during
+2016 are available on the “Rule Amendments for Technical Rules”
+page of the ClassNK website for ClassNK “MyPage” account
+holders. Please refer to the ClassNK website for more information
+on how to register for a “MyPage” account.
+
+Organization List
+
+DRIVE GREEN HIGHWAY
+76,387gt VEHICLES CARRIER built by JAPAN MARINE UNITED
+CORPORATION ARIAKE SHIPYARD for JMU5044 SHIPPING S.A.
+
+FALCON TRIUMPH
+36,336gt BULK CARRIER built by CHINA CHANGJIANG NATIONAL
+SHIPPING GROUP CORPORATION JINLING SHIPYARD
+for FALCON TRIUMPH SHIPPING LTD.
+
+ClassNK Annual Report
+
+DIAMOND FAITH
+63,538gt OIL CARRIER built by NAMURA SHIPBUILDING CO., LTD.
+IMARI WORKS for DIAMOND TANKER PTE LTD
+
+14
+
+ClassNK in Action
+
+Class Surveys and Statutory Surveys
+Class Surveys
+
+ISM/ISPS Audits and MLC Inspections
+
+Over the course of the year, ClassNK surveyors carried out a total
+of 14,981 classification surveys around the world. Of these, 654
+were initial surveys, and 15,635 were class maintenance surveys.
+
+Over the course of the year, ClassNK newly registered 54 companies and 787 ships in accordance with ISM requirements, bringing the total number of companies and vessels registered with
+ClassNK to 751 companies and 5,848 ships respectively. As of
+the end of 2016, ClassNK is authorized to conduct ISM audits on
+behalf of more than 80 Administrations. ClassNK registered 734
+ships to ISPS Code requirements during the year, bringing the
+total number of ships registered with ClassNK to 5,184. ClassNK
+currently conducts ISPS audits on behalf of more than 60 Administrations. ClassNK registered 859 ships to MLC requirements
+during the year, bringing the total number of ships registered
+with ClassNK to 5,135. ClassNK currently conducts MLC inspections on behalf of more than 60 Administrations.
+
+Statutory Surveys
+As of the end of 2016, ClassNK is authorized to carry out surveys
+and issue certificates in accordance with international conventions or domestic laws by more than 100 flag administrations
+around the world. In 2016, ClassNK carried out inspections and
+issued more than 38,000 statutory certificates based on these
+authorizations as follows:
+International Tonnage certificates: 981
+International Load Line certificates: 2,761
+■ SOLAS related certificates: 18,893
+■ MARPOL related certificates: 11,618
+■ Anti-fouling system certificates: 1,708
+■ International Ballast Water Management certificates: 32
+■
+■
+
+New services for incoming regulations
+Over the past few years, the IMO has adopted a number of new
+conventions to address environmental issues facing the maritime
+industry, including the Ballast Water Management Convention
+and the Ship Recycling Convention. ClassNK offers a wide variety
+of certification services to support owners’ efforts to achieve compliance with new regulations. In 2016, ClassNK issued numerous
+certificates or statements of compliance in accordance with new
+Conventions, including the following:
+Ballast Water Management Systems: 442
+Ship Recycling Facility Plans: 3
+■ Inventory of Hazardous Materials: 232
+■
+■
+
+FLORENTIA
+36,421gt BULK CARRIER built by CHENGXI SHIPYARD CO., LTD.
+for FLORENTIA SHIPPING INC.
+
+15
+
+FUOU MARU
+11,413gt RO-RO CARGO/VEHICLES built by
+NAIKAI ZOSEN CORPORATION INNOSHIMA SHIPYARD
+for KAWASAKI KINKAI KISEN, LTD.
+
+GLOBE ATLAS
+47,995gt LPG (LOW TEMP.) built by
+MITSUBISHI HEAVY INDUSTRIES SHIPBUILDING CO., LTD.
+for GREEN SPANKER SHIPPING / KYOWA KISEN CO., LTD.
+
+Establishment and Amendment of Technical Rules / Class Surveys and Statutory Surveys
+Technical Services / Certification Services / Services for Renewable Energy Technologies / Educational and Training Services
+
+Message
+
+As with previous years, the Society continues to work with the
+managers and owners of detained vessels to help improve ship
+conditions and increase safety awareness. ClassNK published its
+Annual Report on Port State Control 2016, a compilation and
+analysis of PSC related statistics for the previous year, and distributed it to ship owners, ship managers and other stakeholders.
+ClassNK also released the ARRIVAL CHECKLIST for PSC, the preparatory checklist mobile app for PSC inspections.
+In addition, senior ClassNK staff visited key maritime authorities
+around the world, including Australian Maritime Safety Authority
+(AMSA), Maritime New Zealand, Ningbo and Zhoushan Maritime
+Safety Administrations in China, Hong Kong Marine Department,
+and Maritime and Port Authority of Singapore (MPA) during the
+course of the year. ClassNK also sent representatives to bilateral
+China-Japan and Korea-Japan meetings to discuss inspection
+related matters and present on ClassNK efforts being taken to
+reduce the detention ratio of ClassNK classed ships.
+
+Thickness measurements on ships: 21 (239)
+In-water survey of ships: 41 (263)
+■ Radio inspection services: 26 (368)
+■ Voyage Data Recorders (VDR): 21 (280)
+■ Maintenance of firefighting systems and equipment: 45 (292)
+■ Maintenance of life saving equipment and appliances: 23 (139)
+■ Tightness testing of hatches with ultrasonic equipment: 1 (16)
+■ Testing of coating systems: 0 (9)
+■ Services of lifeboats, launching appliances and on-load release
+gear: 47 (201)
+■ Sound pressure level measurements of general alarm and	
+public address systems: 1 (1)
+■ Measurements of noise level: 1 (1)
+■
+■
+
+Service Network
+
+In addition to classification and convention related surveys,
+ClassNK also carries out audits and certifications for companies
+who provide testing and measurement services related class and
+equipment maintenance surveys.
+As part of these activities, ClassNK certified the following number
+of firms in 2016:
+
+Organization Profile
+
+Port State Control (PSC)
+
+2016 at a Glance
+
+Approval of manufacturers and service suppliers
+
+Action
+
+※ ( ) Indicates total number of certifications at year end.
+
+Research
+International Affairs
+
+PORT STATE CONTROL
+ANNUAL REPORT 2016
+
+Organization List
+
+LNG FUKUROKUJU
+127,242gt LNG CARRIER built by KAWASAKI HEAVY INDUSTRIES,
+LTD. SHIP & OFFSHORE STRUCTURE COMPANY SAKAIDE SHIPYARD
+for LNG FUKUROKUJU SHIPPING CORPORATION
+
+MALABRIGO
+321gt MULTI WORK BOAT built by JAPAN MARINE UNITED
+CORPORATION YOKOHAMA SHIPYARD, ISOGO WORKS
+for REPUBLIC OF THE PHILIPPINES
+
+ClassNK Annual Report
+
+LEFKADA
+23,306gt BULK CARRIER built by SHIMANAMI SHIPYARD CO., LTD.
+for LEFKADA SHIPPING AND TRADING CORPORATION
+
+16
+
+ClassNK in Action
+
+Technical Services
+
+Certification Services
+
+Condition Assessment Program (CAP)
+
+ClassNK provides a broad range of certification services for
+quality, environmental, occupational health & safety and energy
+management systems in addition to verification for greenhouse
+gas (GHG) emissions inventories.
+
+During 2016, ClassNK issued Statements of Compliance to 28
+vessels under its Condition Assessment Program (CAP). As of
+the end of 2016, the total number of Statements of Compliance
+issued by the Society for CAP stood at 423.
+
+Emergency Technical Assistance Service (ETAS)
+ClassNK’s Emergency Technical Assistance Service (ETAS) is on call
+24/7 to support the owners and operators of ships registered for
+this service in ensuring the safety of their vessels and minimizing
+the environmental impact if disaster should strike. In 2016, this
+team was called into action for five incidents related to maritime
+casualties to provide technical support. In 2016, 23 vessels newly
+registered for the ETAS service, bringing the total number of vessels registered for the service to 1,331.
+
+Quality Management Systems － ISO 9001
+In 2016, ClassNK certified a total of 4 organizations in line with
+ISO 14001, bringing the total number of organizations registered
+with the Society to 139.
+
+Environmental Management Systems － ISO 14001
+In 2016, ClassNK certified a total of 4 organizations in line with
+ISO 14001, bringing the total number of organizations registered
+with the Society to 139.
+
+Occupational Health & Safety
+Management Systems － OHSAS 18001
+In 2016, ClassNK certified a total of 3 organizations in line with
+OHSAS 18001, bringing the total number of organizations registered with the Society to 36.
+
+Energy Management Systems － ISO 50001
+In 2016, ClassNK certified a total of 1 organization in line with
+ISO 50001, bringing the total number of organizations registered
+with the Society to 6.
+
+Other Certification Services
+ClassNK also provides certification services for the following fields:
+Maritime Education and Training
+Seafarer Recruitment and Placement Services
+■ Clean Shipping Index
+■ HSE (Health, Safety & Environment systems)
+■ Road Traffic Safety Management Systems (ISO 39001)
+■ Verification of Greenhouse Gas Assertions
+■
+■
+
+NSU TRUST
+107,512gt BULK CARRIER built by IMABARI SHIPBUILDING CO., LTD.,
+SAIJO SHIPYARD for EMMA LINE S.A.
+
+17
+
+OCEAN HARVEST
+31,883gt BULK CARRIER built by
+MITSUI ENGINEERING & SHIPBUILDING CO., LTD. CHIBA SHIPYARD
+for CONFIDENCE SHIPPING INC.
+
+SEA PLOEG
+11,933 GRT OIL/CHEMICAL CARRIER built by FUKUOKA
+SHIPBUILDING CO. LTD. for INVENTOR CHEMICAL TANKERS AS.
+
+Establishment and Amendment of Technical Rules / Class Surveys and Statutory Surveys
+Technical Services / Certification Services / Services for Renewable Energy Technologies / Educational and Training Services
+
+Message
+
+Services for Renewable
+Energy Technologies
+2016 at a Glance
+
+Certification for Wind Energy Technologies
+
+Organization Profile
+
+ClassNK provides certification and classification for wind power
+generation systems such as large and small wind turbines, floating
+offshore wind turbines and their supporting structures. In 2016,
+ClassNK provided one prototype certification for a large wind turbine and type certification for a small wind turbine bringing the
+total number of wind turbines certified by the Society to 14.
+In regard to certifications for windfarms by large wind turbines
+(certification required to obtain license and approval as specified
+in Electricity Business Act of Japan), ClassNK issued statements of
+conformity for 11 onshore wind power plants in 2016.
+
+Service Network
+
+Certification for Marine Renewable Energy Technologies
+ClassNK provides a variety of certification services for marine
+renewable energy technologies that utilize wave, tidal, ocean
+current and ocean thermal energy.
+
+Marine Warranty Surveys
+Action
+Research
+
+A Marine Warranty Survey (MWS) is the third party surveillance of
+marine operations which is often requested by insurance underwriters in order to ensure that offshore marine operations such as
+the installation and transportation of wind turbines and offshore
+sea structures, and the laying of cables etc. are being carried out
+safely and reliably.
+Whilst ClassNK was approved as an MWS performing body by
+two reinsurance companies in Europe, ClassNK performed MWS
+for the transportation and installation of a floating foundation for
+a wind turbine in 2016.
+
+International Affairs
+Organization List
+
+STOLT HAGI
+7,488gt OIL/CHEMICAL CARRIER built by USUKI SHIPYARD CO., LTD.
+for NYK STOLT SHIPHOLDING INC.
+
+ClassNK Annual Report
+
+SHINSEI MARU
+66,082gt OIL CARRIER built by JAPAN MARINE UNITED
+CORPORATION, KURE SHIPYARD for JX OCEAN CO., LTD.
+
+18
+
+ClassNK in Action
+
+Educational and Training Services
+ClassNK Academy
+
+ClassNK Technical Seminars
+
+ClassNK Academy was established in 2009 to provide the necessary basic knowledge to those involved in the shipbuilding,
+maintenance and transport industries. ClassNK Academy has
+been held actively since then and more than 3,000 participants
+around the world took part in courses in 2016. Courses offered
+during 2016 included:
+
+ClassNK holds technical seminars around the world to provide
+maritime experts with a wide-range of information about recent
+technology and technical findings in addition to the latest trends
+for Class rules. The technical seminars have a high degree of
+usability for the global maritime industry.
+The following are just some of the presentations held by ClassNK
+at Technical Seminars in 2016:
+
+Courses Related to Newbuildings
+Classification Societies and Statutory Issues Course
+■ New Shipbuilding Course (Hull)
+■ New Shipbuilding Course (Machinery & Electrical Installations)
+■ Material and Welding Course
+■
+
+Courses Related to Existing Ships
+Damage (Hull) Course
+■ Damage (Machinery and Electrical Installations) Course
+■ Safety Equipment Course
+■ Port State Control (PSC) Course
+■
+
+Courses Related to Ship Management
+Incident Investigation & Analysis Course
+■ Risk Management Course
+■ ISM Internal Audits Course
+■
+
+ClassNK Technical Seminars (July)
+Design and construction for practical application of duplex
+stainless steel to a chemical tanker
+■ Advancement of curved shell plates working process using
+laser scanner
+■ Highly ductile steel (HDS) application on hull structures to
+mitigate damages at collusion
+■ Development of carbon fiber reinforced plastic (CFRP) propeller
+■ Measures for container carriers upsizing - crack arrest steel
+plate and structural brittle crack arrest design
+■ ClassNK’s activities on large container carriers structural
+strength
+■ Latest trends on international conventions
+■
+
+ClassNK Technical Seminars (November)
+Amendments to Rules and Guidance
+– Outline of establishment, revision and abolition of rules
+– Amendments to Class Rules and Guidance for the Survey and
+Construction of Steel Ships
+• Hull and Materials
+• Engine and Electrical Installations
+• Equipment
+■ Latest trends on international conventions
+■ Supporting the safe operation and reducing lifecycle costs
+through ship preventative maintenance system “ClassNK
+CMAXS”
+■ Certification for marine energy generation systems and
+ClassNK’s activities
+■
+
+THORCO LOGIC
+13,110gt GENERAL CARGO built by HONDA HEAVY INDUSTRIES
+CO.,LTD. for FRANBO LOGIC S.A.
+
+19
+
+TIGER HARMONY
+12,148gt OIL/CHEMICAL CARRIER built by KITANIHON
+SHIPBUILDING CO., LTD. for TIGER SHIP NO. 12 LIMITED
+
+Establishment and Amendment of Technical Rules / Class Surveys and Statutory Surveys
+Technical Services / Certification Services / Services for Renewable Energy Technologies / Educational and Training Services
+
+Message
+
+■
+
+Research
+
+Internships
+In response to requests from universities ClassNK offered 29
+internships to students.
+
+Internal Auditor and Surveyor Training
+
+Surveyor Training
+Marine Management Systems Auditor Training
+■ Maritime Labor Inspector Training
+■ ISO Auditor Training
+■
+
+Organization List
+
+ClassNK conducts regular training in order to ensure that its surveyors and auditors can provide services to meet the diversifying
+needs of its customers. ClassNK conducted the following training
+for surveyors and auditors in 2016.
+
+International Affairs
+
+Monitoring of Maritime Education and Training Institutions in
+the Philippines by The Maritime Industry Authority (MARINA)
+of the Philippines
+■ New Training Requirements and ClassNK Maritime Education
+and Training Audit Project KAIBIGAN;
+■ Recent Trends of Port State Control Inspections;
+Implementation and Update of MLC, 2006 (Including PSC
+Deficiencies on MLC Matters);
+■ Instruction for Transition Audit to ISO 9001
+■
+
+Action
+
+PrimeManagement Seminars
+ClassNK has been providing its integrated PrimeManagement
+System for management system certifications (ISO etc.), training
+course certification and certification for ISM Code among others
+since 2011. Over the course of 2016, PrimeManagement seminars were held in the Philippines.
+The following are just some of the presentations that were carried
+out:
+
+“Case Studies of Ship Damage and Lessons Learned” at
+Innoshima Technical Center
+■ Part of “SOLAS / MARPOL / Ballast Water Management
+conventions and newbuilding surveys” for government
+officials gathered to JICA group training course for “Ship
+Safety” held by the Shipbuilding Research Centre of Japan
+■ “The activities of classification societies, and the management
+and inspection of welding” at the Eastern Japan Training
+Center for Shipbuilding Skills
+■ Providing internal ISM auditor training to a Vanuatu maritime
+procedures agent upon the request of the Maritime Bureau of
+Vanuatu
+■ “Security surveys by classification societies” upon the request
+of Ministry of Land, Infrastructure, Transport and Tourism as
+part of its ISPS Code training
+■ “Outline of HCSR Rules” upon the request of the Cooperative
+Association of Japan Shipbuilders as part of its training for
+ship designers engaging in basic design
+■ “Outline of ClassNK’s activities and its certification services
+for Maritime Labour Convention” upon the request of the
+Ministry of Health, Labor and Welfare, Yokohama Quarantine
+Station as part of its training ship hygiene inspections
+■ “Necessary knowledge and skills to check plans and drawings
+for ships’ construction” upon the request of the Japan Coast
+Guard
+■
+
+Service Network
+
+Recent Topics at IMO and IACS
+Latest PSC Trends and ClassNK Activity
+■ Enforcement for the Ballast Water Management Convention
+■
+
+In 2016, ClassNK conducted the following training upon the
+request of external organizations.
+
+Organization Profile
+
+Overseas Technical Seminars
+ClassNK holds regular technical seminars around the world to
+provide in-depth information on incoming regulations, and introduce the latest technologies and technical findings to its clients
+and maritime stakeholders. The seminars aim to deliver practical
+information on a wide range of topics in line with the needs of
+each country.
+The following are just some of the presentations that were carried
+out in 2016:
+
+2016 at a Glance
+
+Training upon requests of external organizations
+
+■
+
+ClassNK Annual Report
+
+20
+
+ClassNK
+in Research
+
+In order to fulfill its mission of protecting life, property at sea and the maritime environment, and contribute to the maritime industry, ClassNK carries
+out R&D related to classification as well as activities based on our role as a
+member of the maritime community.
+
+Research and Development
+related to Classification
+ClassNK has carried out R&D related to the classification societies
+with the aim of improving rules and guidelines and expanding
+technical services. The outlines of the main R&D carried out in
+2016 are as follows:
+
+Development of Rules for Structural Strength
+of Large Container Ships
+Following the development of the rules on the hull girder ultimate strength of large container ships considering the effects of
+the lateral loads and the whipping response (a type of vibratory
+responses caused by wave impact load) in 2015, research on hull
+girder torsional strength were carried out in 2016 and the relevant rules were amended. The new amendments have made it
+possible to evaluate the correlation of hull girder vertical bending,
+horizontal bending and torsional bending more exactly on large
+container ships with various structural arrangements.
+
+Full ship model of container carrier
+
+Guidelines for Liquefied Gas Carriers Hull Structures –
+Independent Spherical Tanks of Type B
+“Guidelines for Liquefied Gas Carriers Hull Structures – Independent Spherical Tanks of Type B” were developed based on the
+knowledge gained through the researches for the development of
+rules and guidelines related to the structural strength.
+The guidelines consist of “Guidelines for Direct Strength Analysis” and “Guidelines for Fatigue Strength Assessment”, which are
+useful to make adequate hull structural strength assessment of
+liquefied gas carriers with independent spherical tanks of type B.
+GUIDELINES FOR
+LIQUEFIED GAS CARRIERS
+HULL STRUCTURES –
+INDEPENDENT SPHERICAL
+TANKS OF TYPE B
+
+21
+
+Research and Development related to Classification / Joint R&D for Industry
+
+Message
+2016 at a Glance
+
+Guidelines for Racking Strength Assessment
+of Vehicles Carriers
+(Guidelines for Evaluation of Yielding Strength)
+
+Organization Profile
+
+GUIDELINES FOR RACKING
+STRENGTH ASSESSMENT OF
+VEHICLES CARRIERS (GUIDELINES FOR EVALUATION OF
+YIELDING STRENGTH)
+
+Service Network
+
+Vehicles carriers are designed with minimum numbers of transverse and partial bulkheads in order to efficiently load/unload
+cargo vehicles and to maximize the cargo loading capacity.
+Due to such a structural feature, structural strength assessment
+against racking deformations is one of the most important issues
+for vehicles carriers.
+Recently, new designed vehicles carriers, e.g. post panamax type
+and bulkheadless type, which have different structural designs
+from conventional vehicles carriers have appeared.
+Considering such a situation, researches were carried out aiming to develop unified evaluation procedures on racking strength
+for vehicles carriers with various structural design types, and the
+guidelines for racking strength assessment of vehicles carriers (for
+evaluation of yielding strength) were developed and published.
+
+Action
+
+ClassNK provides financial and technical support for academic
+institutes and organizations conducting R&D in addition to collaborating with such organizations in various R&D projects.
+
+University
+
+Sponsored course
+
+Graduate School of Frontier
+Sciences
+The University of Tokyo
+
+Realization of Integrated Ocean
+Development and Utilization
+systems
+
+Graduate School of
+Engineering
+The University of Tokyo
+
+Next Generation of Offshore
+Wind Turbine System
+
+Faculty of Engineering
+The University of Kyushu
+
+Joint-established department
+Department of Ocean Energy
+Resources
+
+International Affairs
+
+University
+
+Research
+
+Sponsorship and Support for R&D Institutes
+and Organizations
+
+Organization List
+ClassNK Annual Report
+
+22
+
+ClassNK in Research
+
+Joint R&D for Industry
+ClassNK contributes to the development of the maritime industry
+by providing technical and financial support to innovative R&D
+based on proposals from maritime stakeholders. At the end of
+2016, 302 projects had been completed as part of ClassNK’s joint
+R&D for Industry Program”. In 2016 alone, 47 projects in various
+fields were completed, some of which are introduced below.
+
+Promotion of utilization of advanced information technology
+(Big Data, IoT, AI, etc.)
+Countermeasures to new regulations
+Rule infrastructure development
+Cooperation with maritime clusters and Development support
+for domestic technology
+
+Promotion of utilization of advanced information technology (Big Data, IoT, AI, etc.)
+Study on compatibility between ClassNK Archive Center and industry standard
+Participant
+IBM Japan
+
+■
+
+Objectives
+Following the finalization of the industry
+standard for GBS-SCF coming into force,
+this project aimed to identify the high priority items from differences between the
+ClassNK Archive Center system and industry standards, and attempted to conform
+to industry standard specifications.
+
+■
+
+Outcome
+The world-first onshore archive center conforming to GBS-SCF has been operated
+since 1 July 2016. It obtained certification
+of information security management system (ISMS, ISO / IEC 27001: 2013) in line
+with the industry standards.
+
+■
+
+ClassNK Archive Center
+Work Flow
+
+Research on collaboration between CMAXS PMS (maintenance / spare parts management system)
+and CMAXS LC-A (condition monitoring / automatic diagnosis system)
+Participants
+IMC Co., Ltd.
+Diesel United, Ltd.
+ClassNK Consulting Service Co., Ltd.
+
+■
+
+23
+
+Objectives
+For the purpose of improving the reliability of the maintenance work on the ship,
+this project aimed to create a database of
+maintenance items recommended by the
+manufacturer. In addition, by bridging
+CMAXS PMS and CMAXS LC-A, realization for planning of the maintenance work
+plan based on the state of the engine is
+aimed.
+
+■
+
+Outcome
+As initially planned, the development of
+functions related to the collaboration
+between CMAXS PMS and CMAXS LC-A
+had been completed, and reliability of
+maintenance work had been improved by
+availability of planning maintenance work
+based on the maintenance work recommendation period indicated by the LC-A
+participation maker.
+
+■
+
+Research and Development related to Classification / Joint R&D for Industry
+
+National project on utilization of IoT for maritime industry
+
+■ Safety
+
+design through hull monitoring
+– Research and development concerning
+hull structure health monitoring for
+large container ships
+
+■ Preventive
+
+maintenance of marine 		
+equipment and systems
+– Development of a method of preventing
+accidents at ship engine plants with the
+use of Big Data for improving safety and
+economic efficiency
+– Research and development for the introduction of IoT to deck machinery on
+cargo carriers and bulk carriers
+
+Organization Profile
+Service Network
+
+support with shaking and
+steering simulators
+– A Study on the Determination of Ship
+Collision Risk and Autonomous Shipping
+– Development of a system for the automated observation and transmission of
+marine weather data
+– Improvement in analytical accuracy with
+the automatic correction of the ship
+characteristics model and application to
+safe operations
+– Research and development of a technology supporting safety in LNG transport with the use of communication
+between ships and land
+
+2016 at a Glance
+
+■ Operation
+
+Message
+
+Japan’s Ministry of Land, Infrastructure, Transport and Tourism is encouraging productivity revolution in the marine industry, called
+i-Shipping. As part of its actions, it has defined seven projects for the research and development of IoT-based technologies to help
+improve marine safety, to be subsidized under the Support Program for Research and Development of Advanced Safety Ship Technology.
+ClassNK participates as a joint researcher in all seven projects and provides appropriate support from the standpoint of a third party ship
+classification society.
+
+Countermeasures to new regulations
+Research and development on the development of domestic marine SOx scrubber and installation of actual ships
+Outcome
+The first domestic hybrid SOx scrubber in
+Japan has been developed and installed
+on 7500 car carriers (Panama registered).
+Confirmed that it had performance to
+satisfy exhaust emission standards and
+emission standards of washing water
+specified in the EGCS guidelines at sea
+trial operation and actual navigation. A
+scheme B certification procedure for the
+Panama flag was also confirmed.
+
+■
+
+Research and development on actual stress of large crankshaft and prediction of bending-torsional fatigue strength
+
+Mitsubishi Heavy Industries Marine
+Machinery & Engine Co., Ltd.
+
+Outcome
+Based on the results of this research, we
+proposed “Guidance on Utilization of High
+Fatigue Strength Considering Nonmetallic
+Inclusive Dimensions” to WG in CIMAC
+(The International Council on Combusion
+Engines) which considers updating IACS
+rule. As a result, a subgroup that examines
+for rule making has been created.
+
+■
+
+ClassNK Annual Report
+
+DAIHATSU DIESEL MFG. CO., LTD.
+YANMAR CO., LTD.
+Niigata Power Systems Co., Ltd.
+Hiroshima University
+Hitachi Zosen Corporation
+
+Objectives
+The design fatigue strength prescribed
+by the current international classification
+rule (IACS UR M53) does not take into
+consideration the effect of material cleanliness (nonmetallic inclusions). For the
+prevention of breakage of the crankshaft
+and pursuit of possibility for further limit
+design, this project aimed to establish
+actual stress prediction technology by MBS
+(abbreviation of Multi Body Simulation)
+which greatly affects the fatigue strength
+evaluation accuracy of the crankshaft and
+the multi-axial fatigue strength evaluation
+technology including the influence of nonmetallic inclusions.
+
+■
+
+Organization List
+
+Participants
+Kobe Steel, Ltd.
+Mitsui Engineering & Shipbuilding Co., Ltd.
+Kawasaki Heavy Industries, Ltd.
+
+■
+
+International Affairs
+
+Rule infrastructure development
+
+Research
+
+Objectives
+Toward the practical application of domestic marine scrubbers, this project aimed
+to develop scrubber and on-board ship
+installations as well as establishment of
+certification procedures through operational tests on actual ships and acquisition
+of knowledge about the scrubber driving
+procedure in actual operation.
+
+■
+
+Action
+
+Participants
+Kawasaki Kisen Kaisha, Ltd.
+Mitsubishi Heavy Industries, Ltd.
+Mitsubishi Kakoki Kaisha, Ltd.
+Japan Marine United Corporation
+JMU5044 SHIPPING S.A.
+
+■
+
+24
+
+ClassNK in Research
+A Study on the Method of Determining the Lowest Main Machine Output of a Ship Sailing under heavy weather
+Participants
+Hiroshima University
+Osaka University
+Hokkaido University
+
+Objectives
+With the EEDI regulation, it is required to
+ensure the minimum output of a shipping
+agency to maintain marine vessel maneuvering performance under heavy weather
+while satisfying the fuel efficiency regulation value. This project aimed to develop
+a method to rationally determine the lowest main engine output of vessels sailing
+under heavy weather, which is necessary
+for verifying the technical validity of the
+evaluation method.
+
+■
+
+■
+
+Outcome
+A method to rationally determine the
+lowest main engine output of a vessel
+under heavy whether condition has been
+developed. This method contributes to
+the realization of rational EEDI regulation
+and contributes to the development of
+maritime industry through optimization of
+ship design and design and construction
+of competitive vessels.
+
+■
+
+Research and development on required arrest toughness
+of extremely thick steel plate for ultra large container carrier
+Participants
+The Japan Welding Engineering Society
+
+■
+
+Brittle crack arrest
+
+Objectives
+There is no specific provision for the
+required Kca value of the extremely thick
+arrest steel plate exceeding the plate
+thickness of 80 mm, and it is based on
+the judgment of each classification society. In this study, a demonstration test
+(large structural model arrest test) using
+specimens simulating hatch side coaming
+and strength deck structure of a large
+container carrier were conducted, and we
+aimed to clarify the required Kca value of
+extremely thick arrest steel plate with a
+thickness of 100 mm.
+
+■
+
+Outcome
+On the basis of the findings obtained in
+this study, we proposed IACS(EG/MW) to
+prescribe the required Kca value of ultrathick arrest steel plate with a plate thickness of 80 mm or more and 100 mm or
+less in the IACS unified rule.
+
+■
+
+Cooperation with maritime clusters and Development support for domestic technology
+Research and development for trial design of small and medium type ships
+such as engine room, etc., on the basis of NOx Tier III regulation
+Participants
+The Cooperative Association of Japan
+Shipbuilders
+
+■
+
+USUKI SHIPYARD CO., LTD.
+KITANIHON SHIPBUILDING CO., LTD.
+
+Objectives
+This project conducted trial design on
+representative types of ships built by CAJS
+members including EGR for the hull form,
+engine room arrangement when placing
+the SCR, piping, etc., to extract issues and
+discuss solutions.
+
+■
+
+Outcome
+We conducted a trial design when SCR or
+EGR was installed on chemical tankers of
+16,000 DWT and 25,000 DWT type, and
+gained insight on the problems at designing and their solution strategies.
+
+■
+
+Verification of the effect of countermeasures against onboard noise
+Participants
+The Hakodate Dock Co., Ltd.
+Shin Kurushima Dockyard Co., Ltd.
+Tokai University
+Imabari Shipbuilding Co., Ltd.
+Naikai Zosen Corporation
+Sasebo Heavy Industries Co., Ltd.
+Onomichi Dockyard Co., Ltd.
+Oshima Shipbuilding Co., Ltd.
+Namura Shipbuilding Co., Ltd.
+TSUNEISHI SHIPBUILDING Co., Ltd.
+Sanoyas Shipbuilding Corporation
+
+■
+
+25
+
+Objectives
+We conducted comparative tests on soundproofing / sound insulation performance
+and noise propagation performance on
+experimental laboratories on various noise
+countermeasures (damping materials, modification of soundproofing materials, floating
+floor, etc.). For representative countermeasures, by conducting a test and grasping
+its effect, it contributes to the optimum
+design of the residential district.
+
+■
+
+Outcome
+Vibration and acoustic characteristics (acoustic radiation efficiency, sound transmission
+loss, vibration insertion loss and vibration
+transmission loss) of representative countermeasures of vibration suppression type and
+floating floor type could be confirmed. In
+addition, we could obtain similar information on the deck structure for post-harvest
+measures prepared for unforeseen circumstances after sea trial operation.
+
+■
+
+Research and Development related to Classification / Joint R&D for Industry
+
+Research and development on LNG fuel tugboat
+Objectives
+This project aimed to build the first domestic LNG fuel tugboat and demonstrate that
+it is possible to reduce the environmental
+burden.
+
+■
+
+Outcome
+We succeeded in optimizing IGF Code for
+small ships and development of compact
+LNG fuel system as well as ensuring design
+specifications and safety equivalent to
+those of conventional fuel oil ships.
+
+■
+
+Message
+
+Participants
+Nippon Yusen Kabushiki Kaisha
+
+■
+
+2016 at a Glance
+Organization Profile
+Service Network
+
+LNG-fueled Vessel: Sakigake
+
+Research and Development for Practical Use of Main Engine
+Main Bearing Condition Monitoring Technology (STEP 1)
+Outcome
+By conducting a slide bearing seizure test
+in the laboratory and obtaining vibration
+signal data of cepstrum, the correlation
+between the extent of damage and the
+signal was confirmed. We verify the usefulness of the present technology in the
+real machine in STEP 2.
+
+■
+
+International Affairs
+
+Participants
+Imabari Shipbuilding Co., Ltd.
+National Maritime Research Institute
+Nippon Steel & Sumitomo Metal Corporation
+
+Outcome
+In the case of high ductility steel, it was
+revealed that the energy absorbed before
+cracks occurred in the inner plate of VLCC
+was significantly improved by the elongation itself and the expansion effect of the
+plasticized area. NK has set a classification
+code (Hull Protection by Highly Ductile
+Steel (HP-HDS)) to adopt high ductility
+steel.
+
+■
+
+ClassNK Annual Report
+
+Objectives
+In order to evaluate the impact of high
+ductility steel (HDS: Highly Ductile Steel)
+on the improvement of crashworthiness
+of collided ships, collision analysis considering applicable range, draft, collision
+angle, ship speed, etc. was carried out,
+and steel material performance Evaluation
+test was also conducted.
+
+■
+
+Organization List
+
+Research on Hull Structures with Newly Developed Highly Ductile Steel
+to Mitigate Impact Damage and Cargo Loss in Ship to Ship Collision
+■
+
+Research
+
+Objectives
+For the early detection technology of rubbing of the main slide bearing by frequency
+modulation analysis, this study aimed to
+carry out the bearing damage test and
+prove the technology. This is not a spectral
+analysis method which was mainstream in
+the state diagnosis of slide bearings, but
+a high precision state diagnosis method
+by cepstrum analysis method. Even when
+installing the sensor, special jigs and drilling work are unnecessary and versatility is
+high, so it can be expected not only for
+main bearing but also for other slide bearings (supercharger, propeller bearing etc.).
+
+■
+
+Action
+
+Participants
+Asahi Kasei Engineering Corporation
+Mitsui O.S.K. Lines, Ltd.
+
+■
+
+26
+
+ClassNK maintains active engagement with various organizations in the
+
+ClassNK
+in International
+Affairs
+
+international maritime industry. ClassNK is an active member of the International Association of Classification Societies (IACS) and played a key role in
+the development of the Unified Requirements.
+ClassNK has authorization from numerous flag states to carry out statutory
+surveys on their behalf which is a testament of the depth of trust that the
+Society has been able to build over its 117 year history.
+
+International Maritime Organization
+
+International Maritime Organization (IMO)
+As one of its many important international activities, ClassNK
+contributes to the International Maritime Organization (IMO) on
+a wide range of technical issues. In 2016, the Society attended
+the IMO meetings listed to the right as part of the Japanese Government delegation or as a representative of the International
+Association of Classification Societies.
+Information regarding decisions on amendments to Conventions
+at the major IMO meetings such as Maritime Safety Committee (MSC) and the Marine Environment Protection Committee
+(MEPC) are regularly provided to ClassNK clients via email and are
+also uploaded to the IMO International Convention Calendar on
+the ClassNK website.
+
+3rd Session of the Sub-Committee
+on Human Element, Training and Watchkeeping
+3rd Session of the Sub-Committee
+on Pollution Prevention and Response
+3rd Session of the Sub-Committee
+on Navigation, Communications and Search and Rescue
+3rd Session of the Sub-Committee on Ship Systems and Equipment
+69th Session of the Marine Environment Protection Committee
+96th Session of the Maritime Safety Committee
+3rd Session of the Sub-Committee on Implementation of IMO Rules
+3rd Session of the Sub-Committee
+on Carriage of Cargoes and Containers
+70th Session of the Marine Environment Safety Committee
+97th Session of the Maritime Safety Committee
+
+27
+
+IMO / IACS / ACS
+
+Message
+2016 at a Glance
+Organization Profile
+
+International Association Of Classification Societies
+
+Association Of Asian Classification Societies
+Service Network
+
+International Association
+of Classification Societies (IACS)
+
+Council Meetings
+
+Twice
+
+General Policy Group Meetings
+
+Twice
+
+Steering Committee Meeting (Strategy of IACS)
+
+Once
+
+Quality Committee Meetings
+
+Twice
+
+Small Group Meetings (Quality Policy)
+
+Twice
+
+Project Team Meetings (CSR Maintenance, etc.)
+
+9 times
+Once
+
+International Affairs
+
+Industry Meetings on Emergency Revisions of CSR
+
+Organization List
+
+Association of Asian
+Classification Societies (ACS)
+
+1st Safety Working Group
+13th Technical Management Group Meeting
+5th Technical Seminar
+14th Technical Management Group Meeting
+24th Executive Committee Meeting
+
+ClassNK Annual Report
+
+The Association of Asian Classification Societies (ACS) was
+formed in 2010, following nearly two decades of informal meetings between its members. In 2016, ClassNK led ACS technical
+activities by actively participating in WGs which were established
+as a result of the reformation of ACS organization structure.
+Furthermore, ClassNK also contributed to ACS independent
+Technical Seminar, and endeavored to strengthen the relations
+with Asian maritime organizations. ClassNK participated in the
+following meetings in 2016:
+
+7 times
+
+Panel Meetings
+(Hull, Machinery, Safety, Environment, Survey, Cyber) 11 times
+
+Research
+
+Expert Group Meetings
+(EU, Law, Material and Weldings, etc.) 	
+
+Action
+
+Technical matters associated with the development and revision
+of Unified Requirements (UR) and Unified Interpretations (UI) are
+conducted by five Panels (Hull, Machinery, Safety, Environment
+and Survey) and the Project Teams under their control. In 2016,
+ClassNK staff served as the Chair of the Expert Group on IMO
+Goal Based Standards (GBS) and the Project Manager of the Project Team on Container Ship Safety.
+ClassNK, as the Chair of the Expert Group on IMO Goal Based
+Standards (GBS), led the activities on finalizing IACS Corrective
+Action Plans for IMO GBS Audit findings or communicating with
+IMO Secretariat and IMO GBS Audit Team for the smooth conduct of the audit. In addition, ClassNK, as the Project Manager
+of the Project Team on Container Ship Safety, led the technical
+activities on the development of unified requirements of structural strength for container ships.
+ClassNK participated in the following IACS meetings in 2015
+listed below:
+
+28
+
+Organization List
+
+As of 31 December 2016
+
+OFFICERS
+
+Councilors
+
+Zenshichi Akasaka
+Katsuyuki Sugimoto
+Masakazu Nakanishi
+Makoto Satani
+Jiro Asakura
+Kazuo Tsukuda
+Yasuhiko Katoh
+Akimitsu Ashida
+Akihiro Miyasaka
+Yasumi Kudo
+Sho Minami
+Shinji Hayama
+Koichiro Yoshida
+Masafumi Yasutomi
+Takashi Uyeno
+
+Chairman
+Executive Adviser
+Former Chairman
+Former Executive Consultant
+Director, Chairman
+Senior Executive Adviser
+Chairman and Representative Director
+Counselor
+Executive Advisor
+Chairman, Chairman Corporate Officer
+Company CEO
+Professor Emeritus
+Professor Emeritus
+Chairman
+Chairman and President
+
+Akasaka Diesels Limited
+Iino Kaiun Kaisha, Ltd.
+Japanese Hull Insurers' Union
+JX Nippon Oil & Energy Corporation
+Kawasaki Kisen Kaisha, Ltd.
+Mitsubishi Heavy Industries, Ltd.
+Mitsui Engineering & Shipbuilding Co., Ltd.
+Mitsui O.S.K. Lines, Ltd.
+Nippon Steel & Sumitomo Metal Corporation
+Nippon Yusen Kabushiki Kaisha
+Oshima Shipbuilding Co., Ltd.
+The University of Tokyo
+The University of Tokyo
+Tokyo Metro Co., Ltd.
+Uyeno Transtech Ltd.
+
+Members of
+Councilor
+Appointment
+Committee
+
+Tsutomu Aihara
+Shiro Okuda
+Shinji Hayama
+Seiichi Ochiai
+Hiroshi Itagaki
+
+Former Commandant
+General Manager of General Affairs Department
+Professor Emeritus
+Attorney-at-Law, Professor Emeritus
+Professor Emeritus
+
+Japan Coast Guard
+Nippon Kaiji Kyokai
+The University of Tokyo
+The University of Tokyo
+Yokohama National University
+
+Directors
+
+Yoshio Otagaki
+Hideaki Naoi
+Toyohisa Nakano
+Yoshikazu Kawagoe
+Koichi Fujiwara
+Tetsuya Kinoshita
+Junichiro Iida
+Hideomi Otsubo
+
+Representative Director Vice President
+General Manager, Engineering Division
+Executive Officer
+Managing Executive Officer
+Chairman and President
+Senior Executive Vice President
+Executive Vice President
+Professor Emeritus
+
+Japan Marine United Corporation
+Kawasaki Heavy Industries, Ltd.
+Kawasaki Kisen Kaisha, Ltd.
+Mitsui O.S.K. Lines, Ltd.
+Nippon Kaiji Kyokai
+Nippon Kaiji Kyokai
+Nippon Kaiji Kyokai
+The University of Tokyo
+
+Auditor
+
+Tsutomu Aihara
+Tetsushi Agata
+Yasuo Tanaka
+Yuzuru Fujita
+
+Former Commandant
+Executive Auditor
+Senior Managing Corporate Officer
+Professor Emeritus
+
+Japan Coast Guard
+Nippon Kaiji Kyokai
+Nippon Yusen Kabushiki Kaisha
+The University of Tokyo
+
+Professor Emeritus
+
+The University of Tokyo
+
+Vice Chairman Toshiharu Nomoto
+
+Professor Emeritus
+
+The University of Tokyo
+
+Members
+
+Director, Managing Executive Officer
+Director, Managing Executive Officer
+Technical Executive General Manager,
+Strategy Planning Dept., Ship & Offshore Division
+Executive Assistant,
+General Manager of Plate Business Planning Department
+Director, Senior Vice President
+Senior Manager of Initial Design Department,
+Engineering Division, Ship & Offshore Structure Company
+Managing Executive Officer
+Division General Manager, Steel Casting & Forging Division,
+Iron & Steel Business
+Senior Chief Engineer, Shipbuilding & Ocean Development,
+Commercial Aviation & Transportation Systems
+Director and Managing Executive Officer, General Manager,
+Ship & Ocean Project Hq.
+Executive Officer
+Executive Officer, General Manager Ship Design Sub-division
+Chairman and President
+Senior Executive Vice President
+Executive Vice President
+General Manager,
+Head of Div. Place Technology Div. Plate Unit
+Senior Managing Corporate Officer
+Director, Acting Chief General Manager,
+Business & Technical Development Division
+Forging, Casting & Pressure Vessel Dept. / General Manager
+Professor Emeritus
+Professor Emeritus
+Professor Emeritus
+
+Iino Kaiun Kaisha, Ltd.
+Imabari Shipbuilding Co., Ltd.
+Japan Marine United Corporation
+
+TECHNICAL COMMITTEE
+
+Chairman
+
+Hideomi Otsubo
+
+Hisahiro Oshima
+Kazuo Kasai
+Hisayuki Yamada
+Teruo Yamaura
+Kaneo Kuboyama
+Atsushi Komura
+Toyohisa Nakano
+Osamu Matsumoto
+Naoki Ueda
+Taketsune Matsumura
+Yoshikazu Kawagoe
+Tadashi Yoneda
+Koichi Fujiwara
+Tetsuya Kinoshita
+Junichiro Iida
+Yuji Nomiyama
+Yasuo Tanaka
+Atsushi Majima
+Akihiro Shimizu
+Shinji Hayama
+Koichiro Yoshida
+Hiroshi Itagaki
+
+29
+
+JFE Steel Corporation
+JX Ocean Co., Ltd.
+Kawasaki Heavy Industries, Ltd.
+Kawasaki Kisen Kaisha, Ltd.
+Kobe Steel, Ltd.
+Mitsubishi Heavy Industries, Ltd.
+Mitsui Engineering & Shipbuilding Co., Ltd.
+Mitsui O.S.K. Lines, Ltd.
+Namura Shipbuilding Co., Ltd.
+Nippon Kaiji Kyokai
+Nippon Kaiji Kyokai
+Nippon Kaiji Kyokai
+NIPPON STEEL & SUMITOMO METAL CORPORATION
+Nippon Yusen Kabushiki Kaisha
+Sumitomo Heavy Industries Marine & Engineering
+Co., Ltd.
+The Japan Steel Works, Ltd.
+The University of Tokyo
+The University of Tokyo
+Yokohama National University
+
+BRAZIL TECHNICAL COMMITTEE
+
+Shipping
+
+Vale S.A.
+
+Members
+
+Mr. Rosalvo S. Sales Jr.
+Mr. Alexandre Canhetti
+Captain Carlos José Dias
+Mr. Frederico Mithio Horigome
+Mr. Michel P. Andrade
+Mr. Hiroshi Nishioka
+Mr. Takuya Fujita
+Mr. Soichiro Inoue
+Mr. Renato Albuquerque Vinhas
+Capt. Paulo Afonso da Cruz Silva
+Mr. Ricardo B. Portella
+Mr. Bertoldo Gancz
+Mr. Toshihiko Tsutsumi
+Mr. Nilton Gonçalves
+Mr. Atul Sethi
+
+Director, Business Development & Strategic Planning
+Director
+Marine Affairs, Vetting Manager
+Industrial Design Manager
+Engineering Manager
+Executive Director Engineering
+Senior Staff Officer, Project Division
+Vice-President
+LNG Shipping Operational Coordinator, Gas & Energy
+Vetting Manager
+Deputy Director, Basic Design Division
+Director
+President
+General Technical Manager - PROMEF
+Country Manager
+
+Amec KROMAV
+ECOVIX
+Empresa de Navegação Elcano S.A.
+Enseada Industria Naval S/A
+Estaleiro Atlântico Sul
+IHI do Brasil Representações Ltda.
+Kawasaki Heavy Industries, Ltd.
+Mitsubishi Indústrias Pesadas do Brasil Ltda.
+PETROBRAS
+PETROBRAS
+Projemar
+Rio Nave Seviços Navais Ltda.
+SIGMAX
+TRANSPETRO
+UP OFFSHORE
+
+Members
+
+Mr. Douglas W. Lang
+Mr. Christopher Bailey
+Mr. Sunil Malhotra
+Mr. John Anagnostopoulos
+Mr. Epaminondas G.E. Embiricos
+Mr. Philip D Atkinson
+Mr. Lars T Ugland
+Mr. Danny Ungar
+Mr. John Kerr
+Mr. Michael K. Drayton
+Mr. Roine Ahlquist
+Mr. Alexander Herriot
+Mr. George Cowan
+
+Managing Director
+Vice President Operations
+Chief Operating Officer
+Managing Director
+Chairman
+Technical Director
+CEO
+Managing Director
+Technical Director
+Former Chairman
+Managing Director
+Operations Director
+Director Technical
+
+Anglo-Eastern (UK) Ltd.
+BP Shipping Limited
+British Marine Plc
+Eastern Pacific Shipping (UK) Ltd.
+Embiricos Shipbrokers Ltd.
+Graig Shipping Plc
+LT Ugland Management Ltd.
+Ray Shipping Ltd.
+Songa Shipmanagement Ltd.
+The Baltic Exchange
+Tufton Oceanic Shipping Management
+V. Ships UK Limited
+Zodiac Maritime Ltd.
+
+Head of Planning, Controlling and Engineering
+Technical Manager
+Chief of Maritime Inspections Services
+Fleet Technical Manager
+Fleet Senior General Manager, Head Of LPG & Dry Cargo Fleet
+Fleet Manager
+General Manager
+Fleet Head Manager
+Deputy Fleet Manager
+Towage Division
+Senior General Manager, Head of Handysize Operations
+Operations Manager
+
+Southern Shipmanagement (Chile) Ltda.
+Chile National Shipowners’ Association
+DIRECTEMAR
+Empremar S.A.
+Humboldt Shipmanagement
+Naviera Chilena del Pacifico S.A.
+SOCIBER
+Sociedad Nacional Maritima S.A.
+Southern Shipmanagement (Chile) Ltda.
+Sudamericana Agencias Aereas y Maritimas S.A.
+Ultrabulk
+Ultratug Ltda.
+
+CHILE TECHNICAL COMMITTEE
+
+Chairman
+Members
+
+Mr. Angel Canessa T.
+Mr. Rosauro Segovia Montenegro
+Mr. Gonzalo Araya Gajardo
+Mr. Santiago Tapia Carvajal
+Mr. Francisco Lopez
+Mr. Luis Bauerle
+Mr. Hugo Barra
+Mr. Carlos Contreras Muñoz
+Mr. Ramon Gatica O.
+Mr. Pablo E. Caceres
+Mr. Mogens Mellerup
+Mr. Carlos Bastías Nercelles
+
+China COSCO Shipping Corporation Limited
+
+Members
+
+Mr. Li Tian Bao
+Mr. Wang Yongliang
+Mr. Liu Yifan
+
+Bohai Shipbuilding Heavy Industry Co., Ltd
+Chengxi Shipyard Co., Ltd.
+China COSCO Shipping Corporation Limited
+
+Mr. Xu Ziqiu
+Mr. Lv Yibin
+Mr. Dong Qiang
+Mr. Xu Xing
+Mr. Li Rong
+
+Board Chairman
+Chairman
+General Manager,
+Technology & Information Management Division
+Vice President, Secretary to the Board
+Chairman
+President, Party Secretary,
+Secretary of Discipline Inspection Commission
+Assistant President
+Assistant General Manager
+Chairman, Secretary of Party Members' Group
+Deputy Director, Ship & Ocean Engineering Dept.
+Managing Director
+
+Mr. Hou Liping
+Mr. Gao Yongjun
+Mr. Li Cheng
+Mr. Jian Cao
+Mr. Sun Xing Tao
+Mr. Henry Chiang
+Mr. Yang Jian Ming
+Mr. Han Cheng Min
+Mr. Wang Hong
+Mr. Liu Gang
+
+Deputy Managing Director
+Deputy General Manager
+Vice President
+Senior VP
+President
+President
+President
+President
+Chairman
+General Manager
+
+Mr. Tao Jian
+Mr. Zhao Zhanjun
+Mr. Li Zhong
+
+China CSSC Holdings Limited
+China Ship Design & Research Center Co., Ltd.
+China Ship News
+China Shipbuilding Industry Corporation
+China Shipping Industry Co., Ltd. (CIC)
+China State Shipbuilding Corporation
+China State Shipbuilding Corporation
+COSCO (Nantong) Shipyard Co., Ltd.,
+COSCO (Qidong) Offshore Co., Ltd.
+COSCO Container Lines Co., Ltd.
+COSCO International Ship Trading Co., Ltd.
+Dalian Shipbuilding Industry Co., Ltd
+Far East Horizon Limited
+Fortune Ocean Shipping Limited
+Greathorse Group
+Jiangsu Ocean Shipping Company Ltd.
+Nantong COSCO KHI Ship Engineering Co., Ltd.
+Penglai Zhongbai Jinglu Ship Industry Co., Ltd.
+Safargo Shipping Pte. Ltd.
+
+ClassNK Annual Report
+
+Executive Vice President
+
+Organization List
+
+Dr. Sun Jiakang
+
+International Affairs
+
+CHINA COMMITTEE
+
+Chairman
+
+Research
+
+CMA CGM (UK) Holdings Limited
+
+Action
+
+Chairman
+
+Service Network
+
+Mr. Michael G. Parker
+
+Organization Profile
+
+BRITISH COMMITTEE
+
+Chairman
+
+2016 at a Glance
+
+Mr. Paulo Roberto Neves Bezerra
+
+Message
+
+Chairman
+
+30
+
+Mr. Zhao Xianfu
+Mr. Franco Tian
+Prof. Liu Nan
+Dr. Liu Jianfeng
+Mr. Xu Junfeng
+Mr. Li Zhen
+Mr. Ren Le Tian
+
+General Manager
+General Consultant
+Managing Director
+Chief Technics Engineer
+Deputy General Manager
+Assistant President
+Deputy General Manager
+
+Shandong Shipping Corporation
+Shanghai Anrita Shipping Co., Ltd.
+Shanghai Bestway Marine Engineering Design Co., Ltd
+Shanghai Waigaoqiao Shipbuilding Co., Ltd.
+Sinochem International Logistics Co., Ltd.
+Sinotrans & CSC Holdings Co., Ltd.
+Yangzijiang Shipbuilding Group Ltd.
+
+CHINA TECHNICAL COMMITTEE
+
+Chairman
+
+Mr. Zhao Zhanjun
+
+President
+
+China Ship Design & Research Center Co., Ltd.
+
+Members
+
+Mr. Chen Jianping
+Mr. Tian Zhengjun
+
+Technical Director
+Technical Director
+
+Mr. Deqian Yu
+Mr. Bi Jianyi
+Mr. Wang Xinquan
+Mr. Zhang Yelong
+
+Vice President
+Chief Engineer, Senior Research Engineer
+General Manager Assistant
+Manager, Strategy & Corporate Management Division,
+Investment Management Department
+Vice Chief Engineer, Director of Project Development,
+Senior Naval Architect
+Director
+
+Asia Maritime Pacific (Shanghai) Limited
+Avic International Holding Corporation,
+Avic-Dingheng Shipbuilding Co., Ltd.
+AVIC International Ship Development (China) Ltd.
+Bohai Shipbuilding Heavy Industry Co., Ltd.
+China COSCO Bulk Shipping (Group) Co, Ltd.
+China COSCO Shipping Corporation Limited
+
+Mr. Bai Yu Gang
+Mr. Yan Jun
+Mr. Wang Guorong
+Mr. Shi Yongxin
+Mr. Zhan Shuming
+Mr. Jiang Jiazhong
+Capt. Wang Liang
+Mr. Zhao Jin Wen
+Mr. Yang Wei Zan
+Mr. Chen Yu
+Mr. Wang Wei Bin
+Mr. Mai Rong Zhi
+Mr. Lou Dan Ping
+Mr. Zheng Shijun
+Mr. Hu Keyi
+Dr. Zhang Leshan
+Capt. Peter Chen
+Mr. Jin Qiang
+Mr. Sun Zhenglin
+Mr. Xiong Cheng Gen
+Mr. Chen Xiangwang
+Mr. Masanobu Harada
+Mr. Mo Zhong Hua
+Capt. Wang Rongliang
+Mr. Li Yanjie
+Mr. Deng Wenpeng
+Mr. Ren Jian
+Mr. Yu Hong Bin
+Capt. Fu Jian
+Mr. Shen Xiaodong
+Mr. Zhao Peicong
+Mr. Wang Gang - yi
+Mr. Chang Hua Ming
+Mr. Tao Ying
+Mr. Gao Fu Quan
+Capt. Guan Qing Hui
+Mr. Liu Renjie
+Mr. Xiao Sen Yuan
+Mr. Xu Gang
+Mr. Yang Chun
+Mr. Yang Yifeng
+Mr. Gao Yunqiang
+Mr. Du Cheng Zhong
+
+Managing Director, Senior Chief Engineer
+General Manager / Senior Engineer,
+Safety & Technology Management Division
+Chief Engineer
+Vice Director
+General Manager
+General Manager, Senior Chief Engineer,
+Safety & Technical Division
+Deputy Technical Director, Senior Engineer
+General Manager
+Deputy General Manager, Ship Management Division
+Assistant President, Vice Chief Engineer,
+Technical Center Manager Director
+Deputy Chief Technical Officer
+Vice General Manager, Transportation Business Unit
+Technical Director, Technology & Market Development
+Technical Director
+Deputy General Manager
+Deputy Director, Merchant Ship Department
+Managing Director
+General Manager
+General Manager
+Vice President,
+Senior General Manager of Central Technical Div.
+Vice President, Vice Senior General Manager of Technical Div.
+General Manager
+General Engineer
+Vice General Manager, Chief Engineer,
+Certified Safety Engineer
+Vice Director, Senior Engineer (Professor)
+General Manager
+Vice General Manager
+General Manager
+Deputy General Manager, Chief Engineer
+Deputy Chief Engineer, Director, Naval Architect,
+R&D Department
+Deputy Managing Director, Senior Chief Engineer
+Chief Engineer, Senior Engineer
+Managing Director, Senior Engineer
+Deputy Managing Director
+General Manager, Shipping Asset Management Division
+Vice President
+General Manager
+Director, Vice General Manager
+President
+Deputy General Manager
+Deputy General Manager
+
+China Ship Design & Research Center Co., Ltd.
+Chinese Institute of Marine &
+Offshore Engineering HB.Co., Ltd
+COSCO Bulk Carrier Co., Ltd.
+COSCO Container Lines Co., Ltd.
+COSCO Shipyard Group Co., Ltd.
+CSC Jinling Shipyard
+Dalian Chun An Ship Management Co., Ltd.
+Dalian Ocean Shipping Company
+Dalian Shipbuilding Industry Co., Ltd.
+Dalian Tiger Shipping Ltd.
+Guangzhou Ocean Shipping Co., Ltd.
+Guangzhou Shipyard International Co., Ltd.
+Hudong-Zhonghua Shipbuilding (Group) Co., Ltd.
+International Far Eastern Leasing Co., Ltd.
+Jiangnan Shipyard (Group) Co., Ltd.
+Jiangsu Hantong Ship Heavy Industry Co., Ltd.
+Jiangsu Ocean Shipping Co., Ltd.
+Marine Design & Research Institute of China (MARIC)
+Millennium Maritime Service Co., Ltd
+Nanjing Dongze Shipyard Co., Ltd
+Nanjing Ocean Shipping Co., Ltd.
+Nantong COSCO KHI Ship Engineering Co., Ltd.
+Nantong COSCO KHI Ship Engineering Co., Ltd.
+Noble Great Shipping Co., Ltd
+Qingdao Beihai Shipbuilding Heavy Industry Co., Ltd
+Qingdao Winning International Ships Management
+Co., Ltd.
+Qingshan Shipyard of SINOTRANS & CSC SBICO
+Sea Carrier Shipping Co., Ltd.,
+Dalian Sea Carrier Co., Ltd.
+Shandong Shipping Corporation
+Shanghai Costamare Ship Management Co., Ltd.
+Shanghai Hai Hua Shipping Co., Ltd.
+Shanghai Merchant Ship Design & Research Institute, CSSC
+Shanghai Ocean Shipping Co., Ltd.
+Shanghai Waigaoqiao Shipbuilding Co., Ltd.
+Shanhaiguan New Shipbuilding Industry Co., Ltd
+Shenzhen Ocean Shipping Co., Ltd.
+Sinochem Shipping Co., Ltd. (Shanghai)
+SITC Shipping Group
+SUMEC Marine Company Limited
+Taizhou Kouan Shipbuilding Co., Ltd.
+Taizhou Sanfu Ship Engineering Co., Ltd.
+Tianjin Xingang Shipbuilding Heavy Industry Co., Ltd.
+Yangzijiang Shipbuilding Group Ltd.
+
+DANISH TECHNICAL COMMITTEE
+
+Chairman
+
+31
+
+Prof. Jørgen Juncher Jensen
+
+Professor, Maritime Engineering Fluid Mechanics,
+Coastal and Maritime Engineering,
+Department of Mechanical Engineering
+
+Technical University of Denmark
+
+Members
+
+Director, Head of Regulatory Affairs
+CEO
+Director, Maritime Regulation and Legal Affairs Ministry
+of Business and Growth
+Technical Director
+Vice President
+
+Axis Offshore A/S
+BIMCO
+Clipper Fleet Management A/S
+Dampskibsselskabet TORM A/S
+Danish Shipowners' Association
+Hansen Maritime Agency
+J. Lauritzen Bulkers
+Maersk Maritime Technology
+MAN Diesel & Turbo
+Danish Maritime Authority
+Nordic Tankers A/S
+Team Tankers
+
+GREEK COMMITTEE
+
+Mr. Charalambos N. Mylonas
+
+Chairman
+
+Transmed Shipping Ltd.
+
+Members
+
+Mr. Markos A. Nomikos
+Mr. Nicolas Hadjioannou
+Mr. Diamantis J. Angelakis
+Ms. Tatiana V. Petalas
+Mr. Michael D. Chandris
+Mr. Antonios D. Faraklas
+Mr. Andreas N. Hadjiyiannis
+Ms. Semiramis Palios
+
+Director
+
+A. M. Nomikos Transworld Maritime Agencies S.A.
+Alassia NewShips Management Inc.
+Anbros Maritime S.A.
+Carras (Hellas) S.A.
+Chandris (Hellas) Inc.
+Chartworld Shipping Corporation
+Cyprus Maritime Co., Ltd.
+Diana Shipping Services S.A.
+
+Head of Technical, Operations & Crew,
+Mechanical Engineer & Naval Architect
+President
+
+Managing Director
+
+Chairman & CEO
+Chairman
+
+Organization List
+
+General Manager
+President-Chief Executive Officer
+Chairman
+President
+Managing Director
+F.I.C.S.
+Managing Director
+Managing Director
+
+International Affairs
+
+Chairman of the Board and Chief Executive Officer
+
+Research
+
+Managing Director
+Director
+President
+Director
+Managing Director
+CEO
+Managing Director
+General Manager
+
+Action
+
+Director
+Director
+Managing Director
+Chief Executive Officer
+Chairman
+Director
+Managing Director
+Managing Director
+Group CEO
+
+DST Shipping Inc.
+Efnav Company Ltd.
+Efnav Company Ltd.
+Efshipping Co SA
+Empros Lines Shipping Co. SP. S.A.
+Equinox Maritime Ltd.
+Evalend Shipping Co. S.A.
+Franco Compania Naviera S.A.
+Globus Maritime Ltd.
+Golden Union Shipping Co. S.A.
+Grecomar Shipping Agency Ltd
+Ikaros Shipping & Brokerage Co., Ltd.
+Ionic Shipping Group
+K.B. Shipping Company Ltd.
+Konkar Shipping Agencies S.A.
+Kristen Marine S.A.
+Kritsas Shipping S.A.
+Larus S.A.
+Laskaridis Shipping Co. Ltd
+Load Line Marine S.A.
+Marmaras Navigation Ltd.
+Meadway Shipping and Trading Inc.
+Metrostar Management Corp.
+MFS Shipmanagement
+Nautical Carriers Incorporated
+Navios Maritime Holdings Inc.
+Niovis Shipping Co. S.A.
+Paragon Shipping Inc.
+Petrofin Ship Management Inc.
+S. Frangoulis (Ship Management) Ltd.
+Seastar Chartering Ltd.
+Springfield Shipping Co. Panama S.A.
+StealthGas Inc.
+Sun Enterprises Ltd.
+Tsakos Shipping & Trading S.A.
+Union Commercial Incorporated
+White Sea Navigation S.A.
+XT Management Ltd.
+Z & G Halcoussis Co., Ltd.
+
+Service Network
+
+Capt. Dimitrios S. Tsolakis
+Mr. Philipos A. Efstathiou
+Mr. Aristidis A. Efstathiou
+Mr. Aristides Th. Efstathiou
+Ms. Anna G. Dracopoulos
+Mr. Ghikas J. Goumas
+Mr. Kriton Lendoudis
+Mr. Nicolas A. Frangistas
+Mr. George Fidakis
+Mr. Michael E. Veniamis
+Mr. N. D. Leventakis
+Mr. Panagiotis Christodoulatos
+Mr. Dimitri-Frank Saracakis
+Mr. John Kairis
+Mr. Valentios Valentis
+Mr. Constantinos D. Krontiras
+Mr. Dimitris Z. Kritsas
+Mr. Alexis Kondilis
+Mr. Panagiotis C. Laskaridis
+Mr. George J. Souravlas
+Mr. Diamantis P. Diamantides
+Mr. Dionysios Dellaportas
+Mr. Theodore P. Angelopoulos
+Dr. Babis O. Ziogas
+Mr. Thanos Papadopoulos
+Ms. Angeliki Frangou
+Mr. Basil E. L. Mavroleon
+Mr. Michael Bodouroglou
+Mr. Ted Petropoulos
+Mr. Albert Frangoulis
+Mr. Dimitris M. Marinos
+Mr. Dimitris E. Patrikios
+Mr. Harry N. Vafias
+Mr. George S. Livanos
+Capt. Panagiotis N. Tsakos
+Mr. Michael M. Scufalos
+Capt. I. Kehagias
+Mr. Ori Angel
+Mr. Diamandis J. Caloghiros
+
+Chairman
+Managing Director
+
+Organization Profile
+
+Chairman
+
+2016 at a Glance
+
+Mr. Flemming Sandstrøm
+Mr. Svend Anthonsen
+
+Head of Technical Projects
+Deputy Secretary General
+Vice President, Head of Clipper Fleet Management
+Vice President, Head of Vessel Management
+Director
+
+Message
+
+Mr. Erik Møller
+Mr. Lars Robert Pedersen
+Mr. Erik Ankjær Carlsen
+Mr. Nikolaj von Wartburg
+Mr. Per Winther Christensen
+Mr. Lars Christiansen
+Mr. Søren Roschmann
+Mr. Niels Bjørn L. Mortensen
+Dr. Thomas S. Knudsen
+Mr. Per Sønderstrup
+
+GREEK TECHNICAL COMMITTEE
+
+Mr. Marios Stafilopatis
+
+Members
+
+Mr. P. E. Antonelos
+Mr. Dimitris Andreadakis
+Mr. Christos C. Hadjigeorgiou
+Mr. Dimitrios Athanasoglou
+Mr. Haris G. Giantzikis
+Mr. Amir Geva
+Mr. Nikolaos A. Ioannou
+Mr. George Laou
+
+Byzantine Maritime Corporation
+General Manager
+Deputy Technical Manager
+Managing Director
+Technical Manager
+Technical Manager
+Managing Director
+Managing Director
+Technical Director
+
+A. M. Nomikos Transworld Maritime Agencies S.A.
+Allseas Marine SA
+Almi Marine Management S.A.
+Anbros Maritime S.A.
+Arcadia Shipmanagement Co. Ltd
+ASM Maritime
+Benelux Overseas Inc.
+Cardiff Marine
+
+ClassNK Annual Report
+
+Chairman
+
+32
+
+Mr. Demetrios Koukoulas
+Mr. George Kourelis
+Mr. Eleftherios A. Belessis
+Mr. Dionisios Kourouklis
+Mr. Vassilis A. Sarris
+Mr. George H. Paschalis
+Mr. Antonios Giantsis
+Mr. George Kotsyfis
+Mr. George Alexandridis
+Mr. Dimitrios A. Alifragis
+Mr. Pantelis Chondros
+Mr. Leontios Pitaoulis
+Mr. Leonidas S. Zogopoulos
+Mr. Stefanos Georgiou
+Mr. Dimitrios J. Fafalios
+Mr. Dimitrios Theodoropoulos
+Mr. Christoforos E. Andreadis
+Mr. Manolis Koutlakis
+Mr. Constantinos Tourlos
+Mr. Anastasios Kalogiannis
+Mr. Demitris Vlassopoulos
+Mr. Dion Theodorou
+Mr. Takis Koutris
+Mr. Nick Argyros
+Mr. Theodosios Vareltzis
+Mr. Yannis Voulgaris
+Mr. Kostas Symeonidis
+Mr. Michael D. Kapsorrachis
+Mr. Theodoros Pavlidis
+Mr. Stavros Daniolos
+Mr. Nikolaos Balalis
+Mr. Costas Mitropoulos
+Mr. Evangelos D. Laliotis
+Mr. Paraskevas Koutsoukos
+Mr. John N. Ioannidis
+Mr. Miltos Synefias
+Mr. Frantzeskos D. Kontos
+Mr. George Hatzivasiliou
+Mr. Elias A. Galanopoulos
+Mr. Michael Anagnostou
+Mr. Victor Frangoulis
+Dr. Konstantinos Galanis
+Mr. Dimitris C. Makris
+Mr. Ioannis P. Mitsakis
+Mr. Apostolos P. Gavalas
+Mr. Diamantis Andriotis
+Mr. Vassilis I. Peponis
+Mr. Dimitrios A. Heliotis
+Mr. Theo G. Baltatzis
+Mr. Efstathios M. Vazaios
+Dr. Vasileios Lampropoulos
+Mr. Nicholas G. Tattos
+Mr. Nikolaos Arvanitakis
+Mr. C. Dean Tseretopoulos
+Mr. Savvas D. Papadatos
+Mr. Constantinos M. Metaxas
+Mr. Costas Petsas
+Mr. Sofoklis Silyvridis
+Mr. Takis Koutouras
+
+General Manager Technical Management Services Dry Division
+General Manager Technical Management Services Tanker
+Division
+Technical Operations Manager
+Director Marine Operations
+Fleet Manager
+Technical Manager
+Technical Manager
+Technical Manager
+Naval Architect & Marine Engineer, Technical Manager
+General Manager
+Technical Manager
+Technical Manager
+Technical Manager
+Technical Manager, Tankers Division
+Director
+Chief Executive Officer
+Technical Manager
+Director (New Buildings)
+Fleet Director
+Technical Manager
+Technical Manager
+Technical Manager
+Managing Director
+Technical Director
+Technical Manager
+Technical Manager
+Technical Manager
+Technical Manager
+Technical Director
+Technical Manager
+Senior Vice President – Technical Director
+Technical Director
+Naval Architect & Marine Engineer
+Managing Director & Technical Manager
+Chief Operating Officer
+Technical Director
+Technical Manager - DPA
+Technical Manager
+Managing Director
+Managing Director
+Director
+Technical Manager
+Technical Manager
+Technical Director
+Technical Manager
+Technical Manager
+Naval Architect & Marine Engineer, NTUA, Technical Director
+Technical Director, Chief Operating Officer
+General Manager
+Technical Manager
+Chief Operating Officer
+Director
+Technical Manager
+Naval Architect-Marine Engineer, MBA
+Mechanical Engineer, Special Projects & Claims Manager
+Technical Manager
+Fleet Manager (Technical)
+Technical Manager
+Technical Manager
+
+Cardiff Marine Inc.
+Cardiff Marine Inc.
+Carras (Hellas) S.A.
+Chandris (Hellas) Inc.
+Chartworld Shipping Corp.
+Chian Spirit Maritime Enterprises Inc.
+Cyprus Sea Lines Co. Ltd.
+Diana Shipping Services S.A.
+Dynacom Tankers Management Ltd
+E. Nomikos Corp.
+Efnav Company Ltd.
+Equinox Maritime Ltd
+Eurobulk Ltd.
+European Navigation Inc.
+Fafalios Shipping S.A.
+Franco Compania Naviera S.A.
+Golden Union Shipping Co. S.A.
+Grecomar Shipping Agency Ltd
+Grecomar Shipping Agency Ltd
+Iolcos Hellenic Maritime Enterprises Co. Ltd.
+Ionic Shipping (Mgt) Inc.
+Konkar Shipping
+Kristen Marine S.A.
+Laskaridis Shipping Co. Ltd.
+Leon Shipping & Trading SA
+Load Line Marine S.A.
+Lydia Mar Shipping Co. S.A.
+Marine Trust Ltd.
+Metrostar Management Corp
+Minerva Marine Inc.
+Navios Tankers Management Inc.
+NEDA MARITIME AGENCY Co Ltd
+Niovis Shipping Co. S.A.
+Paradise Navigation S.A.
+Pavimar S.A.
+Pleiades Shipping Agents S.A.
+Prime Tanker Management
+Quintana Ship Management Ltd.
+Regal Mare Inc
+Roswell Tankers Corp.
+S. Frangoulis (Ship Management) Ltd
+Seanergy Maritime Holdings Corp.
+Springfield Shipping Co. Panama S.A.
+Stalwart Management Ltd.
+Starmarine Management Inc.
+Stealth Maritime Corporation S.A.
+Sun Enterprises Ltd.
+Target Marine S.A.
+Technomar Shipping Inc
+TEO Shipping Corporation
+Thenamaris (Ships Management) Inc.
+Trade Fortune Inc.
+Transmed Shipping Ltd.
+Triple Tee International Ltd.
+Tsakos Shipping and Trading S.A.
+Union Commercial Incorporated
+V.Ships Greece Ltd.
+Vantage Shipping Lines S.A.
+Z & G HALCOUSSIS Co. Ltd.
+
+HONG KONG COMMITTEE
+
+33
+
+Chairman
+
+Ms. Sabrina S. M. Chao
+
+Chairman
+
+Wah Kwong Maritime Transport Holdings Limited
+
+Members
+
+Capt. Surendra Dutt
+
+Group Managing Director - Tankers
+
+Mr. Y. Q. Huang
+Mr. Chen Xin Chuan
+Mr. Robert Alexander Ho
+Mr. Andrew Y. Chen
+Ms. Sandy Chan
+Mr. Frank W. K. Tsao
+Mr. C. H. Lee
+Mr. Jack Hsu
+Mr. Kwai Sze Hoi
+Mr. Chanakya Kocherla
+Capt. Lothair M. F. Lam
+
+Vice President
+Managing Director
+President
+Chairman & Managing Director
+Managing Director
+Group Chairman
+Deputy General Manager, Fleet Management
+Managing Director
+Chairman & President
+Chief Technical Officer
+Director, Vice President
+
+Anglo-Eastern Ship Management Ltd,
+Anglo-Eastern Univan Group
+China Merchants Energy Shipping Co., Ltd.
+COSCO (H.K.) SHIPPING CO., LTD
+Fairmont Shipping (HK) Ltd. & Affiliates
+Grand Seatrade Shipping Company Ltd.
+Hong Kong Shipowners Association
+IMC Group of Companies
+Island Navigation Corporation International Ltd.
+Oak Maritime (Hong Kong) Inc. Limited
+Ocean Longevity Shipping and Management Co., Ltd.
+Pacific Basin Shipping (HK) Ltd.
+Parakou Shipping Ltd.
+
+Director, General Manager, Shipping Division
+Managing Director
+Executive Director, General Manager
+Chairman
+Chairman
+Executive Director
+Managing Director
+
+Patt Manfield & Co., Ltd.
+Peter Cheng Naval Architect & Marine Consultant Ltd.
+Sinotrans Shipping Limited
+Teh-Hu Cargocean Management Co., Ltd.
+Unique Shipping (H.K.) Ltd.
+Valles Steamship Co., Ltd.
+Wallem Shipmanagement Ltd.
+
+Message
+
+Mr. M. T. Yung
+Dr. Peter Cheng
+Mr. Li Hua
+Mr. Kenneth K.W. Lo
+Mr. Edward S. C. Cheng
+Mr. Wellington Koo
+Mr. David Price
+HONG KONG TECHNICAL COMMITTEE
+
+Peter Cheng Naval Architect & Marine Consultant Ltd.
+
+Members
+
+Mr. Marcel Liedts
+Mr. Alok Roy
+
+Chief Operating Officer
+Fleet Director
+
+Mr. Aluri Rama Krishna
+Mr. Liu Yi Fan
+Mr. Chen Xin Chuan
+Mr. Kishore S. Rajvanshy
+Capt. Lau Pong Sze
+Mr. Y. H. Shum
+Mr. Zhang Shiwei
+Mr. Li Kwok Hung
+Mr. Vipin Sachdeva
+Capt. Pan Zhong Shan
+Mr. Haruki Aono
+Mr. James S. C. Tai
+Mr. Harshavardhan Bhave
+Mr. Kenneth Koo
+Mr. Anil Arora
+Mr. Vikas Trivedi
+
+Fleet Manager
+Deputy General Manager, Senior Engineer
+Managing Director
+Managing Director
+Director
+Director
+Deputy General Manager
+Managing Director
+Vice President, Fleet
+Director & General Manager
+Chairman
+General Manager -cum- Technical Director,
+Fleet Management Department
+Technical Manager
+Group Chairman & Chief Executive Officer
+Director, Ship Management
+Managing Director
+
+Anglo-Eastern Univan Group
+Bernhard Schulte Shipmanagement (Hong Kong)
+Limited Partnership
+Chellaram Shipping (Hong Kong) Ltd.
+China Shipping (H. K. ) Marine Co., Ltd.
+COSCO (H.K.) SHIPPING CO., LTD
+Fleet Management Limited
+Gold Bridge Shipping Ltd.
+Goldbeam International Ltd.
+Hong Kong Ming Wah Shipping Co., Ltd.
+IMC Shipping and Offshore Tech Services Pte. Ltd.
+KC Maritime Hong Kong Ltd.
+Lihai International Shipping Limited
+Northstar Ship Management Ltd.
+Orient Overseas Container Line Ltd.
+
+Capt. W. L. Hung
+
+General Manager
+
+Pacific Basin Shipping (HK) Limited
+Tai Chong Cheang Steamship Co. (H.K.) Ltd.
+Unique Shipping (H.K.) Limited
+Univan Ship Management Limited,
+Anglo-Eastern Univan Group
+Wah Kwong Ship Management (Hong Kong) Limited
+
+Chairman
+
+The Great Eastern Shipping Co. Ltd.
+
+Vice Chairman Mr. R. L. Pai
+
+Consultant
+
+-Energy, Infrastructure, Logistics, Maritime
+
+Members
+
+Mr. H. Ansari
+Mr. Umesh C. Grover
+Mr. Ashok K. Srivastava
+Capt. A. K. Bahl
+Mr. Ashok V. Chowgule
+Mr. Madhu S Nair
+Mr. Ajithkumar Sukumaran
+Mr. Satish Kumar
+Capt. Anoop Kumar Sharma
+Mr. M. P. Dhanuka
+Mr. Anil Devli
+Mr. Dilip Mehrotra
+Mr. Atul J. Agarwal
+Mr. S. Govindrajan
+
+Visiting Professor (Insurance)
+Advisor
+Chief Executive Officer
+President (Shipping)
+Executive Director
+Chairman & Managing Director
+Dy. Chief Surveyor cum Senior Dy. Director General(Tech)
+Managing Director
+Managing Director
+Executive Director, Technical & Marketing
+Chief Executive Officer
+Secretary
+Managing Director
+Managing Director
+
+Mr. Antony Prince
+Mr. Arun Kumar Gupta
+Dr. Sujata Naik Tolani
+
+President
+Ex. Chairman & Managing Director
+Chairperson
+
+Allcargo Logistics Limited
+Arcadia Shipping Ltd.
+British Marine Plc
+Chowgule and Company Private Limited
+Cochin Shipyard Limited
+Directorate General of Shipping
+Dockendale Ship Management (India) Pvt. Ltd.
+Essar Shipping Limited
+GEE Limited
+Indian National Shipowners' Association
+IOMOU Secretariat GOA
+Mercator Limited
+Progressive Shipping Consultancy Services (PVT)
+Ltd.
+Smart Engineering and Design Solutions Ltd.
+The Shipping Corporation of India Ltd.
+Tolani Shipping Company Limited
+
+Service Network
+
+Managing Director
+
+Organization Profile
+
+Dr. Peter Cheng
+
+2016 at a Glance
+
+Chairman
+
+INDIAN COMMITTEE
+
+Chairman
+
+Mr. K. M. Sheth
+
+Action
+Research
+International Affairs
+
+INDIAN TECHNICAL COMMITTEE
+
+Consultant
+
+-Energy, Infrastructure, Logistics, Maritime
+
+Members
+
+Mr. Ashok Kumar Sharma
+Mr. Pradeep Bajpai
+
+Senior Superintendent - Training
+Fleet Director
+
+Mr. Sunny Thomas
+Dr. Dileep Krishnan
+
+Director Technical & Operations
+Associate Professor & Consultant,
+Department of Ship Technology
+Managing Director / Chief Executive Officer
+General Manager
+Chief Executive Officer
+Chief Technical Officer, Sea Transportation Business
+Vice President
+Professor, Ex-Director
+Vice President (Commercial Ship Building)
+Principal
+General Manager
+Director
+
+Anglo-Eastern Maritime Training Centre
+Bernhard Schulte Shipmanagement (India) Private
+Limited
+Cochin Shipyard Limited
+Cochin University of Science and Technology (CUSAT)
+
+Mr. D. V. Abeysinghe
+Capt. B. N. Singh
+Mr. Rajeev Nayyer
+Mr. Ranjit Singh
+Mr. Brahma Mall
+Dr. S. C. Misra
+Mr. R. B. Urikouth
+Mr. Maneesh Jha
+Mr. Hariraj P.
+Capt. H. S. Swaminathan
+
+Colombo Dockyard PLC
+Dockendale Ship Management (India) Pvt. Ltd.
+Essar Oilfields Limited
+Essar Shipping Limited
+Fleet Management India Pvt. Ltd.
+Indian Maritime University(IMU)
+Larsen & Toubro Limited
+Samundra Institute of Maritime Studies
+Smart Engineering and Design Solutions Ltd.
+Synergy Maritime Private Limited
+
+ClassNK Annual Report
+
+Mr. R. L. Pai
+
+Organization List
+
+Chairman
+
+34
+
+Mr. Ajoy Chatterjee
+Mr. David Birwadkar
+Mr. Indra Nath Bose
+Mr. Virendra Gharat
+
+Principal & Head
+Vice President - Training & Assessment
+Head – Vessel Performance Management
+Director (Technical)
+
+The Great Eastern Institute of Maritime Studies
+The Great Eastern Shipping Co. Ltd.(GESCO)
+The Great Eastern Shipping Co. Ltd.(GESCO)
+Tolani Shipping Company Limited
+
+PT Brotojoyo Maritime
+
+INDONESIA COMMITTEE
+
+Chairman
+
+Mr. Widihardja Tanudjaja
+
+President Director
+
+Members
+
+Mr. Antonius W. Sumarlin
+Ms. Carmelita Hartoto
+Mr. Praditya Nirtara
+Mr. Kevin Wong
+Mr. Ir. Tjahjono Roesdianto
+Mr. Riry Syeried Jetta
+Mr. Theo Lekatompessy
+Mr. Krisman Bahar
+Mr. Stephen Layarda
+Mr. Kasim Arifin
+Mr. Amir Gunawan
+Mr. Yance Gunawan
+Mr. Hendrato
+Mr. H. Soenarto
+Mr. Joeswanto Karijodimedjo
+Mr. Rachmat Koentjoro
+Mr. Henry Djuhari
+Mr. Frank Menaro
+Mr. M. Firmansyah Arifin
+Mr. Benny Winarto
+Mr. Ganny Zheng
+Mr. Handara A. Utomo
+Mr. Johnson W. Sutjipto
+Capt. Sahattua P. Simatupang
+
+Ex-President Director of PT Humpuss Intermoda Transportasi Tbk
+President Director
+Managing Director & CEO
+President Director
+Director
+CEO
+President
+President Director
+Managing Director
+President Director
+President Director
+President Director
+General Manager, Liner Division
+President Director
+President Director
+President Director
+President Director
+Asset Director
+President Director
+President Director & CEO
+Director
+Chief Operating Officer
+Commissioner
+Director of Marine Safety and Seafarers
+
+Mr. Asmari Herry
+
+Executive Director & CEO
+
+PT Andhika Lines
+PT Andhika Lines
+PT Buana Listya Tama Tbk
+PT Daya Radar Utama
+PT Dok Dan Perkapalan Surabaya
+PT Humpuss Intermoda Transportasi Tbk
+PT Indobaruna Bulk Transport
+PT. Alpha Pacific Lines
+PT. Bumi Perkasa Bahtera
+PT. Daya Radar Utama
+PT. Dumas Tanjung Perak Shipyard
+PT. Gesuri Lloyd
+PT. Gurita Lintas Samudera
+PT. Janata Marina Indah
+PT. Lumoso Pratama Line
+PT. Meranti Maritime
+PT. Meratus Line
+PT. PAL Indonesia
+PT. Pelayaran Caraka Tirta Perkasa
+PT. Pelayaran Tirtamas Express
+PT. Soechi Lines Tbk.
+PT. Wintermar Offshore Marine Tbk
+Director of General of Sea Transportation Republic
+of Indonesia
+Samudera Shipping Line Ltd
+
+Executive Vice President, CTO
+Vice-Chairman & CEO
+Senior Executive Vice President
+President & CEO
+Senior Vice President, Head of Initial Design
+President & CEO
+President & CEO
+Chairman
+Chairman
+Representative Director, President
+Vice President, Marketing Team
+Advisor
+Chairman
+Chief Operating Officer
+
+Daewoo Shipbuilding & Marine Engineering Co., Ltd.
+Dong Young Shipping Co., Ltd.
+Heung-A Shipping Co., Ltd.
+HHIC-TMS Co., Ltd.
+Hyundai Heavy Industries Co., Ltd.
+Hyundai Mipo Dockyard Co., Ltd.
+Hyundai Samho Heavy Industries Co., Ltd.
+KSS Line Ltd.
+Overseas Shipping Corporation
+Pan Continental Shipping Co., Ltd.
+Samsung Heavy Industries Co., Ltd.
+Sea Explorers of Korea
+Sinokor Merchant Marine Co., Ltd.
+SK Shipping Co., Ltd
+
+KOREA COMMITTEE
+
+Members
+
+Mr. In Sang Yoo
+Mr. Suh, Myung-Chun
+Capt. Lee Hwan-Ku
+Mr. Hyon-Soo Bong
+Mr. Byeong Rok, Lee
+Mr. Hwan-Goo Kang
+Mr. Yoon Moon-Kyoon
+Mr. Chang Hee Yoon
+Mr. Jin Bang Lee
+Mr. Sangbok Lee
+Mr. J. H. Chung
+Mr. Doo-Chan Chang
+Mr. Chung Tae-Soon
+Mr. Sung Hyun Kim
+
+KOREA TECHNICAL COMMITTEE
+
+Chairman
+
+Dr. Jeom Kee Paik
+
+Professor
+
+Department of Naval Architecture and Ocean
+Engineering at Pusan National University and Department of Mechanical Engineering at University
+College London
+
+Members
+
+Mr. Myeong Sil, Lee
+Mr. Sun-Taek Lee
+Mr. Je-Hyouk Woo
+Mr. ManSoo Kim
+Mr. Okhyeon Ryoo
+Mr. Cha-Soo Lee
+Mr. Park, Kun-woo
+Mr. Kim, Hyung Kwan
+
+General Manager, Hull Design Department
+Vice President, Integrated Design Team
+Vice President, Structure Design Division Leader
+President & CEO
+Division Executive Ship Management, Business Division 1
+Technical Director, Ship Sales Engineering Team 3
+Deputy Managing Director, Design Division
+Senior Vice President, Naval Architect,
+Initial Design Office, Shipbuilding Division
+Vice President, Ship Design Office, Shipbuilding Division
+President
+Senior Vice President, Head of Design Office
+Executive Vice President, Marine Division
+Professor, Division of Marine Engineering College of Maritime Sciences
+Managing Director, Marine Affairs Division
+Vice President, SM Division
+Vice President, Structure Engineering Team 2
+Vice President, Head of Fleet Management Division (D.P)
+
+Dae Sun Shipbuilding & Engineering Co., Ltd.
+Daewoo Shipbuilding & Marine Engineering Co., Ltd.
+Daewoo Shipbuilding & Marine Engineering Co., Ltd.
+DSEC Co., Ltd.
+Eusu ShipManagement Co., Ltd.
+Hanjin Heavy Industries & Construction Co., Ltd.
+HHIC-TMS Co., Ltd.
+Hyundai Heavy Industries Co., Ltd.
+
+Mr. Ohmin Ahn
+Mr. Taeg-Gyu Lee
+Mr. Kim Tae-wook
+Mr. Jae Deog, Go
+Dr. Choi, Jae-Sung
+Mr. Seung-Woo, Lee
+Mr. Myeong-Su Kim
+Mr. Sungho Ha
+Mr. Hangdok (Harry), CHO
+
+35
+
+Hyundai Heavy Industries Co., Ltd.
+Hyundai Ocean Service Co., Ltd.
+Hyundai Samho Heavy Industries Co., Ltd.
+KLC SM Co., Ltd.
+Korea Maritime and Ocean University
+KSS Line Ltd.
+POS SM Co., Ltd.
+Samsung Heavy Industries Co., Ltd.
+SK Shipping Co., Ltd.
+
+Dr. Seontae Son
+Mr. Jeong-Keun YOUN
+Mr. Sung-Kwang SHIN
+Mr. Jae-Woo Son
+
+Managing Director, Head of Engineering Division
+Vice President, Procurement Department
+General Manager, Hull Design Dept.
+Senior Vice President, Technical Division
+
+SPP Shipbuilding Co., Ltd.
+STX Offshore & Shipbuilding Co., Ltd.
+STX Offshore & Shipbuilding Co., Ltd.
+Sungdong Shipbuilding & Marine Engineering Co., Ltd.
+
+Members
+
+Mr. Hitoshi Takahara
+Mr. Jose Cesar Velazquez Munoz
+Ing. Carlos H. Rodiño
+Mr. Godofredo Vergara
+Mr. Bartolome Carrera Santiago
+Mr. Danilo Moreno Oleas
+Mr. Ricardo Vahia Alves de Souza
+Mr. Cristian Widow
+Mr. Masao Nakayama
+Mr. José Luiz Nunes Ruiz
+Mr. Ricardo dos Santos
+Mr. Ricardo Menezes
+Mr. Vladimir Contreras
+Mr. Tomazo Garzia Neto
+Mr. Roberto Hetz Vorpahl
+Mr. Angel Canessa Terrazas
+Lic. Jorge Daniel Arosa
+Mr. Alonso Burgos A.
+Mr. Elizio Araujo Neto
+Mr. Victor Velazquez
+
+Presidente
+Chief Project Officer
+General Manager
+Director
+Owner
+General Manager
+Advisor to Presidency
+General Manager
+President
+Principal Engineer
+Director
+Technical Director
+Ingeniero Naval
+President
+Chief Executive Officer
+Head of Planning, Management Control & Engineering
+Presidente
+General Manager
+Executive Manager
+Technical Operator Director
+
+Ing. Alejandro Peluffo
+Mr. Luiz Picorelli
+
+Manager - Shipowning Division
+Technical Specialist - Ship Technical Operations
+
+Astillero Tsuneishi Paraguay S.A.
+Blue Marine Technology Group
+CIE S.A.
+Consignataria San Miguel S.A. de C.V.
+Desarrollo Naviero Mexicano, S.A. de C.V.
+EP FLOPEC
+Forship Engenharia SA
+Humboldt Shipmanagement
+"K" Line Peru S.A.C
+London Offshore Consultants Brasil Ltda.
+Navemar S.A.
+Ocean Pact
+Petróleos de Venezuela S.A.
+Projemar
+Sociedad Nacional Maritima S.A.
+Southern Shipmanagement (Chile) Ltda.
+TANDANOR S.A.C.I. y N.
+Transgas Shipping Lines S.A.C.
+Transpetro
+Transportacion Maritima Mexicana S.A. de C.V.,
+TMM Group
+Ultrapetrol S.A.
+Vale S.A.
+
+Service Network
+
+SOBENA
+
+Organization Profile
+
+President
+
+2016 at a Glance
+
+Mr. Agenor Cesar Junqueira Leite
+
+Message
+
+LATIN AMERICAN COMMITTEE
+
+Chairman
+
+MALAYSIAN COMMITTEE
+
+Datuk Azmi Bin Ahmad
+Mr. Thomas Ng Chin Keuan
+Dato' Ir. Abdul Hak B. Md. Amin
+Mr. Billy Tan Gim Hoe
+Dato' Julian Seah
+Capt. Johari Mohd Noh
+Tan Sri Halim Mohammad
+Mr. Bernard Ling
+Capt. Khoo Chin Yew
+Capt. Azaharuddin Osman
+Mr. Lawrence Wong
+Mr. Lim Piak Wah
+Mr. Vincent Ling Lu Yew
+Datuk Lau Nai Hoh
+Mr. Paal Gunnulfsen
+
+Group Managing Director / CEO
+Executive Director
+Managing Director
+Chairman
+Director
+Managing Director
+Executive Chairman
+Managing Director
+Managing Director
+Chief Executive Officer
+General Manager
+Executive Director
+Director
+Group C.E.O., Group M.D.
+Vice President Asia
+
+Alam Maritim Resources Berhad
+Coastal Contracts Bhd.
+E.A. Technique(M) Berhad
+Ecoship Sendirian Berhad
+Everise Maritime Sdn. Bhd.
+Gagasan Carriers Sdn Bhd
+Halim Mazmin Berhad
+Highline Shipping Sdn Bhd
+Orkim Sdn Bhd
+Petronas Maritime Services Sdn. Bhd.
+Sarawak Land Shipyard Sdn. Bhd.
+Serudong Shipping Sdn. Bhd.
+Shin Yang Shipyard Sdn. Bhd.
+Tuong Aik Shipyard Sdn. Bhd.
+WSM Malaysia, Wilhelmsen Ship Management
+Sdn. Bhd.
+
+Managing Director
+
+Emarat Maritime
+
+Vice Chairman Mr. Ali A. Shehab
+
+Deputy C.E.O., Fleet Operations
+
+Kuwait Oil Tanker Company S.A.K.
+
+Members
+
+Senior Vice President (Operations)
+CEO
+Director
+Chief Executive Officer
+President & CEO
+Fleet Manager
+General Manager
+General Manager (New Building & Tech. Services)
+Technical Manager - Shipping
+Fleet Manager
+Technical Consultant
+General Manager
+Manager, Fleet New Building Project Group
+Planning Manager
+Fleet General Manager
+Executive Director (Ship Management)
+Technical Superintendent
+Senior Fleet Technical Superintendent
+CEO
+General Manager
+
+ADNATCO-NGSCO
+Al Bedaya Consultancy & Marine Survey
+Arka Global Marine Services L.L.C.
+Auburn Shipmanagement DMCC
+DeepSea OFFSHORE International
+Dockendale Ship Management DMC CO
+Dubai Maritime City LLC
+Emarat Maritime
+Gulf Petrochem FZC
+Gulf Stolt Ship Management
+Inter Global Shipping Limited
+International Tanker Management Limited
+Kuwait Oil Tanker Company S.A.K.
+MUR Shipping DMC CO
+Oman Ship Management Company
+Pakistan National Shipping Corporation
+Qatar Gas Transport Company Ltd. (NAKILAT)
+Qatargas Operating Company Limited
+Red Sea Marine Management (DMCC)
+Red Sea Marine Services Co. Ltd.
+
+MIDDLE EAST COMMITTEE
+
+Chairman
+
+Capt. Jitendra Misra
+
+Capt. Haakon Johnsen
+Mr. Mohammed El Sayed Ahmed
+Mr. A. Ramamurty
+Capt. N. Rengarajan
+Capt. M.R. Iliati
+Mr. V. V. N. Reddy
+Mr. Ali AlSuwaidi
+Mr. Benny K. Alex
+Mr. Sheel Cabral
+Mr. Abdul Hayee
+Mr. David P. Pereira
+Mr. Anil Cariappa
+Mr. Jamil Al-Ali
+Capt. Rahul Kapoor
+Mr. Ibrahim Bakhit Al Nadhairi
+Mr. Zaheer Babar Qureshi
+Mr. Rostom Merzouki
+Mr. Medjahed Benkablia
+Capt. Gamal Fekry
+Capt. Naushad Azad
+
+ClassNK Annual Report
+
+Members
+
+Organization List
+
+Malaysia Shipowners’ Association
+
+International Affairs
+
+Chairman
+
+Research
+
+Datuk Ir. Nordin Mat Yusoff
+
+Action
+
+Chairman
+
+36
+
+Mr. Senthil Kumar
+Mr. A. Mansourzadeh
+Mr. Mohamed Zaitoun
+Mr. Abdulaziz A. Sabri
+Mr. N. V. K. Nambiar
+
+Managing Director
+G. M. Technical
+Assistant Vice President, New Building Technical Projects
+Fleet Operations Manager
+Technical Manager
+
+Silver Star Ship Management
+Simatech Shipping L. L. C.
+United Arab Shipping Company (S.A.G.)
+Vela International Marine Limited
+Warm Seas
+
+NORTH AMERICAN COMMITTEE
+
+Chairman
+
+Mr. Hans Christian Jensen
+
+President
+
+Harvest Shipping
+
+Members
+
+Mr. John Calicchio
+Mr. John D. Noonan
+Mr. Inderjeet S. Aulakh
+Mr. Russell R. Paret
+Mr. Susumu Ohata
+Mr. Per Moelris
+Mr. Calvin W. S. Cheng
+Mr. Stacey Miller
+Mr. Byron M. Sugahara
+Mr. Charles Leung
+Mr. Martin Krafft
+Mr. Ibrahim Mazman
+Mr. Shunji Sasada
+Mr. Yariv Zghoul
+Mr. Ronald W. Tursi
+
+Chairman
+Chief Executive Officer
+VP Shipping Operations
+President
+President, C.O.O.
+VP, Head of Technical Management
+Chairman
+Executive Vice President
+President
+Senior Vice President
+Senior Manager, Owned Fleet
+President
+President
+President & Chief Operating Officer
+President
+
+Apex Bulk Carriers LLC
+Chembulk Tankers
+Dole Reefership Marine Services, Ltd.
+Dome Chartering & Trading Corp.
+Dowa Line America Co., Ltd.
+Eagle Ship Management LLC
+Eastmark Associates, Inc.
+Fairfield Chemical Carriers Inc.
+Fairfield-Maxwell Services, Ltd.
+Fairmont Shipping (Canada) Limited
+Fednav Limited
+Med Brokerage & Management Corp.
+Navios Corporation
+SeaChange Maritime LLC
+TBS Ship Management Inc.
+
+PHILIPPINE COMMITTEE
+
+Chairman
+
+Mr. Arben E. Santos
+
+President & CEO
+
+Southwest Maritime Group of Companies
+
+Members
+
+Ms. Doris Magsaysay Ho
+Mr. Roy R. Alampay
+Capt. Rogelio A. Torres
+Mr. Ahn, Jin Kyu
+Mr. Geok Seng Tan
+
+President & Chief Executive Officer
+Vice President for Operations & General Manager
+Vice-President, Traffic & Operations
+President
+General Manager
+
+Mr. Teodoro G. Bernardino
+Dr. Maximo Q Mejia Jr.
+
+President
+Former Administrator,
+Department of Transportation & Communications
+President
+President
+President
+Executive Vice President
+President
+President
+
+A. Magsaysay, Inc.
+Baliwag Navigation, Inc.
+Eastern Shipping Lines, Inc.
+HHIC-Phil
+Keppel Batangas Shipyard
+(A division of Keppel Philippines Marine, Inc.)
+Loadstar International Shipping, Inc.
+Maritime Industry Authority
+
+Mr. Edgardo G. Lacson
+Mr. Eduardo U. Manese
+Mr. Thomas A. Tan
+Mr. Fausto C. Tiu
+Mr. Alfonso G. Cusi
+Mr. Akihiko Mishima
+
+MIS Maritime Corporation
+Philippne-Japan Manning Consultative Council, Inc.
+SMC Shipping and Lighterage Corporation
+Solid Shipping Lines Corporation
+StarLite Ferries Inc.
+Tsuneishi Heavy Industries (Cebu), Inc.
+
+SINGAPORE COMMITTEE
+
+Chairman
+
+Mr. Lim Sim Keat
+
+Managing Director, Transport Logistics
+
+IMC Industrial Group
+
+Members
+
+Mr. Kenneth A Glenn
+Mr. Yasuhiro Katsuyama
+Mr. Rajdeep Singh
+Mr. B. S. Teeka
+Mr. Lim Teck Cheng
+Mr. Chor How Jat
+Mr. Tomomaru Kuroyanagi
+Mr. Andrew Tan
+Mr. Takeshi Hisatomi
+Mr. Aloysius Seow
+Mr. Takumi Kudo
+Mr. Kuok Khoon Kuan
+Mr. Teo Cho Keng
+Mr. Peter Mannion
+Mr. Wong Weng Sun
+Mr. Sun Xiushun
+
+President
+Managing Director
+Technical Director
+Managing Director
+Chief Executive
+Managing Director
+Managing Director
+Chief Executive
+Managing Director, President
+Chief Operating Officer
+Managing Director - President
+Executive Chairman
+Senior Executive Director, Technical Division
+General Manager - Fleet Operations, Marine
+President & C.E.O.
+President
+
+APL Co. Pte Ltd
+Diamond Star Shipping Pte. Ltd.
+Eastern Pacific Shipping Pte. Ltd.
+Executive Ship Management Pte Ltd
+Hong Lam Marine Pte Ltd
+Keppel Shipyard Limited
+Kumiai Navigation (Pte) Ltd
+Maritime and Port Authority of Singapore
+MMSL Pte. Ltd.
+Ocean Tankers (Pte) Ltd.
+OMC Shipping Pte. Ltd.
+Pacific Carriers Limited
+Pacific International Lines (Pte) Ltd.
+Rio Tinto Shipping (Asia) Pte. Ltd.
+Sembcorp Marine Ltd
+Winning International Group Pte Ltd
+
+SINGAPORE TECHNICAL COMMITTEE
+
+37
+
+Chairman
+
+Capt. Tey Yoh Huat
+
+Adjunct Senior Research Fellow, Centre for Maritime Studies
+
+National University of Singapore
+
+Members
+
+Mr. Robert Sumantri
+Mr. J. Orson Lobo
+Mr. Shaj U. Thayil
+Mr. Avinash Kadam
+
+Director
+Managing Director
+Global Head, Technical Services
+Corporate Director, Fleet Management
+
+Mr. Kapil Berry
+Mr. Toh Ho Tay
+Mr. Harcharan Singh
+Mr. Ajay K. Chaudhry
+Ir Wong Sin Futt
+
+Senior Manager, Maintenance & Projects
+Rigs, Offshore
+Technical Manager, Technical Support Services
+Executive Director
+Director, Newbuildings / CEng FIMarEST
+
+Altus Logistics Pte. Ltd.
+Anglo-Eastern Shipmanagement (Singapore) Pte Ltd
+APL
+Bernhard Schulte Shipmanagement (Singapore)
+Pte Ltd
+BW Fleet Management Pte Ltd
+Clarksons Platou Offshore (Asia) Pte. Ltd.
+Eastern Pacific Shipping Pte. Ltd.
+Fleet Ship Management Pte Ltd
+IMC Shipping and Offshore Tech Services Pte Ltd
+
+SeaTech Solutions International (S) Pte Ltd
+Stellar Shipmanagement Services Pte Ltd
+Synergy Marine Pte. Ltd.
+Union Marine Management Services Pte Ltd
+United Ocean Ship Management Pte Ltd
+V. Ships Asia Group Pte Ltd
+
+TAIWAN COMMITTEE
+
+Members
+
+Mr. Hsiung Lee
+Mr. J. Z. Fang
+Dr. Wen-Lon Cheng
+Mr. Der-Hsiung Chen
+Dr. Shang-Wen Liao
+Mr. Chang Cheng-yung
+Mr. Akihiro Nagahara
+Mr. B. C. Tsai
+Mr. Bill M. H. Huang
+Mr. Harvey Chiu
+Dr. C. H. Yeh
+Mr. Jimmy C. Hsiao
+Mr. J. D. Lan
+Mr. Fritz Chen
+Mr. Fred C. P. Tsai
+Mr. Kenneth Lee
+Mr. Hrong-Nain Lin
+Mr. Alan Shieh
+Mr. Wen-Ching Liu
+Mr. Nobu Su
+Mr. C. K. Ong
+Mr. Lin Ching Chih
+Mr. Glenn K.L. Chan
+Mr. Chen, Po Ting
+Mr. James Lan
+Mr. Bronson C. C. Hsieh
+
+Chairman
+CEO
+Chairman
+President
+President, Ph. D. Leeds. U.K.
+Chairman
+Chairman
+Chairman
+Chairman
+Chairman
+Chairman
+Director & President
+Chairman, C. E. O.
+Chairman
+Chairman
+Chairman & CEO
+Chairman & CEO
+President
+Chairman
+C.E.O.
+President
+Chairman
+President
+Chairman
+Chairman
+Chairman
+
+China Steel Express Corporation
+CPC Corporation, Taiwan
+CSBC Corporation, Taiwan
+Deryoung Maritime Co., S.A.
+Eastern Media International Corporation
+Evergreen Marine Corp. (Taiwan) Ltd.
+First Steamship Co., Ltd.
+Franbo Lines Corp.
+Glory Navigation Co., Ltd.
+Hsin Chien Marine Co., Ltd.
+Kuang Ming Shipping Corp.
+Mingtai Navigation Co., Ltd
+Shih Wei Navigation Co., Ltd.
+Sincere Industrial Corporation
+Sincere Navigation Corporation
+T.V.L. Business Group
+Ta Tong Marine Co., Ltd.
+Ta-Ho Maritime Corporation
+Taiwan Navigation Co., Ltd.
+TMT Co., Ltd.
+U-Ming Marine Transport Corporation
+Unison Marine Corporation
+United Ocean Shipping S. A.
+Wan Hai Lines Ltd.
+Wisdom Marine Lines S.A.
+Yang Ming Marine Transport Corp.
+
+TAIWAN TECHNICAL COMMITTEE
+
+Senior Vice President, Shipbuilding Dept., Engineering Div. Evergreen Marine Corp. (Taiwan) Ltd.
+
+Members
+
+Mr. Guo I-Lung
+Mr. L.P. Tseng
+Mr. Albert, D. G. Lin
+
+Chairman, President
+Senior Manager
+Manager, Ship Building Section,
+Storage & Transportation Department
+Administrative Chief Supervisor
+Assistance to President
+Adviser
+Deputy Senior Vice President, Maintenance Dept., Engineering Div.
+Vice President, Eng. & Supply Dept.
+Superintendent, Chief Engineer, Marine Engineering Dep.
+President
+Manager of Marine Department
+Manager, Technical Dept.
+Assistant Vice President, Labor Safety & Health Department
+Vice President, Engineering, Operation Department
+Vice President
+General Manager, Technical Department
+Chief Engineer
+Manager, Marine Department
+Deputy General Manager, Marine Department
+Special Assistant to Chairman, Ship Management Dept.
+
+Dr. Frank Foung-Tang Lin
+Mr. Chih-Peng Tsai
+Mr. Michael L. Y. Pan
+Mr. Yeh Ching-rong
+Mr. Chia-Yen, Wu
+Mr. C.H. Lu
+Mr. William Wu
+Mr. Tony C. T. Hsueh
+Mr. W. K. Wu
+Mr. Clark Wu
+Mr. C. K. Lin
+Mr. You-Yen Ho
+Mr. Gerald Tsai
+Mr. Young Perng-Terng
+Mr. Eric Yeh
+Mr. Hao Yuan Chang
+Mr. Chen Teng
+
+Biggin Shipping Corporation
+China Steel Express Corporation
+CPC Corporation, Taiwan
+CSBC Corporation, Taiwan
+Deryoung Maritime Co., S.A.
+Eastern Media International Corporation
+Evergreen Marine Corp. (Taiwan) Ltd.
+First Steamship Co., Ltd.
+Formosa Plastics Marine Corporation
+Franbo Lines Corp.
+Glory Navigation Co., Ltd.
+Hsin Chien Marine Co., Ltd.
+Kuang Ming Shipping Corp.
+Mingtai Navigation Co., Ltd.
+Shih Wei Navigation Co., Ltd.
+Sincere Industrial Corporation
+Ta Tong Marine Co., Ltd.
+Ta-Ho Maritime Corporation
+Taiwan Navigation Co., Ltd.
+TVL Marine Company Limited
+
+ClassNK Annual Report
+
+Mr. Chiang Shou-hsing
+
+Organization List
+
+Chairman
+
+International Affairs
+
+Evergreen Group
+
+Research
+
+Adviser
+
+Action
+
+Mr. Loh Yao-fon
+
+Service Network
+
+Chairman
+
+Organization Profile
+
+IS Container Pte. Ltd.
+Jurong Shipyard Pte Ltd
+"K" Line Ship Management (Singapore) Pte Ltd
+M. T. M. Ship Management Pte. Ltd.
+Marco Polo Shipyard Pte Ltd
+Maritime and Port Authority of Singapore
+MOL Tankship Management (Asia) Pte Ltd
+MSI Ship Management Pte Ltd
+Norstar Ship Management Pte Ltd
+NYK SHIPMANAGEMENT PTE LTD
+Ocean Tankers (Pte) Ltd
+PACC Ship Managers Pte Ltd
+Pacific International Lines (Pte) Ltd
+Rickmers Shipmanagement (Singapore) Pte. Ltd.
+
+2016 at a Glance
+
+Mr. Govinder Singh Chopra
+Mr. Francis Chin
+Mr. Sanjeev K Namath
+Mr. Vinay Gupta
+Mr. Naresh Chand
+Mr. Calum S Hume
+
+Executive Director
+Senior General Manager, Engineering Department
+Managing Director
+Managing Director
+Director
+2 Deputy Director (Shipping)
+Managing Director
+Fleet Director, Technical
+Managing Director
+Managing Director, Chief Operating Officer
+Senior Manager - Technical, Technical Department
+Director
+General Manager, Technical Division
+Managing Director,
+Chief Operating Officer - Maritime Services
+Director
+Chief Operating Officer
+New Projects and R&D
+Managing Director
+Managing Director
+Technical Director - Asia & ME
+
+Message
+
+Mr. B.N. Prasad
+Mr. Seow Tan Hong
+Capt. Fukuda Shoji
+Capt. Vijay Rangroo
+Mr. Cheam Yeow Cheng
+Mr. Mark Lim Yew Guan
+Mr. Toshihiko Ota
+Mr. Arun Ahluwalia
+Mr. Chris Kirton
+Mr. Hemant Pathania
+Mr. Wong See Tuang Johnny
+Mr. Lim Tau Kok
+Mr. Panneer Selvam
+Capt. Anurag Mathur
+
+38
+
+Mr. Robert Y. P. Kao
+Mr. Peter W. D. Ho
+Mr. Jeff Sun
+Mr. Jyh-Tyng Shyu
+Mr. Jackie Ho
+
+Senior Vice President
+Consultant, Technical Department
+Deputy Vice President, Engineering Division
+Chief Technical Officer, Technical Department
+Vice President, Engineering Department,
+Marine Technology Group
+
+U-Ming Marine Transport Corporation
+Unison Marine Corp.
+Wan Hai Lines Ltd.
+Wisdom Marine Group
+Yang Ming Marine Transport Corp.
+
+THAI COMMITTEE
+
+Chairman
+
+Capt. Sutep Tranantasin
+
+Executive Vice President (Operations & Shipmanagement)
+
+Regional Container Lines Public Co., Ltd.
+
+Honorary
+Member
+
+Mr. Bhumindr Harinsuit
+
+Managing Director
+
+Bhureemas Navee Co., Ltd.
+
+Members
+
+Ms. Warawan Nganthavee
+Mr. Suparuak Potchanant
+
+Managing Director
+Operation Director
+
+Mr. Vivek Dwivedi
+Mr. Wirat Chanasit
+Mr. Chanet Phenjati
+Dr. Win Zaw
+Mr. Nat Chubchai
+Mr. Zaw Win
+
+Sr. Vice President, Regional Head (Asia Pacific)
+Managing Director
+President
+President
+Deputy Director General
+Managing Director
+
+Mr. Maung Maung Oo
+
+Director General
+
+Mr. Wynn Pe
+Mr. Kyi Soe
+Mr. Suraphon Meesathien
+Mr. Jaipal Mansukhani
+Mr. Kraiyasit Intarapanich
+Dr. Voravit Visitkijakarn
+Mr. Nuttaphob
+Ratanasuwanthawee
+Mr. Surachai Lerkpichayayotin
+Mr. Nitas Krongvanitchayakul
+Capt. Chakrit Noimanee
+Mr. Louis - Frederic Sachs
+Mr. Teruo Kondo
+
+Managing Director
+Managing Director
+Chief Executive Officer, CEO
+Director
+Vice President, International Chartering Department
+Managing Director
+Chairman & President
+SC Group of companies
+Marine Fleet Director
+Managing Director
+Director, Marine Operations
+Director - Marine Group
+Chief Production Manager Ship Management,
+Shipyard Business Division
+
+Asian Marine Services Public Company Limited
+ES Offshore and Marine Engineering (Thailand)
+Co., Ltd.
+Gulf Petrochem Pte. Ltd.
+Italthai Marine Limited
+Jutha Maritime Public Company Limited
+Lizstar Group of Companies
+Marine Department
+Inland Water Transport, Ministry of Transport and
+Communications, Union of Myanmar
+Department of Marine Administration,
+Ministry of Transport, Union of Myanmar
+Myanma Five Star Line
+Myanma Shipyards - Dong A JV CO., Ltd.
+Nathalin Group
+Precious Shipping Public Company Limited
+PTT Public Company Limited
+Sang Thai Group of Companies
+
+Siam Lucky Marine Company Limited
+Thaioil Marine Co., Ltd.
+Thoresen & Co., (Bangkok) Ltd.
+Tipco Asphalt Public Company Limited
+Unithai Shipyard and Engineering Ltd.
+
+TURKISH COMMITTEE
+
+39
+
+Chairman
+
+Mr. Yalcin Sabanci
+
+Chairman
+
+YA-SA Holding S.A.
+
+Members
+
+Mr. Özgür AKSOY
+Mr. Ali Umur
+Mr. Kenan S. Sumra
+Mr. Ali İbrahim Kontaytekin
+Mr. G. Burak Alkoç
+Mr. Erhan Bayraktar
+Mr. Derya Sabaz
+Mr. Gönç Beyli
+Capt. Hasan Pehlivan
+Mr. A. İlker MEŞE
+
+General Manager & Board Member
+President
+Company Manager
+General Manager
+Managing Director
+Board Member / CEO
+Board Member
+Vice Chairman BoD
+Consultant
+Board Member
+
+Mr. Engin Ozcelik
+Mr. Esref Cerrahoglu
+Mr. H. Bülent Şener
+Mr. Serdar Akcali
+Mr. Hayati Okumuş
+Mr. Ö. Faruk Miras
+Mr. Cihan Ergenc
+Mr. Oktay ERCAN
+Ms. Şadan Kaptanoğlu
+Mr. Bayram Yusuf Aslan
+Mr. Bedri Ince
+Mr. Serkan Şahin
+Mr. Tamer Kiran
+Mr. Mecit Çetinkaya
+
+General Manager, Board Member
+Chairman
+Chairman
+Managing Director
+Director
+Member of Board
+Chairman
+Owner
+Owner
+President and CEO
+Chairman
+Executive Board Member
+Chairman
+Owner
+
+Mr. Tufan Süslüer
+Mr. G. Osman Küçükertan
+Kapt. Tahir Sarıoğlu
+Mr. Emir Sohtorik
+Mr. Atilla Çiftçigüzeli
+Capt. Ufuk Bulgan
+Mr. Emirhan Sabanci
+Mr. İlhan Sabanci
+
+General Manager
+General Manager
+President
+Chairman
+Chief of Executive Committee
+Fleet Manager
+Board Member
+Member of the Board
+
+Akmar Holding S.A.
+Aktif Shipping
+Anadoluhisarı Tankercilik A.S.
+ARKAS DENZCILIK VE NAKLİYAT A.Ş.
+Aydın Deniz Işletmeciliği A.Ş. (AYSHIPS)
+Bayraktar Shipping Group
+Beşiktaş Group
+Beykim Petrolcülük Gemi İşletmeciliği San. Ve Tic.A.Ş.
+BORA Shipping Industry & Trading Co. Inc.
+CARETTA SHIP MANAGEMENT & CHARTERING
+TRADE INC.
+CEBI Maritime & Trading SA
+Cerrahgil A. S.
+Delta Marine Engineering and Computer Trading CO.
+Denak Ship Management & Agency
+Densan Deniz Nakliyat ve Sanayi A.Ş.
+Diler Shipping and Trading Inc.
+ER Denizcilik Sanayi Nak. Ve Tic. A. S.
+GAMMA SHIPPING & FOREIGN TRADE LTD.
+H.I. Kaptanoglu Shipping Group
+ICDAS Group of Companies
+Ince Shipping and Trading Co. Inc.
+İzmir Demir Çelik (İDÇ) Sanayi A.Ş.
+Kiran Group of Shipping Companies
+Mecit Çetinkaya Shipping, Transport, Marketing
+Ind.& Trade Co. Ltd.
+Nemtas Shipping
+Omsan Denizcilik A.Ş.
+Sarioğlu Shipping ve Turizm Limited Sirketi
+Semih Sohtorik Management & Agency Inc.
+SNR HOLDING
+Vera Shipping
+YA-SA Holding S.A.
+YA-SA Shipping Industry and Trading S.A.
+
+TURKISH TECHNICAL COMMITTEE
+
+General Manager
+DPA
+Technical Manager
+Owner
+Vessel Operation Manager
+Company Manager
+Operation Manager
+Manager
+Technical Manager
+DPA
+Technical Manager
+Technical Manager
+DPA
+Manager
+Technical Manager
+Fleet Manager
+Department Manager, Planning Department
+Technical Manager
+DPA / Safety and Quality Manager
+CEO, Member of Board
+Regional Manager, Marketing Department (Ship Repairs)
+Technical ADM
+Bulk Fleet Manager
+Technical Superintendent
+General Manager
+Project Officer
+Coordinator
+Technical Manager
+Technical Manager - DPA
+Technical Manager
+Technical Manager
+General Manager
+Operation Manager
+Technical Manager
+Technical Manager
+Technical Department Manager
+Advisor
+General Manager
+General Manager
+Fleet Manager
+Fleet Manager
+General Manager
+Technical Manager
+General Manager, Bulk Carriers
+Technical Manager
+General Manager
+Technical Manager
+
+Active Shipping & Management Pte Ltd
+Akmar Holding S.A.
+Aksay Denizcilik ve Ticaret A.S.
+ALİAĞA DENİZCİLİK
+Alternative Transport
+Anadoluhisarı Tankercilik A.Ş.
+ARKAS Denizcilik
+Aruna Shipping Ltd., Corp.
+Aydın Deniz Işletmeciliği A.Ş.
+Bayraktar Shipping Group
+Besiktas Group
+Beyaz Denizcilik Ltd. Şti.
+Beykim Petrolcülük Gemi İşletmeciliği San. ve Tic. A. Ş.
+CARETTA Gemi İşletmeciliği ve Kiralama Ticaret A.Ş
+Cebi Denizcilik AS
+Ceren Denizcilik
+Delta Marine Engineering and Computer Trading Co.
+Denak Ship Management & Agency
+Densan Deniz Nakliyat ve Sanayi A.Ş.
+Desan Deniz Inşaat San. A.Ş.
+Gemak Gemi Inşaat San. ve Tic. A.Ş.
+Gemiciler Denizcilik
+Genel Denizcilik Nakliyati A.Ş.
+Güngen Maritime
+Hat-San Shipyard
+İçdaş Çelik Enerji Tersane ve Ulaşim San. A. Ş.
+İce Tanker
+İDÇ Denizcilik Sanayi ve Ticaret A.Ş.
+Ince Shipping & Trading Co., Inc.
+İNCİ Ship Management Limited Company
+İskenderun Ship Management
+Kaptanoglu Holding
+Manta Shipping Ltd.
+Mardas & Mardeniz & Kardeniz Group of Companies
+Nemtaş Shipping
+Pasifik Ship Management & Trading
+POLARMARINE Ship Management Group of Companies
+Sedef Shipbuilding Inc.
+Semih Sohtorik Management & Agency Inc.
+Şener Petrol Denizcilik Tic.A.Ş.
+TGM Ship Management an Agency Ltd. Co.
+Transal Denizcilik
+VERA SHIPPNG
+YA-SA Shipmanagement and Trading S.A.
+YA-SA Shipping Industry and Trading S.A.
+YA-SA Tanker and Transportation S.A.
+YA-SA Tanker and Transportation S.A.
+
+Research
+
+Capt. H. Umut Çınar
+Mr. Enis Öztürk
+Mr. Saim Gökçen
+Mr. Erkan Dereli
+Mr. Yusuf Angin
+Capt. M. Cenk Gürer
+Mr. Levent Demiriz
+Mr. Erdal CAGILTI
+Mr. Murat Duman
+Mr. Mehmet Gülakdeniz
+Mr. Sarper Kara
+Mr. Tolga TEKİN
+Capt. Burak Meriç
+Mr. Ahmet Taymez
+Mr. Mustafa Bahar
+Mr. Süleyman Vural
+Mr. S. Dirim Şener
+Mr. Engin Akbaş
+Mr. M. Şahin Akkaya
+Mr. Taşkin Çilli
+Mr. Ergun Köker
+Mr. Erhan Mentes
+Mr. Mehmet Cebeci
+Mr. Ş. Şenol Üngör
+Mr. Türker Yaltir
+Mr. Çağdaş Gürol
+Capt. Mustafa Terzi
+Mr. Serdar Özkaya
+Mr. A. Yaşar Canca
+Mr. Ertan GÜNERLER
+Mr. Emre Uyanık
+Mr. M.Tansel Karademir
+Capt. Mustafa Dulgar
+Mr. Şenol Memiş
+Mr. Fatih Sıcakyüz
+Mr. Murat Ata Çevik
+Capt. Mahmut Ünsal
+Mr. M. Cumhur Kuter
+Capt. Mehmet Başoğlu
+Capt. Hakan Erzurumlu
+Mr. Yavus Büyükyüksel
+Mr. Ender Keskin
+Mr. Ali H. Doğanli
+Mr. Mehmet Kayhan
+Mr. Tulga ZENGIN
+Mr. Cem Yucer
+Mr. Mustafa Karaduman
+
+Action
+
+Members
+
+Service Network
+
+YA-SA Holding S.A.
+
+Organization Profile
+
+General Coordinator
+
+2016 at a Glance
+
+Capt. M. Erbil Özkaya
+
+Message
+
+Chairman
+
+International Affairs
+Organization List
+ClassNK Annual Report
+
+40
+
+Annual Report 2016
+［English］
+
+4-7 Kioi-cho, Chiyoda-ku, Tokyo, 102-8567 Japan
+TEL：+81-3-5226-2047	
+E-Mail：eod@classnk.or.jp
+
+www.classnk.com
+Please contact the above for permission to reproduce any part
+of this publication. ©2017 Nippon Kaiji Kyokai
+
+

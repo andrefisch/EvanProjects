@@ -136,9 +136,9 @@ def formatting_phone_number(number):
 #}}}
 
 # Format all numbers in a column
-# format_all_numbers(fileName, sheetName, col)
+# format_all_numbers(fileName, sheetName, *cols)
 # Call using the command line
-# format_all_numbess(filename, startRow, *cols
+# format_all_numbess(filename, startRow, *cols)
 #{{{
 # def format_all_numbers(fileName, sheetName, *cols):
 def format_all_numbers(*args):
