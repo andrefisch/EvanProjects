@@ -14,8 +14,8 @@ def scrapeYelpReviews():
     outsheet = out.create_sheet("reviews")
 
     # if 'sheet' appears randomly we can delete it
-    rm = out.get_sheet_by_name('Sheet')
-    out.remove_sheet(rm)
+    rm = out['Sheet']
+    out.remove(rm)
 
     # Yelp unique url endings for each restaurant
     restaurants = ['no-name-restaurant-south-boston-2']
@@ -25,16 +25,24 @@ def scrapeYelpReviews():
     count = 2
     pageNo = 0
 
-    DATE   = "A"
-    STARS  = "B"
-    REVIEW = "C"
-    SOURCE = "D"
+    DATE       = "A"
+    STARS      = "B"
+    REVIEW     = "C"
+    NAME       = "D"
+    LOCATION   = "E"
+    FRIENDS    = "F"
+    NUMREVIEWS = "G"
+    SOURCE     = "H"
 
 
-    outsheet[DATE   + '1'].value = "Date"
-    outsheet[STARS  + '1'].value = "Rating"
-    outsheet[REVIEW + '1'].value = "Review"
-    outsheet[SOURCE + '1'].value = "Source"
+    outsheet[DATE       + '1'].value = "Date"
+    outsheet[STARS      + '1'].value = "Rating"
+    outsheet[REVIEW     + '1'].value = "Review"
+    outsheet[NAME       + '1'].value = "Name"
+    outsheet[LOCATION   + '1'].value = "Location"
+    outsheet[FRIENDS    + '1'].value = "Friends"
+    outsheet[NUMREVIEWS + '1'].value = "Number of Reviews"
+    outsheet[SOURCE     + '1'].value = "Source"
 
     for ur in start_urls:
         for o in page_order:
@@ -45,15 +53,39 @@ def scrapeYelpReviews():
             text = html.tostring(tree).decode("utf-8")
 
             index = text.find('<script type="application/ld+json">')
+            # index = text.find('<a class="user-display-name')
             text = text[index:]
             # find rating, date, and description for each review
             regexReview = 'reviewRating": \{"ratingValue":.*?(\d\.?\d?).*?datePublished": "(\d{4}-\d{2}-\d{2}).*?description": "(.*?)", "author'
-            matchReview = re.findall(regexReview, text)
+            # regexRater = 'id="dropdown.*?>(.*?)</a>.*?<b>(.*?)</b>.*?<b>(.*?)</b>.*?<b>(.*?)</b>'
+            # regexRater = 'id="dropdown.*?>(.*?)</a>.*?<b>'
+            # regexRater = 'a class="user-display-name.*?>(.*?)</a>'
+            # regexFriends = '<b>(.*)</b>.*?" friends'
 
+            matchReview  = re.findall(regexReview, text)
+            # matchRater   = re.findall(regexRater, texty)
+            # matchFriends = re.search(regexFriends, text)
             for i in range (0, len(matchReview)):
-                rating = int(matchReview[i][0])
-                date   = matchReview[i][1]
-                review = matchReview[i][2]
+                '''
+                if matchRater:
+                    print(matchRater.group(1))
+                if matchFriends:
+                    print(matchFriends.group(1))
+                    '''
+                '''
+                name     = matchRater[i][0]
+                location = matchRater[i][1]
+                friends  = matchRater[i][2]
+                reviews  = matchRater[i][3]
+                outsheet[NAME       + str(count)].value = name
+                outsheet[LOCATION   + str(count)].value = location
+                outsheet[FRIENDS    + str(count)].value = friends
+                outsheet[NUMREVIEWS + str(count)].value = reviews
+                print(name, location, friends, reviews)
+                '''
+                rating   = int(matchReview[i][0])
+                date     = matchReview[i][1]
+                review   = matchReview[i][2]
                 print(rating, date, review)
                 outsheet[DATE   + str(count)].value = date
                 outsheet[STARS  + str(count)].value = rating
@@ -61,28 +93,6 @@ def scrapeYelpReviews():
                 outsheet[SOURCE + str(count)].value = "Yelp"
                 count = count + 1
 
-            # works but all data comes in in a random order
-            '''
-            for i in range(0, len(dates)):
-                print(dates[i].get("content"))
-            for i in range(0, len(stars)):
-                print(stars[i].get("content"))
-            for i in range(0, len(reviews)):
-                print(reviews[i])
-            reviews = tree.xpath('//p[@itemprop="description"]/text()')
-            dates = tree.xpath('//meta[@itemprop="datePublished"]')
-            stars = tree.xpath('//meta[@itemprop="ratingValue"]')
-            if reviews: # check if there is no review
-                mod_reviews = []
-                for rev in range(0, len(reviews)):
-                    count = count + 1
-                    if dates:
-                        outsheet[DATE   + str(count)].value = dates   [rev].get("content")
-                    if stars:
-                        outsheet[STARS  + str(count)].value = stars   [rev].get("content")
-                    # we already checked this one
-                    outsheet[REVIEW + str(count)].value = reviews [rev]
-            '''
 
     # Save the file
     out.save("yelpReviews.xlsx")

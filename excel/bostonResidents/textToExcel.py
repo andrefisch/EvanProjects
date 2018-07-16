@@ -37,10 +37,7 @@ def sqlToExcel():
                 outsheet[chr(i + 65) + str(row)].value = values[i]
 
         # Save the file
-        out.save("newFile.xlsx")
-
-
-
+        out.save("queryResults.xlsx")
 
     # LMK when the script is done
     pygame.init()

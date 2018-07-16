@@ -58,6 +58,7 @@ def getCoordinates():
     first = 2
     last = sheet.max_row + 1
     step = 50
+    last_success = 0
     # last = 300
     success       = 0
     fail          = 0
@@ -72,6 +73,9 @@ def getCoordinates():
         report = str(row) + ": " + str(requests_sent + 1) + ": " + sheet[FIRST_NAME + str(row)].value + " " + sheet[LAST_NAME + str(row)].value +  "    "
         address     = sheet[STREETNAME  + str(row)].value
         listedCoords = sheet[LATITUDE + str(row)].value
+        # if we run out of requests break
+        if requests_sent >= requests:
+            break
         # If there is an address listed in the spreadsheet
         # check to see if address is in address list
         if address != None:
@@ -79,12 +83,14 @@ def getCoordinates():
             address = getAddress(sheet, row)
             # if it is, fill in the coordinates
             if address in addresses:
-                cached = cached + 1
                 if listedCoords == None:
+                    cached = cached + 1
                     report = report + "   FILLING IN ADDRESS FROM CACHE"
                     coords = addresses[address]
                     sheet[LATITUDE  + str(row)].value = coords[0]
                     sheet[LONGITUDE + str(row)].value = coords[1]
+                else:
+                    already_had = already_had + 1
             # otherwise if we have coordinates already
             elif listedCoords != None:
                 already_had = already_had + 1
@@ -98,7 +104,11 @@ def getCoordinates():
                 coords = getLatLng(address)
                 # take a quick nap every step queries sent to prevent overload
                 if requests_sent > 0 and requests_sent % step == 0:
-                    print("Taking a break to save...")
+                    print()
+                    print("#############################") 
+                    print("# TAKING A BREAK TO SAVE... #")
+                    print("#############################") 
+                    print()
                     wb.save("latLongFile.xlsx")
                     time.sleep(5)
                 # if we are given valid coordinates
@@ -111,6 +121,7 @@ def getCoordinates():
                     sheet[LONGITUDE + str(row)].value = coords[1]
                     # save them in the dictionary
                     addresses[address] = coords
+                    last_success = row
                 # otherwise nothing to do
                 else:
                     fail = fail + 1
@@ -127,7 +138,8 @@ def getCoordinates():
     print("Made               " + str(requests_sent)        + " requests")
     print("Acquired           " + str(success)              + " coordinates")
     print("Failed to acquire  " + str(fail)                 + " coordinates")
-    print("Already had        " + str(cached + already_had) + " coordinates")
+    print("Filled from cache  " + str(cached)               + " coordinates")
+    print("Already had        " + str(already_had)          + " coordinates")
     print("Had no address for " + str(no_address)           + " coordinates")
     total = requests_sent + success + fail + cached + already_had + no_address
     print("TOTAL:             " + str(total))
