@@ -29,7 +29,7 @@ def getCoordinates():
     # Uses sys.argv to pass in arguments
     args = sys.argv[1:]
     fileName = args[0]
-    if len(args) > 2:
+    if len(args) > 1:
         requests = int(args[1])
     else:
         requests = 2500
