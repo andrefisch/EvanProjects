@@ -13,50 +13,6 @@ with open(sys.argv[1]) as f:
         string = line
 '''
 
-# Transaction object. probably not necessary at this point
-#{{{
-class Transaction(object):
-    buyer   = ""
-    seller  = ""
-    address = ""
-    price   = ""
-    date    = ""
-    
-    def __init__(self, buyer, seller, address, price):
-        self.buyer   = buyer
-        self.seller  = seller
-        self.address = address
-        self.price   = price
-        self.date    = date
-#}}}
-
-# Turn a single PDF page into a list, separated by line breaks
-# parsePage(pdf, num)
-#{{{
-def parsePage(pdf, num):
-    with open(pdf, 'rb') as f:
-        reader = PdfFileReader(f)
-        contents = reader.getPage(num).extractText().split('\n')
-        return contents
-#}}}
-
-# Decrypt an encrypted PDF. shouldnt work because you need a password but for some reason it works anyway...
-# decrypt_pdf(input_path, output_path, password)
-#{{{
-def decrypt_pdf(input_path, output_path, password):
-    with open(input_path, 'rb') as input_file, \
-        open(output_path, 'wb') as output_file:
-        reader = PdfFileReader(input_file)
-        reader.decrypt(password)
-
-        writer = PdfFileWriter()
-
-        for i in range(reader.getNumPages()):
-            writer.addPage(reader.getPage(i))
-
-        writer.write(output_file)
-#}}}
-
 # Address before semicolon is buyer, after is seller. othewise just seller
 # Returns buyer address then seller address
 #{{{
@@ -78,12 +34,20 @@ def splitAddress(address):
     # Replace "c/o" with "Care of" and get trim string
     address = address.replace("c/o", 'Care of').strip()
     # Split the address into street, town, zipcode, lot info
-    regexAddress = '(.*?), *([a-zA-Z/ ]*).*?(\d+) */? *(.*)'
+    # regexAddress = '(.*?), *([a-zA-Z/ ]*).*?(\d+) */? *(.*)'
+    regexAddress = '(.*?), *([a-zA-Z/ ]*) (\d{5}) */? *(.*)'
     matchAddress = re.search(regexAddress, address)
     if matchAddress:
         return (matchAddress.group(1).strip(), matchAddress.group(2).strip(), matchAddress.group(3).strip(), matchAddress.group(4).strip())
     else:
         return ("", "", "", "")
+#}}}
+
+# Replace all unwanted ~ and temperature symbols with the correct values
+# cleanUp(string)
+#{{{
+def cleanUp(string):
+    return string.replace('˜', '-').replace('˚', 'f').replace('™', "'")
 #}}}
 
 # Test stuff
@@ -132,9 +96,9 @@ def recordTransactions():
     outsheet = out.create_sheet("transactions")
 
     # if 'sheet' appears randomly we can delete it
-    rm = out.get_sheet_by_name('Sheet')
-    out.remove_sheet(rm)
-    
+    rm = out['Sheet']
+    out.remove(rm)
+
     outsheet[BUYER           + '1'].value = "Buyer"
     outsheet[SELLER          + '1'].value = "Seller"
     outsheet[BUYER_ADDRESS   + '1'].value = "Buyer Address"
@@ -151,7 +115,7 @@ def recordTransactions():
 
     # Keep track of the current row
     count = 2
-    
+
     '''
     - find the word real estate
     - flatten array into a single string
@@ -164,84 +128,95 @@ def recordTransactions():
 
     for r in range(1, len(sys.argv)):
         if printing:
-            print("Decrypting " + sys.argv[r] + "...")
+            print(str(r) + "/" + str(len(sys.argv) - 1) + ": decrypting " + sys.argv[r] + "...")
 
         # Create a dTransactions file
         pages = 25
-        decrypt_pdf(sys.argv[r], "dTransactions.pdf", "secret_password")
-        with open("dTransactions.pdf", 'rb') as input_file:
+        with open(sys.argv[r], 'rb') as input_file:
             reader = PdfFileReader(input_file)
+            reader.decrypt('secret')
             pages = reader.getNumPages()
 
-        # Turn all pages into an array
-        contents = []
-        for i in range (10, pages):
-            contents = contents + parsePage('dTransactions.pdf', i)
+            if printing:
+                print("Converting PDF to text...")
+            # Turn all pages into an array
+            contents = []
+            for i in range (10, pages):
+                contents = contents + reader.getPage(i).extractText().split('\n')
 
-        # Find the word real estate
-        start = 0
-        on = False
-        for i in range (0, len(contents)):
-            if "REAL ESTATE" in contents[i]:
-                start = i
-                on = True
-                break
 
-        # Flatten array
-        listy = ' '.join(contents[i:])
+            # Find the word real estate
+            start = 0
+            on = False
+            for i in range (0, len(contents)):
+                if "REAL ESTATE" in contents[i]:
+                    start = i
+                    on = True
+                    break
 
-        # Find each instance of buyer, seller, address, price
-        regexTransactionInfo = 'Buyer ?:? ?(.*?)Seller ?:? ?(.*?)Address ?:? ?(.*?)Price ?:? ?([,$0-9]*)'
-        matchTransactionInfo = re.findall(regexTransactionInfo, listy)
-        if printing:
-            print("Found " + str(len(matchTransactionInfo)) + " transactions")
-        buyer   = ""
-        seller  = ""
-        address = ""
-        price   = ""
-        # store the info
-        for i in range (0, len(matchTransactionInfo)):
-            buyer   = matchTransactionInfo[i][0]
-            seller  = matchTransactionInfo[i][1]
-            address = matchTransactionInfo[i][2]
-            price   = matchTransactionInfo[i][3][1:].replace(',', '')
+            # Flatten array
+            listy = ' '.join(contents[i:])
 
-            # Split address info
-            buyer_address, seller_address = splitAddressSemicolon(address)
-            buyer_info = splitAddress(buyer_address)
-            seller_info = splitAddress(seller_address)
+            # remove unwanted ~ and temperature symbols
+            listy = cleanUp(listy)
 
+            if printing:
+                print("Searching...")
+            # Find each instance of buyer, seller, address, price
             regexNum = '(\d+)'
-            matchNum = re.search(regexNum, sys.argv[r])
-            if matchNum:
-                date = matchNum.group(1)
-                date = date[4:6] + "/" + date[6:] + "/" + date[:4]
-            else:
-                date = sys.argv[r]
+            regexLot = '[0-9A-Z]'
+            regexTransactionInfo = 'Buyer ?:? ?(.*?)Seller ?:? ?(.*?)Address ?:? ?(.*?)Price ?:? ?([,$0-9]*)'
+            matchTransactionInfo = re.findall(regexTransactionInfo, listy)
+            if printing:
+                print("Found " + str(len(matchTransactionInfo)) + " transactions")
+            buyer   = ""
+            seller  = ""
+            address = ""
+            price   = ""
+            # store the info
+            for i in range (0, len(matchTransactionInfo)):
+                buyer   = matchTransactionInfo[i][0]
+                seller  = matchTransactionInfo[i][1]
+                address = matchTransactionInfo[i][2]
+                price   = matchTransactionInfo[i][3][1:].replace(',', '')
 
-            if re.match("^\d+$", price):
-                price = int(price)
+                # Split address info
+                buyer_address, seller_address = splitAddressSemicolon(address)
+                buyer_info = splitAddress(buyer_address)
+                seller_info = splitAddress(seller_address)
 
-            outsheet[BUYER           + str(count)].value = buyer
-            outsheet[SELLER          + str(count)].value = seller
-            outsheet[BUYER_ADDRESS   + str(count)].value = buyer_address
-            outsheet[BUYER_STREET    + str(count)].value = buyer_info[0]
-            outsheet[BUYER_TOWN      + str(count)].value = buyer_info[1]
-            outsheet[BUYER_ZIP_CODE  + str(count)].value = buyer_info[2]
-            outsheet[SELLER_ADDRESS  + str(count)].value = seller_address
-            outsheet[SELLER_STREET   + str(count)].value = seller_info[0]
-            outsheet[SELLER_TOWN     + str(count)].value = seller_info[1]
-            outsheet[SELLER_ZIP_CODE + str(count)].value = seller_info[2]
-            outsheet[SELLER_LOT      + str(count)].value = seller_info[3]
-            outsheet[PRICE           + str(count)].value = price
-            outsheet[DATE            + str(count)].value = date
+                matchLot = re.search(regexLot, seller_info[3])
+                lot = seller_info[3]
+                if matchLot:
+                    lot = lot[matchLot.start():]
 
-            # Increment the count
-            count = count + 1
+                matchNum = re.search(regexNum, sys.argv[r])
+                if matchNum:
+                    date = matchNum.group(1)
+                    date = date[4:6] + "/" + date[6:] + "/" + date[:4]
+                else:
+                    date = sys.argv[r]
 
-        # Delete the transactions PDF so we can create a new one
-        os.remove("dTransactions.pdf")
-    
+                if re.match("^\d+$", price):
+                    price = int(price)
+
+                outsheet[BUYER           + str(count)].value = buyer
+                outsheet[SELLER          + str(count)].value = seller
+                outsheet[BUYER_ADDRESS   + str(count)].value = buyer_address
+                outsheet[BUYER_STREET    + str(count)].value = buyer_info[0]
+                outsheet[BUYER_TOWN      + str(count)].value = buyer_info[1]
+                outsheet[BUYER_ZIP_CODE  + str(count)].value = buyer_info[2]
+                outsheet[SELLER_ADDRESS  + str(count)].value = seller_address
+                outsheet[SELLER_STREET   + str(count)].value = seller_info[0]
+                outsheet[SELLER_TOWN     + str(count)].value = seller_info[1]
+                outsheet[SELLER_ZIP_CODE + str(count)].value = seller_info[2]
+                outsheet[SELLER_LOT      + str(count)].value = lot
+                outsheet[PRICE           + str(count)].value = price
+                outsheet[DATE            + str(count)].value = date
+
+                # Increment the count
+                count = count + 1
+
     if printing:
         print("Saving...")
 
