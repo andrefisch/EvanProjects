@@ -79,7 +79,7 @@ def determine_names(listy):
 
 # formatting_name(name)
 #{{{
-def formatting_name(name):
+def formatting_name(name, row):
     original = name
     names = {"first_name": "", "middle_name": "", "last_name": "", "appellation": ""}
 
@@ -88,7 +88,7 @@ def formatting_name(name):
     name = re.sub(regexSuffix, "", name, re.IGNORECASE)
 
     # extract appellation 
-    regexAppellation = '^(Mr\.?|Mrs\.?|Ms\.?|Rev\.?|Hon\.?|Dr\.?|Captain|Capt?\.?|Dcn\.?|Amb\.?|Lt\.?|MIDN\.?|Miss\.?|Fr\.?) ?(.*)'
+    regexAppellation = '^(Mr\.?|Mrs\.?|Ms\.?|Rev\.?|Hon\.?|Dr\.?|Captain|Capt\.?|Dcn\.?|Amb\.?|Lt\.?|MIDN\.?|Miss\.?|Fr\.?) ?(.*)'
     # number = re.sub(regexAppellation, "", number)
     # regex0 = '^0+(.*)'
     matchAppellation = re.search(regexAppellation, name, re.IGNORECASE)
@@ -123,13 +123,13 @@ def formatting_name(name):
 
     if printing:
         if original != None:
-            print(original + " -> " + names['appellation'] + "-" + names['first_name'] + "-" + names['middle_name'] + "-" + names['last_name'])
+            print(str(row) + ": " + original + " -> " + names['appellation'] + "-" + names['first_name'] + "-" + names['middle_name'] + "-" + names['last_name'])
 
     return names
 #}}}
 
-# Format all numbers in a column
-# format_all_numbers()
+# Format all names in a column
+# format_all_names()
 #{{{
 def format_all_names():
     if printing:
@@ -149,7 +149,7 @@ def format_all_names():
     for col in cols:
         for row in range (first, last):
             name = str(sheet[col + str(row)].value)
-            formatted = formatting_name(name)
+            formatted = formatting_name(name, row)
             if saving:
                 sheet[gcl(number_from_column(col) + 1) + str(row)].value = formatted['appellation']
                 sheet[gcl(number_from_column(col) + 2) + str(row)].value = formatted['first_name']
@@ -157,7 +157,7 @@ def format_all_names():
                 sheet[gcl(number_from_column(col) + 4) + str(row)].value = formatted['last_name']
 
     if printing:
-        print("Processing " + str(last - first) + " rows...")
+        print("Processed " + str(last - first) + " rows...")
 
     if printing and saving:
         print("Saving...")

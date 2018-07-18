@@ -127,10 +127,6 @@ def formatting_phone_number(number):
         number = match0xx.group(1) + match0xx.group(2)
     # remove spaces from last 4 non-space characters
     number = remove_end_space(number, 4)
-    # print out the original number and its formatted version
-    if printing:
-        if original != "None":
-            print(original + " -> " + number)
 
     return number
 #}}}
@@ -145,8 +141,7 @@ def format_all_numbers(*args):
     # turn the arguments into variable names
     args = args[0]
     fileName = args[1]
-    startRow = int(args[2])
-    cols = args[3:]
+    cols = args[2:]
     if printing:
         print("Opening...")
     wb = openpyxl.load_workbook(args[1])
@@ -154,17 +149,23 @@ def format_all_numbers(*args):
     sheet = wb.worksheets[0]
 
     # look through all columns and change the phone numbers
-    first = startRow
-    last = sheet.max_row
+    first = 2
+    last = sheet.max_row + 1
+    changes = 0
     for col in cols:
-        for row in range (first, last + 1):
+        for row in range (first, last):
             number = str(sheet[col + str(row)].value)
             formatted = formatting_phone_number(number)
+            # print out the original number and its formatted version
+            if number != formatted and formatted != "":
+                changes = changes + 1
+                print(col + str(row) + ": ", number, " -> ", formatted)
             if saving:
                 sheet[col + str(row)].value = formatted
 
     if printing:
-        print("Processing " + str((last + 1) - first) + " rows...")
+        print("Processed " + str((last - first) * len(cols)) + " rows...")
+        print("Changed   " + str(changes) + " values...")
 
     # add the word 'formatted' and save the new file where the original is
     newName = 'formatted'

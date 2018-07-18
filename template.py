@@ -17,9 +17,9 @@ def template():
 
     # Uses sys.argv to pass in arguments
     args = sys.argv[1:]
-    firstArg = args[0]
+    fileName = args[0]
     numberArg = int(args[1])
-    otherArgs = args[2:]
+    cols = args[2:]
 
     # Open a file with sys.argv
     with open(sys.argv[1]) as f:
@@ -37,11 +37,23 @@ def template():
     #################
     # DO STUFF HERE #
     #################
-    outsheet['A1'].value = "DATA GOES HERE"
+    first = 2
+    last = outsheet.max_row + 1
+    for col in cols:
+        for row in range (start, sheet.max_row + 1):
+            outsheet['A1'].value = "DATA GOES HERE"
 
-    # Save the file
-    out.save("newFile.xlsx")
 
+    print("Processed " + str((last - first) * len(cols)) + " rows...")
+    print("Changed   " + str(changes) + " values...")
+
+    # add the word 'formatted' and save the new file where the original is
+    newName = 'new'
+    index = fileName[::-1].find('/')
+    end = fileName[-index - 1:]
+    fileName = fileName[:-index - 1] + newName + end[0].capitalize() + end[1:]
+    print("Saving " + fileName)
+    wb.save(fileName)
 
 
 
@@ -55,9 +67,23 @@ def template():
     #################
     # DO STUFF HERE #
     #################
-    sheet['A1'].value = "DATA GOES HERE"
+    first = 2
+    last = outsheet.max_row + 1
+    for col in cols:
+        for row in range (start, sheet.max_row + 1):
+            sheet['A1'].value = "DATA GOES HERE"
 
-    wb.save("betterFile.xlsx")
+
+    print("Processed " + str((last - first) * len(cols)) + " rows...")
+    print("Changed   " + str(changes) + " values...")
+
+    # add the word 'formatted' and save the new file where the original is
+    newName = 'better'
+    index = fileName[::-1].find('/')
+    end = fileName[-index - 1:]
+    fileName = fileName[:-index - 1] + newName + end[0].capitalize() + end[1:]
+    print("Saving " + fileName)
+    wb.save(fileName)
 
     # LMK when the script is done
     pygame.init()

@@ -3,10 +3,14 @@ import os
 import pygame
 import sys
 import time
+from tqdm import tqdm
 
 # GETS ALL COLUMNS FROM THIS ROW
 # print(sheet[1])
 
+# First file: transfer to
+# Second file: transfer from
+# First file should have as many or more fields as second file
 def mergeByColumnName():
     # Uses sys.argv to pass in arguments
     args = sys.argv[1:]
@@ -31,27 +35,23 @@ def mergeByColumnName():
     dicty1 = {}
     dicty2 = {}
     for i in range(0, len(sheet1['1'])):
-        # print(sheet1['1'][i].value)
         if sheet1['1'][i].value == None:
             break
         dicty1[sheet1['1'][i].value.lower()] = sheet1['1'][i].column
     for i in range(0, len(sheet2['1'])):
-        # print(sheet2['1'][i].value)
         if sheet2['1'][i].value == None:
             break
         dicty2[sheet2['1'][i].value.lower()] = sheet2['1'][i].column
 
     k = {}
     for key in dicty2:
-        # k[dicty1[key]] = dicty2[key]
-        print("LOOKING AT: " + key)
         if key in dicty2 and key in dicty1:
             k[dicty2[key]] = dicty1[key]
 
 
-    print(dicty1)
-    print(dicty2)
-    print(k)
+    print(len(dicty1), " columns detected in", firstFile)
+    print(len(dicty2), " columns detected in", secondFile)
+    print(len(k), " common columns being processed")
 
     start = 2
     end    = sheet2.max_row + 1
@@ -62,8 +62,7 @@ def mergeByColumnName():
     - match up each column from second spreadsheet to first spreadsheet
     - copy information
     '''
-    for i in range(start, end):
-        print(str(row) + '/' + str(end + sheet1.max_row + 1))
+    for i in tqdm(range(start, end)):
         values = sheet2[str(i)]
         for j in range(0, len(sheet2[str(i)])):
             if values[j].column in k:

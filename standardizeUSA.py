@@ -21,23 +21,36 @@ def standardize_USA(*args):
     #################
     # DO STUFF HERE #
     #################
-    start = 2
+    first = 2
+    last = sheet.max_row + 1
+    changes = 2
     for col in cols:
-        for row in range (start, sheet.max_row + 1):
+        for row in range (first, last):
             country = str(sheet[col+ str(row)].value)
-            regexUSA = '(U\.?S\.?A?\.?|United ?States ?(of ?America)?)'
+            regexUSA = '(\\bU\.?S\.?A?\.?\\b|United ?States ?(of ?America)?)'
             matchUSA = re.search(regexUSA, country, re.IGNORECASE)
             if matchUSA:
+                changes = changes + 1
+                print(col + str(row) + ": ", country, '->', "United States")
                 sheet[col+ str(row)].value = "United States"
-            regexUK = '(U\.?K\.?)'
+            regexUK = '(\\bU\.?K\.?\\b)'
             matchUK = re.search(regexUK, country, re.IGNORECASE)
             if matchUK:
+                changes = changes + 1
+                print(col + str(row) + ": ", country, '->', "United Kingdom")
                 sheet[col+ str(row)].value = "United Kingdom"
 
 
-    print("Saving...")
+    print("Processed " + str((last - first) * len(cols)) + " rows...")
+    print("Changed   " + str(changes) + " values...")
 
-    wb.save("betterFile.xlsx")
+    # add the word 'formatted' and save the new file where the original is
+    newName = 'countries'
+    index = fileName[::-1].find('/')
+    end = fileName[-index - 1:]
+    fileName = fileName[:-index - 1] + newName + end[0].capitalize() + end[1:]
+    print("Saving " + fileName)
+    wb.save(fileName)
 
     # LMK when the script is done
     pygame.init()
