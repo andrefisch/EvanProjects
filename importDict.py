@@ -6,9 +6,9 @@ def importDict():
         dicty = {}
         for line in f:
             # split line by semicolon
-            code, country = line.split(';')
+            key, value = line.split(';')
             # do not take the \n at the end
-            dicty[code] = country[:-1]
+            dicty[key] = value[:-1]
         return dicty
 
 dicty = importDict()
