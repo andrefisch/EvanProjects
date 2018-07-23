@@ -1,9 +1,9 @@
+from tqdm import tqdm
 import openpyxl
 import os
 import pygame
 import sys
 import time
-from tqdm import tqdm
 
 # GETS ALL COLUMNS FROM THIS ROW
 # print(sheet[1])

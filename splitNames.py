@@ -88,7 +88,7 @@ def formatting_name(name, row):
     name = re.sub(regexSuffix, "", name, re.IGNORECASE)
 
     # extract appellation 
-    regexAppellation = '^(Mr\.?|Mrs\.?|Ms\.?|Rev\.?|Hon\.?|Dr\.?|Captain|Capt\.?|Dcn\.?|Amb\.?|Lt\.?|MIDN\.?|Miss\.?|Fr\.?) ?(.*)'
+    regexAppellation = '^(Mr\.?|Mrs\.?|Ms\.?|Rev\.?|Hon\.?|Dr\.?|Captain|Capt\.?|Dcn\.?|Amb\.?|Lt\.?|MIDN\.?|Miss\.?) ?(.*)'
     # number = re.sub(regexAppellation, "", number)
     # regex0 = '^0+(.*)'
     matchAppellation = re.search(regexAppellation, name, re.IGNORECASE)
@@ -148,7 +148,7 @@ def format_all_names():
 
     for col in cols:
         for row in range (first, last):
-            name = str(sheet[col + str(row)].value)
+            name = str(sheet[col + str(row)].value).title()
             formatted = formatting_name(name, row)
             if saving:
                 sheet[gcl(number_from_column(col) + 1) + str(row)].value = formatted['appellation']

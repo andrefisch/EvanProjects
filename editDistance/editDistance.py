@@ -1,3 +1,4 @@
+from tqdm import tqdm
 import openpyxl
 import os
 import pygame
@@ -5,10 +6,12 @@ import string
 import sys
 import time
 
-printing = True
+printing = False
 saving = True
 
 min_word_len = 5
+
+columns = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK", "CL", "CM", "CN", "CO", "CP", "CQ", "CR", "CS", "CT", "CU", "CV", "CW", "CX", "CY", "CZ"]
 
 # Strip punctuation and lowercase a string
 # standardize_str(word)
@@ -35,7 +38,7 @@ def replace_punct(word):
 def new_group_from_sheet(sheet, row):
     output = {}
     for cell in sheet[str(row)]:
-        if cell.value != None:
+        if cell.value != None and cell.value != "None":
             output[cell.column] = cell.value
         else:
             output[cell.column] = ""
@@ -46,12 +49,14 @@ def new_group_from_sheet(sheet, row):
 # Combine information in two groups
 # combine_groups(sheet, dicta, dictb)
 #{{{
-def combine_groups(sheet, dicta, dictb):
+def combine_groups(sheet, dicta, dictb, changes):
     output = {}
     lastLetter = ""
+    index = 0
     for cell in sheet['1']:
         lastLetter = cell.column
-    output[chr(ord(lastLetter) + 1)] = ""
+        index = index + 1
+    output[columns[index]] = ""
     for cell in sheet['1']:
         # if there is only information in second row
         if   dicta[cell.column] == "" and dictb[cell.column] != "":
@@ -62,9 +67,12 @@ def combine_groups(sheet, dicta, dictb):
         # if there is information in both rows take one and put the other in the notes section
         elif dicta[cell.column] != "" and dictb[cell.column] != "":
             output[cell.column] = dicta[cell.column]
-            output[chr(ord(lastLetter) + 1)] = output[chr(ord(lastLetter) + 1)] + " " + str(cell.value) + " used to be " + str(dictb[cell.column]) + ";"
+            output[columns[index]] = output[columns[index]] + " " + str(cell.value) + " used to be " + str(dictb[cell.column]) + ";"
+            print(cell.column, "information in both rows", output[columns[index]])
+            output[changes] = output[columns[index]] 
         else:
             output[cell.column] = ""
+    print("CHANGES", output[changes])
     return output
 #}}}
 
@@ -172,6 +180,7 @@ def edit_distance_spreadsheet(*args):
 
     # Create Headers
     #{{{
+    index = 0
     if saving:
         lastLetter = ""
         for cell in sheet['1']:
@@ -179,14 +188,17 @@ def edit_distance_spreadsheet(*args):
             # put the outsheet columns where they are supposed to be
             outsheet [cell.column + str(cell.row)].value = cell.value
             # move the duplicate columns over one so we can preserve original row number
-            dupesheet[chr(ord(lastLetter) + 1) + str(cell.row)].value = cell.value
+            dupesheet[columns[index + 1] + str(cell.row)].value = cell.value
+            index = index + 1
         # Create a new column called changes to document merged chages
-        outsheet [chr(ord(lastLetter) + 1) + str(cell.row)].value = "Changes"
-        dupesheet[chr(ord(lastLetter) + 1) + str(cell.row)].value = "Changes"
+        outsheet [columns[index] + str(cell.row)].value = "Changes"
+        dupesheet[columns[index + 1] + str(cell.row)].value = "Changes"
+        changes = columns[index + 1]
 
     #}}}
 
-    for row in range (first, last + 1):
+    # for row in tqdm(range(first, last + 1)):
+    for row in tqdm(range(first, last + 1)):
         compareCriteria = ""
         for col in cols:
             compareCriteria = compareCriteria + standardize_str(sheet[col + str(row)].value) + " "
@@ -213,33 +225,41 @@ def edit_distance_spreadsheet(*args):
 
                 dupegroup = new_group_from_sheet(sheet, row - 1)
 
-                keep = combine_groups(sheet, group, dupegroup)
+                keep = combine_groups(sheet, group, dupegroup, changes)
 
+                # Save first duplicate value
                 #{{{
+                index = 0
                 dupesheet['A' + str(dupes)].value = row - 1
                 for cell in sheet['1']:
                     lastLetter = cell.column
-                    dupesheet[chr(ord(lastLetter) + 1) + str(dupes)].value = dupegroup[lastLetter]
+                    dupesheet[columns[index + 1] + str(dupes)].value = dupegroup[lastLetter]
+                    index = index + 1
                 #}}}
 
                 # keep duplicate
                 dupes = dupes + 1
 
                 dupegroup = new_group_from_sheet(sheet, row)
+                # Save second duplicate value
                 #{{{
+                index = 0
                 dupesheet['A' + str(dupes)].value = row
                 for cell in sheet['1']:
                     lastLetter = cell.column
-                    dupesheet[chr(ord(lastLetter) + 1) + str(dupes)].value = dupegroup[lastLetter]
+                    dupesheet[columns[index + 1] + str(dupes)].value = dupegroup[lastLetter]
+                    index = index + 1
                 #}}}
 
                 dupes = dupes + 1
 
-                # save the combined group
+                # Save the combined group
                 #{{{
+                index = 0
                 for cell in outsheet['1']:
                     lastLetter = cell.column
-                    dupesheet[chr(ord(lastLetter) + 1) + str(dupes)].value = keep[lastLetter]
+                    dupesheet[columns[index + 1] + str(dupes)].value = keep[lastLetter]
+                    index = index + 1
                 #}}}
 
                 # create a blank space
@@ -251,6 +271,7 @@ def edit_distance_spreadsheet(*args):
                 if keep:
                     for cell in outsheet['1']:
                         lastLetter = cell.column
+
                         outsheet[lastLetter + str(count)].value = keep[lastLetter]
                     keep.clear()
                 else:
@@ -264,10 +285,9 @@ def edit_distance_spreadsheet(*args):
                 group = new_group_from_sheet(sheet, row)
                 count = count + 1
 
-    if printing:
-        print()
-        print("Out of " + str(1 + last - first) + " companies " + str(count) + " were unique companies")
-        print("Saving...")
+    print()
+    print("Out of " + str(last - first) + " companies " + str(count) + " were unique companies")
+    print("Saving...")
 
     out.save("purged" + str(cols) + ".xlsx")
     dupe.save("duplicates" + str(cols) + ".xlsx")

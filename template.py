@@ -40,7 +40,7 @@ def template():
     first = 2
     last = outsheet.max_row + 1
     for col in cols:
-        for row in range (start, sheet.max_row + 1):
+        for row in range (first, last):
             outsheet['A1'].value = "DATA GOES HERE"
 
 
@@ -70,7 +70,7 @@ def template():
     first = 2
     last = outsheet.max_row + 1
     for col in cols:
-        for row in range (start, sheet.max_row + 1):
+        for row in range (first, last):
             sheet['A1'].value = "DATA GOES HERE"
 
 
