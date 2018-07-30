@@ -81,7 +81,6 @@ def emailsToExcel():
         if email != "":
             if saving:
                 table[email] = [name, domain]
-                
     row = 1
     for key, value in sorted(table.items(), key=lambda e: e[1][1]):
         row = row + 1
@@ -106,8 +105,8 @@ def emailsToExcel():
             domain = domain[:-index - 1]
         '''
         if printing:
-            print(name, email, domain)
-            print(dicty)
+        print(name, email, domain)
+        print(dicty)
         '''
         sheet[FIRST_NAME       + str(row)] = dicty['first_name'].title().strip()
         sheet[MIDDLE_NAME      + str(row)] = dicty['middle_name'].title().strip()

@@ -148,7 +148,7 @@ def scrapePropertyDetails():
 
 
     # Save the file
-    out.save("yelpReviews.xlsx")
+    out.save(".xlsx")
 
     # LMK when the script is done
     pygame.init()

@@ -88,7 +88,7 @@ def formatting_name(name, row):
     name = re.sub(regexSuffix, "", name, re.IGNORECASE)
 
     # extract appellation 
-    regexAppellation = '^(Mr\.?|Mrs\.?|Ms\.?|Rev\.?|Hon\.?|Dr\.?|Captain|Capt\.?|Dcn\.?|Amb\.?|Lt\.?|MIDN\.?|Miss\.?) ?(.*)'
+    regexAppellation = '^(Mr\.?|Mrs\.?|Ms\.?|Rev\.?|Hon\.?|Dr[\. ]|Captain|Capt\.?|Dcn\.?|Amb[\. ]|Lt\.?|MIDN\.?|Miss\.?|Fr[\. ]) ?(.*)'
     # number = re.sub(regexAppellation, "", number)
     # regex0 = '^0+(.*)'
     matchAppellation = re.search(regexAppellation, name, re.IGNORECASE)

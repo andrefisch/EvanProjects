@@ -46,6 +46,9 @@ def remove_end_space(string, num):
 def formatting_phone_number(number):
     original = number
     # replace certain punctuations with a space
+    if ',' in number:
+        index = number.find(',')
+        number = number[:index]
     regexPunct = '([\.:;|/@]| {2,})'
     number = re.sub(regexPunct, " ", number)
     # replace all +'s with nothing
@@ -70,6 +73,9 @@ def formatting_phone_number(number):
     # remove all leading 0's
     regex0 = '^0+(.*)'
     match0 = re.search(regex0, number)
+    # remove the pesky space 0 space
+    regex0space = ' 0 '
+    number = re.sub(regex0space, ' ', number)
 
     # if the number starts with 00 replace 00 with +
     # WORKS

@@ -28,11 +28,11 @@ def scrapeYelpReviews():
     DATE       = "A"
     STARS      = "B"
     REVIEW     = "C"
-    NAME       = "D"
-    LOCATION   = "E"
-    FRIENDS    = "F"
-    NUMREVIEWS = "G"
-    SOURCE     = "H"
+    SOURCE     = "D"
+    NAME       = "E"
+    LOCATION   = "F"
+    FRIENDS    = "G"
+    NUMREVIEWS = "H"
 
 
     outsheet[DATE       + '1'].value = "Date"

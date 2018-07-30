@@ -19,8 +19,8 @@ def scrapeTripAdvisor():
     outsheet = out.create_sheet("transactions")
 
     # if 'sheet' appears randomly we can delete it
-    rm = out.get_sheet_by_name('Sheet')
-    out.remove_sheet(rm)
+    rm = wb['Sheet']
+    out.remove(rm)
 
     # List the first page of the reviews (ends with "#REVIEWS") - separate the websites with ,
     url1 = "https://www.tripadvisor.com/Restaurant_Review-g60745-d321640-Reviews"

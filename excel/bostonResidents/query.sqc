@@ -1,1 +1,1 @@
-select * from Residents where zipcode = '02127';
+select * from Residents where zipcode = '02118';

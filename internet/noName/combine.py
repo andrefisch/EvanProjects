@@ -1,10 +1,26 @@
 import openpyxl
 import os
 import pygame
+import re
 import sys
 import time
 
-def template():
+def fix_date(string):
+    months = {'January': '01', 'February': '02', 'March': '03', 'April': '04', 'May': '05', 'June': '06', 'July': '07', 'August': '08', 'September': '09', 'October': '10', 'November': '11', 'December': '12'}
+    regexNum = '^(.*?) ([0-9]+), ([0-9]+)'
+    matchNum = re.search(regexNum, string)
+    if matchNum:
+        mm   = matchNum.group(1)
+        dd   = matchNum.group(2)
+        yyyy = matchNum.group(3)
+        if mm in months:
+            return yyyy + '-' + months[mm] + '-' + dd
+    return string
+
+def fix_formatting(string):
+    return string.replace('\\xe2\\x80\\x99', "'").replace('\\xc3\\xa9', 'e').replace('\\xc2\\xb4', "'").replace('\\xe2\\x80\\x9c', '"').replace('\\xe2\\x80\\x9d', '"').replace('\\n', ' ').replace('\\u00e9', 'e')
+
+def combine():
     # Create a new excel file
     out = openpyxl.Workbook()
     # Open the worksheet we want to edit
@@ -34,16 +50,16 @@ def template():
     
     row = 2
     for i in range(2, sheet1.max_row + 1):
-        outsheet[DATE   + str(row)].value = sheet1[DATE   + str(i)].value
+        outsheet[DATE   + str(row)].value = fix_date(sheet1[DATE   + str(i)].value)
         outsheet[STARS  + str(row)].value = sheet1[STARS  + str(i)].value
-        outsheet[REVIEW + str(row)].value = sheet1[REVIEW + str(i)].value
+        outsheet[REVIEW + str(row)].value = fix_formatting(sheet1[REVIEW + str(i)].value)
         outsheet[SOURCE + str(row)].value = sheet1[SOURCE + str(i)].value
         row = row + 1
 
     for i in range(2, sheet2.max_row + 1):
-        outsheet[DATE   + str(row)].value = sheet2[DATE   + str(i)].value
+        outsheet[DATE   + str(row)].value = fix_date(sheet2[DATE   + str(i)].value)
         outsheet[STARS  + str(row)].value = sheet2[STARS  + str(i)].value
-        outsheet[REVIEW + str(row)].value = sheet2[REVIEW + str(i)].value
+        outsheet[REVIEW + str(row)].value = fix_formatting(sheet2[REVIEW + str(i)].value)
         outsheet[SOURCE + str(row)].value = sheet2[SOURCE + str(i)].value
         row = row + 1
 
@@ -56,4 +72,4 @@ def template():
     time.sleep(5)
     pygame.mixer.music.stop()
 
-template()
+combine()

@@ -29,6 +29,7 @@ Brazil;Americas
 British Virgin Islands;Americas
 Brunei Darussalam;Asia Pacific
 Bulgaria;Europe
+Burma;Asia Pacific
 Burkina Faso;Africa
 Burundi;Africa
 Cambodia;Asia Pacific
@@ -37,6 +38,7 @@ Canada;Americas
 Cape Verde;Africa
 Cayman Islands;Americas
 Central African Republic;Africa
+Ceilan;Asia Pacific
 Chad;Africa
 Chile;Americas
 China;Asia Pacific
@@ -143,10 +145,11 @@ Monserrat;Americas
 Montenegro;Europe
 Morroco;Africa
 Mozambique;Africa
-Myanmar (ex-Burma);Asia Pacific
+Myanmar;Asia Pacific
 Namibia;Africa
 Nepal;Asia Pacific
 Netherlands;Europe
+Netherlands Antilles;Europe
 New Caledonia;Asia Pacific
 New Zealand;Asia Pacific
 Nicaragua;Americas
@@ -161,7 +164,7 @@ Panama;Americas
 Papua New Guinea;Asia Pacific
 Paraguay;Americas
 Peru;Americas
-Phillipines;Asia Pacific
+Philippines;Asia Pacific
 Poland;Europe
 Portugal;Europe
 Puerto Rico;Americas
@@ -195,8 +198,9 @@ South Africa;Africa
 South Sudan;Africa
 Southern Africa;Africa
 Spain;Europe
-Sri Lanka (ex-Ceilan);Asia Pacific
-St. Kitts and Nevis;Americas
+Sri Lanka;Asia Pacific
+St. Kitts;Americas
+Nevis;Americas
 Sudan;Africa
 Suriname;Americas
 Svalbard and Jan Mayen Islands;Europe

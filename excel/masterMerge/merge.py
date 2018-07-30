@@ -53,6 +53,18 @@ def mergeByColumnName():
     print(len(dicty2), " columns detected in", secondFile)
     print(len(k), " common columns being processed")
 
+    '''
+    # find fields that are not being processed
+    listy = []
+    for key in k:
+        if key not in dicty2:
+            listy.append(k)
+
+    print("Fields that did not match:")
+    for item in listy:
+        print(item)
+    '''
+
     start = 2
     end    = sheet2.max_row + 1
     row    = sheet1.max_row + 1
