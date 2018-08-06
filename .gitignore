@@ -3,7 +3,6 @@
 ######################
 *.xlsx
 *.~lock*
-*.ipynb
 *.pdf
 *residentList.txt
 *.jpg
@@ -12,6 +11,8 @@
 *.csv
 *emails.txt
 *__pycache__/
+*.ipynb_checkpoints/
+*ghostdriver.log
 
 *keys.py
 *output.sqc
