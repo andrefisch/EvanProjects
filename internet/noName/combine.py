@@ -1,9 +1,9 @@
 import openpyxl
 import os
-import pygame
+# import pygame
 import re
 import sys
-import time
+# import time
 
 def fix_date(string):
     months = {'January': '01', 'February': '02', 'March': '03', 'April': '04', 'May': '05', 'June': '06', 'July': '07', 'August': '08', 'September': '09', 'October': '10', 'November': '11', 'December': '12'}
@@ -65,11 +65,13 @@ def combine():
 
     out.save("combined.xlsx")
 
+    '''
     # LMK when the script is done
     pygame.init()
     pygame.mixer.music.load('/home/andrefisch/python/evan/note.mp3')
     pygame.mixer.music.play()
     time.sleep(5)
     pygame.mixer.music.stop()
+    '''
 
 combine()
